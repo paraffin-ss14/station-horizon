@@ -1,0 +1,173 @@
+{
+  "schema": "rust-anything/bridge@1",
+  "root": "C:\\Users\\1\\Documents\\Codex\\2026-11-23\\referenced-chatgpt-conversation-this-is-an\\outputs\\horizon\\station\\ss14-port\\oracle",
+  "unit": "Rules.cs",
+  "language": "csharp",
+  "kind": "ffi",
+  "crate_name": "ss14-rules",
+  "exports": [
+    {
+      "name": "CanFit",
+      "file": "Rules.cs",
+      "line": 6,
+      "params": [
+        {
+          "name": "slot",
+          "ts_type": "int",
+          "optional": false,
+          "rest": false,
+          "native_type": "int"
+        },
+        {
+          "name": "clothing",
+          "ts_type": "int",
+          "optional": false,
+          "rest": false,
+          "native_type": "int"
+        },
+        {
+          "name": "hasClothing",
+          "ts_type": "boolean",
+          "optional": false,
+          "rest": false,
+          "native_type": "bool"
+        },
+        {
+          "name": "hasItem",
+          "ts_type": "boolean",
+          "optional": false,
+          "rest": false,
+          "native_type": "bool"
+        },
+        {
+          "name": "size",
+          "ts_type": "int",
+          "optional": false,
+          "rest": false,
+          "native_type": "int"
+        },
+        {
+          "name": "small",
+          "ts_type": "int",
+          "optional": false,
+          "rest": false,
+          "native_type": "int"
+        }
+      ],
+      "returns": "boolean",
+      "is_async": false,
+      "is_generator": false,
+      "type_params": [],
+      "uses_instanceof": false,
+      "native_return": "bool",
+      "prototype": "StationOracle.Rules.CanFit(int slot, int clothing, bool hasClothing, bool hasItem, int size, int small)"
+    },
+    {
+      "name": "SlotAction",
+      "file": "Rules.cs",
+      "line": 13,
+      "params": [
+        {
+          "name": "held",
+          "ts_type": "boolean",
+          "optional": false,
+          "rest": false,
+          "native_type": "bool"
+        },
+        {
+          "name": "occupied",
+          "ts_type": "boolean",
+          "optional": false,
+          "rest": false,
+          "native_type": "bool"
+        }
+      ],
+      "returns": "int",
+      "is_async": false,
+      "is_generator": false,
+      "type_params": [],
+      "uses_instanceof": false,
+      "native_return": "int",
+      "prototype": "StationOracle.Rules.SlotAction(bool held, bool occupied)"
+    },
+    {
+      "name": "Priority",
+      "file": "Rules.cs",
+      "line": 20,
+      "params": [
+        {
+          "name": "type",
+          "ts_type": "int",
+          "optional": false,
+          "rest": false,
+          "native_type": "int"
+        },
+        {
+          "name": "otherType",
+          "ts_type": "int",
+          "optional": false,
+          "rest": false,
+          "native_type": "int"
+        },
+        {
+          "name": "priority",
+          "ts_type": "int",
+          "optional": false,
+          "rest": false,
+          "native_type": "int"
+        },
+        {
+          "name": "otherPriority",
+          "ts_type": "int",
+          "optional": false,
+          "rest": false,
+          "native_type": "int"
+        }
+      ],
+      "returns": "int",
+      "is_async": false,
+      "is_generator": false,
+      "type_params": [],
+      "uses_instanceof": false,
+      "native_return": "int",
+      "prototype": "StationOracle.Rules.Priority(int type, int otherType, int priority, int otherPriority)"
+    },
+    {
+      "name": "NextHand",
+      "file": "Rules.cs",
+      "line": 26,
+      "params": [
+        {
+          "name": "current",
+          "ts_type": "int",
+          "optional": false,
+          "rest": false,
+          "native_type": "int"
+        },
+        {
+          "name": "count",
+          "ts_type": "int",
+          "optional": false,
+          "rest": false,
+          "native_type": "int"
+        },
+        {
+          "name": "reverse",
+          "ts_type": "boolean",
+          "optional": false,
+          "rest": false,
+          "native_type": "bool"
+        }
+      ],
+      "returns": "int",
+      "is_async": false,
+      "is_generator": false,
+      "type_params": [],
+      "uses_instanceof": false,
+      "native_return": "int",
+      "prototype": "StationOracle.Rules.NextHand(int current, int count, bool reverse)"
+    }
+  ],
+  "classes": [],
+  "js_only": []
+}

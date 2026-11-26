@@ -1,0 +1,124 @@
+{
+  "schema": "rust-anything/bridge@1",
+  "root": "C:\\Users\\1\\Documents\\Codex\\2026-11-23\\referenced-chatgpt-conversation-this-is-an\\outputs\\horizon\\station\\ss14-port\\motion-oracle",
+  "unit": "Rules.cs",
+  "language": "csharp",
+  "kind": "ffi",
+  "crate_name": "ss14-motion-rules",
+  "exports": [
+    {
+      "name": "CanInterpolate",
+      "file": "Rules.cs",
+      "line": 5,
+      "params": [
+        {
+          "name": "distanceSquared",
+          "ts_type": "number",
+          "optional": false,
+          "rest": false,
+          "native_type": "double"
+        },
+        {
+          "name": "active",
+          "ts_type": "boolean",
+          "optional": false,
+          "rest": false,
+          "native_type": "bool"
+        },
+        {
+          "name": "sameParent",
+          "ts_type": "boolean",
+          "optional": false,
+          "rest": false,
+          "native_type": "bool"
+        },
+        {
+          "name": "validParent",
+          "ts_type": "boolean",
+          "optional": false,
+          "rest": false,
+          "native_type": "bool"
+        },
+        {
+          "name": "deleted",
+          "ts_type": "boolean",
+          "optional": false,
+          "rest": false,
+          "native_type": "bool"
+        }
+      ],
+      "returns": "boolean",
+      "is_async": false,
+      "is_generator": false,
+      "type_params": [],
+      "uses_instanceof": false,
+      "native_return": "bool",
+      "prototype": "StationOracle.Rules.CanInterpolate(double distanceSquared, bool active, bool sameParent, bool validParent, bool deleted)"
+    },
+    {
+      "name": "DiscardInput",
+      "file": "Rules.cs",
+      "line": 11,
+      "params": [
+        {
+          "name": "sequence",
+          "ts_type": "int",
+          "optional": false,
+          "rest": false,
+          "native_type": "long"
+        },
+        {
+          "name": "acknowledged",
+          "ts_type": "int",
+          "optional": false,
+          "rest": false,
+          "native_type": "long"
+        }
+      ],
+      "returns": "boolean",
+      "is_async": false,
+      "is_generator": false,
+      "type_params": [],
+      "uses_instanceof": false,
+      "native_return": "bool",
+      "prototype": "StationOracle.Rules.DiscardInput(long sequence, long acknowledged)"
+    },
+    {
+      "name": "LagTicks",
+      "file": "Rules.cs",
+      "line": 15,
+      "params": [
+        {
+          "name": "tickRate",
+          "ts_type": "number",
+          "optional": false,
+          "rest": false,
+          "native_type": "double"
+        },
+        {
+          "name": "pingSeconds",
+          "ts_type": "number",
+          "optional": false,
+          "rest": false,
+          "native_type": "double"
+        },
+        {
+          "name": "timeScale",
+          "ts_type": "number",
+          "optional": false,
+          "rest": false,
+          "native_type": "double"
+        }
+      ],
+      "returns": "number",
+      "is_async": false,
+      "is_generator": false,
+      "type_params": [],
+      "uses_instanceof": false,
+      "native_return": "double",
+      "prototype": "StationOracle.Rules.LagTicks(double tickRate, double pingSeconds, double timeScale)"
+    }
+  ],
+  "classes": [],
+  "js_only": []
+}

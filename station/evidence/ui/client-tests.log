@@ -1,0 +1,22 @@
+   Compiling station-client v0.1.0 (C:\Users\1\Documents\Codex\2026-11-23\referenced-chatgpt-conversation-this-is-an\outputs\horizon\station\client)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 7.07s
+     Running unittests src\main.rs (station\target\debug\deps\station_client-fab1259d162c9a2b.exe)
+
+running 14 tests
+test locomotion::tests::walking_settles_at_walls_and_resets_on_teleport_and_round ... ok
+test motion::tests::lost_connection_freezes_prediction_and_does_not_change_authority ... ok
+test motion::tests::peer_interpolation_teleport_and_round_reset ... ok
+test motion::tests::local_input_responds_before_server_then_corrects_and_stops_at_wall ... ok
+test motion::tests::orientation_uses_delayed_snapshot_and_animation_clock_is_continuous ... ok
+test airlock_tests::closed_glass_door_transmits_view_and_illumination ... ok
+test motion::tests::delayed_and_jittered_snapshots_keep_motion_bounded ... ok
+test ui_visuals::tests::equipment_slots_remain_distinct_and_inside_window ... ok
+test ui_visuals::tests::lobby_cards_fit_and_unavailable_job_cannot_be_clicked ... ok
+test sprite_icons::tests::composed_icon_respects_hidden_layers_and_masks ... ok
+test sprites::tests::exposed_cable_and_power_nodes_have_renderable_pixels ... ok
+test sprites::tests::every_builtin_visual_resolves_to_an_imported_rsi_state ... ok
+test sprites::tests::airlock_rsi_seeks_mid_animation_and_retracts_both_orientations ... ok
+test lighting_tests::actual_door_and_wall_edits_change_visibility_without_changing_other_deck ... ok
+
+test result: ok. 14 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.43s
+

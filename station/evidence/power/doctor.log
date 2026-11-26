@@ -1,0 +1,3 @@
+network render: 2 peers, RTT 19.1 ms
+power observer passed: replicated outage, manual opening and restoration
+wgpu smoke passed: Snapshot { tick: 960, position: [5.0, 2.5, 1.2987231], velocity: [0.0, 0.0, 0.0] }; terrain uploads during camera motion = 0

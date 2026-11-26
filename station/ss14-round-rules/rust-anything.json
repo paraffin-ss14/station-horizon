@@ -1,0 +1,82 @@
+{
+  "schema": "rust-anything/bridge@1",
+  "root": "C:\\Users\\1\\Documents\\Codex\\2026-11-23\\referenced-chatgpt-conversation-this-is-an\\outputs\\horizon\\station\\ss14-port\\round-oracle",
+  "unit": "Rules.cs",
+  "language": "csharp",
+  "kind": "ffi",
+  "crate_name": "ss14-round-rules",
+  "exports": [
+    {
+      "name": "CanReady",
+      "file": "Rules.cs",
+      "line": 5,
+      "params": [
+        {
+          "name": "known",
+          "ts_type": "boolean",
+          "optional": false,
+          "rest": false,
+          "native_type": "bool"
+        },
+        {
+          "name": "loaded",
+          "ts_type": "boolean",
+          "optional": false,
+          "rest": false,
+          "native_type": "bool"
+        },
+        {
+          "name": "lobby",
+          "ts_type": "boolean",
+          "optional": false,
+          "rest": false,
+          "native_type": "bool"
+        }
+      ],
+      "returns": "boolean",
+      "is_async": false,
+      "is_generator": false,
+      "type_params": [],
+      "uses_instanceof": false,
+      "native_return": "bool",
+      "prototype": "StationOracle.Rules.CanReady(bool known, bool loaded, bool lobby)"
+    },
+    {
+      "name": "CanSpawn",
+      "file": "Rules.cs",
+      "line": 12,
+      "params": [
+        {
+          "name": "lobbyEnabled",
+          "ts_type": "boolean",
+          "optional": false,
+          "rest": false,
+          "native_type": "bool"
+        },
+        {
+          "name": "ready",
+          "ts_type": "boolean",
+          "optional": false,
+          "rest": false,
+          "native_type": "bool"
+        },
+        {
+          "name": "connected",
+          "ts_type": "boolean",
+          "optional": false,
+          "rest": false,
+          "native_type": "bool"
+        }
+      ],
+      "returns": "boolean",
+      "is_async": false,
+      "is_generator": false,
+      "type_params": [],
+      "uses_instanceof": false,
+      "native_return": "bool",
+      "prototype": "StationOracle.Rules.CanSpawn(bool lobbyEnabled, bool ready, bool connected)"
+    }
+  ],
+  "classes": [],
+  "js_only": []
+}

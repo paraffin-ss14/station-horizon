@@ -1,0 +1,21 @@
+Rooms / airtightness increment — 2026-11-24
+
+PASS: rust-anything bridge, record, build and gate. 16/16 C# records match; all eight unique boolean combinations across two extracted functions are covered. Reports: ../../ss14-port/ROOMS-GATE.json and ROOMS-DIFF.json. Full atmosphere solver was not ported.
+PASS: cargo test --workspace --locked --offline: 117 tests (renderer 25, client 12, server 19, simulation 61). See tests.log.
+PASS: cargo clippy --workspace --all-targets --locked --offline -- -D warnings. See clippy.log.
+PASS: cargo build --workspace --locked --offline; graphical checks used this build. Subsequent changes only stabilized the network test's wait for landing.
+PASS: verify-rooms.ps1 in fresh isolated runtime directories. Five editor previews matched expected topology counts, then paint/undo/redo/save/load and two TCP graphical clients passed. Both graphical clients completed tick 300; no terrain uploads caused by camera movement.
+
+Preview results:
+closed: 3 regions, 0 exposed, 65 air cells.
+open: 2 regions, 0 exposed, 66 air cells.
+upper-hole: 1 region, 0 exposed, 66 air cells (upper and lower deck connected).
+wall-breach: 2 regions, 1 exposed, 67 air cells.
+space-hole: 1 region, 1 exposed, 66 air cells.
+Screenshots inspected: closed.png, wall-breach.png, upper-hole.png. Other screenshots: open.png, space-hole.png, editor.png, engineer/doctor closed/open.
+
+Behaviour coverage: exact door collision phase, glass seal, wall breach and repair, no topology change for floor coverings, deck connection through a structural hole, vacuum through the lower hole, incremental/full-rebuild equivalence, editor undo/redo and serialized reload, two-client updates, late join, unchanged network snapshot reuse. Left-wall breach rebuilds exactly 16 air cells while keeping right-room and lower-deck IDs unchanged.
+
+Implementation: station/sim/src/rooms.rs. Server protocol 13; room topology is sent with changed world geometry, not on every packet. Editor checkbox: «Помещения и герметичность». Example map: content/rooms-lab.json. Full scope and assumptions: ../../ROOMS.md.
+
+Limits: no gases, pressure, damage or decompression forces. Upper ceiling is assumed sealed; only decks 0 and -4 are modelled. Two blocking voxel layers seal a column; separate directional gas shutters are not modelled. Room IDs are debug identities within the current round.

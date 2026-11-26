@@ -1,0 +1,175 @@
+{"fn":"ShowCategory","args":[-1,false],"ok":true}
+{"fn":"ShowCategory","args":[42,false],"ok":true}
+{"fn":"ShowCategory","args":[100,false],"ok":true}
+{"fn":"ShowCategory","args":[2147483647,true],"ok":true}
+{"fn":"ShowCategory","args":[7,true],"ok":true}
+{"fn":"ShowCategory","args":[100,true],"ok":true}
+{"fn":"ShowCategory","args":[7,false],"ok":true}
+{"fn":"ShowCategory","args":[0,true],"ok":true}
+{"fn":"ShowCategory","args":[2,true],"ok":true}
+{"fn":"ShowCategory","args":[1,true],"ok":true}
+{"fn":"ShowCategory","args":[0,false],"ok":false}
+{"fn":"ShowCategory","args":[2147483647,false],"ok":true}
+{"fn":"ShowCategory","args":[2,false],"ok":true}
+{"fn":"ShowCategory","args":[42,true],"ok":true}
+{"fn":"ShowCategory","args":[-2147483648,false],"ok":true}
+{"fn":"ShowCategory","args":[-100,false],"ok":true}
+{"fn":"ShowCategory","args":[255,false],"ok":true}
+{"fn":"ShowCategory","args":[-1,true],"ok":true}
+{"fn":"ShowCategory","args":[-2147483648,true],"ok":true}
+{"fn":"ShowCategory","args":[-100,true],"ok":true}
+{"fn":"ShowCategory","args":[1,false],"ok":true}
+{"fn":"ShowCategory","args":[255,true],"ok":true}
+{"fn":"ShowCategory","args":[-7,false],"ok":true}
+{"fn":"TooltipText","args":[false,"日本語のテキスト","キスト"],"ok":"キスト"}
+{"fn":"TooltipText","args":[true,"trailing.","a:b:ckey_name-1"],"ok":"trailing."}
+{"fn":"TooltipText","args":[false,"a:b:c",":c"],"ok":":c"}
+{"fn":"TooltipText","args":[false,".leadingns:key.path","éline1\nline2"],"ok":"éline1\nline2"}
+{"fn":"TooltipText","args":[false,"src/a/b.tsa:b:c","ts"],"ok":"ts"}
+{"fn":"TooltipText","args":[false,"A/B.","src/a/b.tskey_name-1"],"ok":"src/a/b.tskey_name-1"}
+{"fn":"TooltipText","args":[false,"a:b:c","HELLO"],"ok":"HELLO"}
+{"fn":"TooltipText","args":[true,"trailing.","emoji \uD83D\uDC4D\uD83C\uDFFD mix"],"ok":"trailing."}
+{"fn":"TooltipText","args":[false,"key_name-1a","name-"],"ok":"name-"}
+{"fn":"TooltipText","args":[false,"./x/**/*.json","n"],"ok":"n"}
+{"fn":"TooltipText","args":[true,"İstanbul","{name} has {count} itemskey_name-1"],"ok":"İstanbul"}
+{"fn":"TooltipText","args":[true,"hello","hello worldΣΊΣΥΦΟΣ"],"ok":"hello"}
+{"fn":"TooltipText","args":[false,"a:b:c","Hello World"],"ok":"Hello World"}
+{"fn":"TooltipText","args":[true,"ns:key.path","key"],"ok":"ns:key.path"}
+{"fn":"TooltipText","args":[true," Wor","Hello World"],"ok":" Wor"}
+{"fn":"TooltipText","args":[false,":","straße"],"ok":"straße"}
+{"fn":"TooltipText","args":[true,"key_name-1","hello"],"ok":"key_name-1"}
+{"fn":"TooltipText","args":[true,"  padded  ","a.b.c"],"ok":"  padded  "}
+{"fn":"TooltipText","args":[true,"Hello World","tab\tseparated"],"ok":"Hello World"}
+{"fn":"TooltipText","args":[false,"key_name-1","key_name-1"],"ok":"key_name-1"}
+{"fn":"TooltipText","args":[false,"  padded  ","日本語のテキスト"],"ok":"日本語のテキスト"}
+{"fn":"TooltipText","args":[true,"key_name-1","éa\uD83D\uDE00b\uD83D\uDE00c"],"ok":"key_name-1"}
+{"fn":"TooltipText","args":[false,"trailing.","\uD83D\uDE00"],"ok":"\uD83D\uDE00"}
+{"fn":"TooltipText","args":[true,"HELLO","HEL"],"ok":"HELLO"}
+{"fn":"TooltipText","args":[false,"hello","hello"],"ok":"hello"}
+{"fn":"TooltipText","args":[true,":","HELLO"],"ok":":"}
+{"fn":"TooltipText","args":[false,"line1\nline2","ΣΊΣΥΦΟΣ"],"ok":"ΣΊΣΥΦΟΣ"}
+{"fn":"TooltipText","args":[true,"{name} has {count} items",""],"ok":"{name} has {count} items"}
+{"fn":"TooltipText","args":[true,"src/a/b.ts","/A/B.TS"],"ok":"src/a/b.ts"}
+{"fn":"TooltipText","args":[false,".leading","é"],"ok":"é"}
+{"fn":"TooltipText","args":[true,"İstanbulhello","a..btab\tseparated"],"ok":"İstanbulhello"}
+{"fn":"TooltipText","args":[true,"İstanbul","é日本語のテキスト"],"ok":"İstanbul"}
+{"fn":"TooltipText","args":[true,"日本語のテキストé","emoji \uD83D\uDC4D\uD83C\uDFFD mix"],"ok":"日本語のテキストé"}
+{"fn":"TooltipText","args":[false,"ab\uFEFFb","ab\uFEFFbom"],"ok":"ab\uFEFFbom"}
+{"fn":"TooltipText","args":[false,"Hello World","İstanbul"],"ok":"İstanbul"}
+{"fn":"TooltipText","args":[false,"語のテキスト","日本語のテキスト"],"ok":"日本語のテキスト"}
+{"fn":"TooltipText","args":[true,"hello","key_name-1"],"ok":"hello"}
+{"fn":"TooltipText","args":[true,"./x/**/*.json","abc"],"ok":"./x/**/*.json"}
+{"fn":"TooltipText","args":[true,"abc","é"],"ok":"abc"}
+{"fn":"TooltipText","args":[false,"a..b","emoji \uD83D\uDC4D\uD83C\uDFFD mix"],"ok":"emoji \uD83D\uDC4D\uD83C\uDFFD mix"}
+{"fn":"TooltipText","args":[true,"./x/**/*.json","/*.JS"],"ok":"./x/**/*.json"}
+{"fn":"TooltipText","args":[false,":","Hello World"],"ok":"Hello World"}
+{"fn":"TooltipText","args":[true,"é","a"],"ok":"é"}
+{"fn":"TooltipText","args":[false,"src/a/b.ts","ns:key.path"],"ok":"ns:key.path"}
+{"fn":"TooltipText","args":[true,"key_name-1./x/**/*.json","ünïcödé"],"ok":"key_name-1./x/**/*.json"}
+{"fn":"TooltipText","args":[true,"İstanbul","TAN"],"ok":"İstanbul"}
+{"fn":"TooltipText","args":[true,"日本語のテキスト","語のテキスト"],"ok":"日本語のテキスト"}
+{"fn":"TooltipText","args":[true,"straße","ns:key.path"],"ok":"straße"}
+{"fn":"TooltipText","args":[false,"abc","B"],"ok":"B"}
+{"fn":"TooltipText","args":[true,"é","éé"],"ok":"é"}
+{"fn":"TooltipText","args":[false,"line1\nline2","ne2"],"ok":"ne2"}
+{"fn":"TooltipText","args":[true,"ello world","hello world"],"ok":"ello world"}
+{"fn":"TooltipText","args":[false,"trailing.","İstanbul"],"ok":"İstanbul"}
+{"fn":"TooltipText","args":[true,"a..b","\uD83D\uDE00hello world"],"ok":"a..b"}
+{"fn":"TooltipText","args":[false,"hello world","ünïcödé"],"ok":"ünïcödé"}
+{"fn":"TooltipText","args":[true,"a..bns:key.path","EY.PAT"],"ok":"a..bns:key.path"}
+{"fn":"TooltipText","args":[false,"a","a"],"ok":"a"}
+{"fn":"TooltipText","args":[true,"trailing.","key_name-1"],"ok":"trailing."}
+{"fn":"TooltipText","args":[false,"HELLO","Hello World"],"ok":"Hello World"}
+{"fn":"TooltipText","args":[false,"a.b.c","日本語のテキスト\uFEFFbom"],"ok":"日本語のテキスト\uFEFFbom"}
+{"fn":"TooltipText","args":[true,"key_name-1","1"],"ok":"key_name-1"}
+{"fn":"TooltipText","args":[true,"straße","hello world"],"ok":"straße"}
+{"fn":"TooltipText","args":[false,".leading  padded  ","  padded  "],"ok":"  padded  "}
+{"fn":"TooltipText","args":[false,"","a:b:c"],"ok":"a:b:c"}
+{"fn":"TooltipText","args":[false,"\uD83D\uDE00","ns:key.path"],"ok":"ns:key.path"}
+{"fn":"TooltipText","args":[true,"  padded  ","a:b:c"],"ok":"  padded  "}
+{"fn":"TooltipText","args":[false,".leading","İstanbulé"],"ok":"İstanbulé"}
+{"fn":"TooltipText","args":[false,"llo","hello"],"ok":"hello"}
+{"fn":"TooltipText","args":[true,"key_name-1","a\uD83D\uDE00b\uD83D\uDE00c"],"ok":"key_name-1"}
+{"fn":"TooltipText","args":[false,"emoji \uD83D\uDC4D\uD83C\uDFFD mixHello World","\uD83C\uDFFD mixHello Wo"],"ok":"\uD83C\uDFFD mixHello Wo"}
+{"fn":"TooltipText","args":[false,"hello world","key_name-1"],"ok":"key_name-1"}
+{"fn":"TooltipText","args":[false,"tab\tseparated","  padded  line1\nline2"],"ok":"  padded  line1\nline2"}
+{"fn":"TooltipText","args":[true,"a:b:c","ΣΊΣΥΦΟΣ"],"ok":"a:b:c"}
+{"fn":"TooltipText","args":[true,"ab","abc"],"ok":"ab"}
+{"fn":"TooltipText","args":[false,"ab","ΣΊΣΥΦΟΣ"],"ok":"ΣΊΣΥΦΟΣ"}
+{"fn":"TooltipText","args":[false,"ünïcödé","Hello World"],"ok":"Hello World"}
+{"fn":"TooltipText","args":[false,"日本語のテキスト","src/a/b.ts"],"ok":"src/a/b.ts"}
+{"fn":"TooltipText","args":[false,"parat","tab\tseparated"],"ok":"tab\tseparated"}
+{"fn":"TooltipText","args":[false,"Hello WorldΣΊΣΥΦΟΣ","ab"],"ok":"ab"}
+{"fn":"TooltipText","args":[true,"{name} has {count} items","{name} has"],"ok":"{name} has {count} items"}
+{"fn":"TooltipText","args":[true,"key_name-1","ünïcödéa"],"ok":"key_name-1"}
+{"fn":"TooltipText","args":[true,"a\uD83D\uDE00b\uD83D\uDE00c","  padded  "],"ok":"a\uD83D\uDE00b\uD83D\uDE00c"}
+{"fn":"TooltipText","args":[false,"a\uD83D\uDE00b\uD83D\uDE00c","é"],"ok":"é"}
+{"fn":"TooltipText","args":[false,"a.b.c","日本語のテキスト"],"ok":"日本語のテキスト"}
+{"fn":"TooltipText","args":[false,"b","\uFEFFbomab"],"ok":"\uFEFFbomab"}
+{"fn":"TooltipText","args":[true,"abc","\uFEFFbom"],"ok":"abc"}
+{"fn":"TooltipText","args":[false,"ab","ns:key.path"],"ok":"ns:key.path"}
+{"fn":"TooltipText","args":[false,"","a.b.c"],"ok":"a.b.c"}
+{"fn":"TooltipText","args":[true,"straßea:b:c","a"],"ok":"straßea:b:c"}
+{"fn":"TooltipText","args":[false,"a:b:c","a..b"],"ok":"a..b"}
+{"fn":"TooltipText","args":[false,"ünïcödé","aa..b"],"ok":"aa..b"}
+{"fn":"TooltipText","args":[false,"hello world  padded  ","line1\nline2"],"ok":"line1\nline2"}
+{"fn":"TooltipText","args":[true,"ΣΊΣΥΦΟΣ",""],"ok":"ΣΊΣΥΦΟΣ"}
+{"fn":"TooltipText","args":[true,"ns:key.path",":İstanbul"],"ok":"ns:key.path"}
+{"fn":"TooltipText","args":[false,"é日本語のテキスト","hello world"],"ok":"hello world"}
+{"fn":"TooltipText","args":[false,":b:","a:b:c"],"ok":"a:b:c"}
+{"fn":"TooltipText","args":[false,"straße日本語のテキスト","a:b:c\uFEFFbom"],"ok":"a:b:c\uFEFFbom"}
+{"fn":"TooltipText","args":[true,"\uFEFFbom","ünïcödé"],"ok":"\uFEFFbom"}
+{"fn":"TooltipText","args":[false,"a:b:ckey_name-1","B:CKEY_NAME"],"ok":"B:CKEY_NAME"}
+{"fn":"TooltipText","args":[false,":",""],"ok":""}
+{"fn":"TooltipText","args":[false,"héllo wörld","キスト"],"ok":"キスト"}
+{"fn":"TooltipText","args":[false,"\uD83D\uDC4D\uD83C\uDFFD thumbs","キスト"],"ok":"キスト"}
+{"fn":"TooltipText","args":[false,"日本語","キスト"],"ok":"キスト"}
+{"fn":"TooltipText","args":[false,"","キスト"],"ok":"キスト"}
+{"fn":"TooltipText","args":[false,"é","キスト"],"ok":"キスト"}
+{"fn":"TooltipText","args":[false,"İstanbul","キスト"],"ok":"キスト"}
+{"fn":"TooltipText","args":[false,"straße","キスト"],"ok":"キスト"}
+{"fn":"TooltipText","args":[false,"ılık ırmak","キスト"],"ok":"キスト"}
+{"fn":"TooltipText","args":[false,"\uD83D\uDC68‍\uD83D\uDC69‍\uD83D\uDC67 family","キスト"],"ok":"キスト"}
+{"fn":"TooltipText","args":[false,"a\u00A0b","キスト"],"ok":"キスト"}
+{"fn":"TooltipText","args":[false,"ΣΊΣΥΦΟΣ","キスト"],"ok":"キスト"}
+{"fn":"TooltipText","args":[false,"a\uD83D\uDE00b","キスト"],"ok":"キスト"}
+{"fn":"TooltipText","args":[false,"\uFEFFbom","キスト"],"ok":"キスト"}
+{"fn":"TooltipText","args":[false,"a²b x½ y①","キスト"],"ok":"キスト"}
+{"fn":"TooltipText","args":[false,"aⅠb Ⅻ","キスト"],"ok":"キスト"}
+{"fn":"TooltipText","args":[false,"a\uD801\uDC00b \uD835\uDC00bc","キスト"],"ok":"キスト"}
+{"fn":"TooltipText","args":[false,"कि ٣٤","キスト"],"ok":"キスト"}
+{"fn":"TooltipText","args":[false,"日本語のテキスト","héllo wörld"],"ok":"héllo wörld"}
+{"fn":"TooltipText","args":[false,"日本語のテキスト","\uD83D\uDC4D\uD83C\uDFFD thumbs"],"ok":"\uD83D\uDC4D\uD83C\uDFFD thumbs"}
+{"fn":"TooltipText","args":[false,"日本語のテキスト","日本語"],"ok":"日本語"}
+{"fn":"TooltipText","args":[false,"日本語のテキスト",""],"ok":""}
+{"fn":"TooltipText","args":[false,"日本語のテキスト","é"],"ok":"é"}
+{"fn":"TooltipText","args":[false,"日本語のテキスト","İstanbul"],"ok":"İstanbul"}
+{"fn":"TooltipText","args":[false,"日本語のテキスト","straße"],"ok":"straße"}
+{"fn":"TooltipText","args":[false,"日本語のテキスト","ılık ırmak"],"ok":"ılık ırmak"}
+{"fn":"TooltipText","args":[false,"日本語のテキスト","\uD83D\uDC68‍\uD83D\uDC69‍\uD83D\uDC67 family"],"ok":"\uD83D\uDC68‍\uD83D\uDC69‍\uD83D\uDC67 family"}
+{"fn":"TooltipText","args":[false,"日本語のテキスト","a\u00A0b"],"ok":"a\u00A0b"}
+{"fn":"TooltipText","args":[false,"日本語のテキスト","ΣΊΣΥΦΟΣ"],"ok":"ΣΊΣΥΦΟΣ"}
+{"fn":"TooltipText","args":[false,"日本語のテキスト","a\uD83D\uDE00b"],"ok":"a\uD83D\uDE00b"}
+{"fn":"TooltipText","args":[false,"日本語のテキスト","\uFEFFbom"],"ok":"\uFEFFbom"}
+{"fn":"TooltipText","args":[false,"日本語のテキスト","a²b x½ y①"],"ok":"a²b x½ y①"}
+{"fn":"TooltipText","args":[false,"日本語のテキスト","aⅠb Ⅻ"],"ok":"aⅠb Ⅻ"}
+{"fn":"TooltipText","args":[false,"日本語のテキスト","a\uD801\uDC00b \uD835\uDC00bc"],"ok":"a\uD801\uDC00b \uD835\uDC00bc"}
+{"fn":"TooltipText","args":[false,"日本語のテキスト","कि ٣٤"],"ok":"कि ٣٤"}
+{"fn":"ShowCategory","args":[-1,false],"ok":true}
+{"fn":"ShowCategory","args":[-1,true],"ok":true}
+{"fn":"ShowCategory","args":[0,false],"ok":false}
+{"fn":"ShowCategory","args":[0,true],"ok":true}
+{"fn":"ShowCategory","args":[1,false],"ok":true}
+{"fn":"ShowCategory","args":[1,true],"ok":true}
+{"fn":"ShowCategory","args":[16,false],"ok":true}
+{"fn":"ShowCategory","args":[16,true],"ok":true}
+{"fn":"ShowCategory","args":[2147483647,false],"ok":true}
+{"fn":"ShowCategory","args":[2147483647,true],"ok":true}
+{"fn":"TooltipText","args":[false,"","Взять"],"ok":"Взять"}
+{"fn":"TooltipText","args":[false,"Рука занята","Взять"],"ok":"Взять"}
+{"fn":"TooltipText","args":[false,"A\nB","<x>"],"ok":"<x>"}
+{"fn":"TooltipText","args":[false,"",""],"ok":""}
+{"fn":"TooltipText","args":[true,"","Взять"],"ok":""}
+{"fn":"TooltipText","args":[true,"Рука занята","Взять"],"ok":"Рука занята"}
+{"fn":"TooltipText","args":[true,"A\nB","<x>"],"ok":"A\nB"}
+{"fn":"TooltipText","args":[true,"",""],"ok":""}

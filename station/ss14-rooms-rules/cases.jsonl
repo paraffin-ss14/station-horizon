@@ -1,0 +1,16 @@
+{"fn":"EdgeOpen","args":[false,true],"ok":false}
+{"fn":"EdgeOpen","args":[true,false],"ok":false}
+{"fn":"EdgeOpen","args":[false,false],"ok":true}
+{"fn":"EdgeOpen","args":[true,true],"ok":false}
+{"fn":"DefaultSpace","args":[false,false],"ok":true}
+{"fn":"DefaultSpace","args":[true,true],"ok":true}
+{"fn":"DefaultSpace","args":[false,true],"ok":true}
+{"fn":"DefaultSpace","args":[true,false],"ok":false}
+{"fn":"EdgeOpen","args":[false,false],"ok":true}
+{"fn":"EdgeOpen","args":[false,true],"ok":false}
+{"fn":"EdgeOpen","args":[true,false],"ok":false}
+{"fn":"EdgeOpen","args":[true,true],"ok":false}
+{"fn":"DefaultSpace","args":[false,false],"ok":true}
+{"fn":"DefaultSpace","args":[false,true],"ok":true}
+{"fn":"DefaultSpace","args":[true,false],"ok":false}
+{"fn":"DefaultSpace","args":[true,true],"ok":true}

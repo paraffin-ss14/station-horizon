@@ -1,0 +1,65 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "fmt",
+      "passed": true,
+      "detail": "formatted"
+    },
+    {
+      "name": "clippy",
+      "passed": true,
+      "detail": "no warnings"
+    },
+    {
+      "name": "cargo test",
+      "passed": true,
+      "detail": "passed"
+    },
+    {
+      "name": "unsafe",
+      "passed": true,
+      "detail": "6 unsafe uses, each with a `// SAFETY:` comment"
+    },
+    {
+      "name": "lockfile",
+      "passed": true,
+      "detail": "Cargo.lock matches Cargo.toml"
+    },
+    {
+      "name": "ported",
+      "passed": true,
+      "detail": "nothing in port.rs is `unimplemented!`, `todo!` or only a `panic!`"
+    },
+    {
+      "name": "size",
+      "passed": true,
+      "detail": "15 lines of Rust for 11 lines of C# (1.4x)"
+    },
+    {
+      "name": "error cases",
+      "passed": true,
+      "detail": "the original fails on purpose nowhere"
+    },
+    {
+      "name": "panics",
+      "passed": true,
+      "detail": "no unwrap, expect or panic where the original returns an error"
+    },
+    {
+      "name": "build",
+      "passed": true,
+      "detail": "built C:\\Users\\1\\Documents\\Codex\\2026-11-23\\referenced-chatgpt-conversation-this-is-an\\outputs\\horizon\\station\\ss14-light-rules\\cs\\ss14_light_rules.dll"
+    },
+    {
+      "name": "api",
+      "passed": true,
+      "detail": "exports Attenuation"
+    },
+    {
+      "name": "behavior",
+      "passed": true,
+      "detail": "285/285 recorded cases match"
+    }
+  ]
+}

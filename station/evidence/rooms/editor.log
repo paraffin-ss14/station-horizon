@@ -1,0 +1,2 @@
+floor GUI smoke passed: paint, undo, redo, save/load, round surface preserved
+editor GUI smoke passed: place wall, undo, redo, save, load, build round template

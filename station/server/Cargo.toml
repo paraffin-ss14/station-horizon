@@ -1,0 +1,11 @@
+[package]
+name = "station-server"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+station-sim.workspace = true
+
+serde = { version = "1", features = ["derive", "rc"] }
+serde_json = "1"

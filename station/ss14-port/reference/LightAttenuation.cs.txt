@@ -1,0 +1,9 @@
+// Copyright (c) 2019 Space Station 14 Contributors. MIT: ../ROBUST-LICENSE.txt.
+// Robust.Shared/Light/LightLevelSystem.cs, GetColourFromLight.
+// Introduced 5e79016217f5c606a2a21ad54750ebb843d1343f (2026-07-23).
+var sqrtDist = Vector2.Dot(distance, distance) + LightHeight;
+var s = Math.Clamp(MathF.Sqrt(sqrtDist) / radius, 0.0f, 1.0f);
+var s2 = s * s;
+var curveFactor = MathHelper.Lerp(s, s2, Math.Clamp(light.CurveFactor, 0.0f, 1.0f));
+var lightVal = Math.Clamp(((1.0f - s2) * (1.0f - s2)) / (1.0f + light.Falloff * curveFactor), 0.0f, 1.0f);
+var finalLightVal = light.Color.RGBA * (light.Energy * lightVal);

@@ -1,0 +1,26 @@
+   Compiling station-client v0.1.0 (C:\Users\1\Documents\Codex\2026-11-23\referenced-chatgpt-conversation-this-is-an\outputs\horizon\station\client)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 5.68s
+     Running `station\target\debug\station-client.exe --smoke --smoke-storage`
+storage phase 0 tick 180 wanted Verb { target: 3, kind: Pickup } hands [None, None] storage StorageSnapshot { entity: 1, locked: true, open: false, accessible: true, items: [], capacity: 2 }
+UI emitted Verb { target: 3, kind: Pickup }
+storage phase 1 tick 225 wanted Verb { target: 1, kind: Pry(3) } hands [Some(3), None] storage StorageSnapshot { entity: 1, locked: true, open: false, accessible: true, items: [], capacity: 2 }
+UI emitted Verb { target: 1, kind: Pry(3) }
+storage phase 2 tick 420 wanted Verb { target: 1, kind: Open } hands [Some(3), None] storage StorageSnapshot { entity: 1, locked: false, open: false, accessible: true, items: [], capacity: 2 }
+UI emitted Verb { target: 1, kind: Open }
+storage phase 3 tick 465 wanted Store { container: 1, item: 3 } hands [Some(3), None] storage StorageSnapshot { entity: 1, locked: false, open: true, accessible: true, items: [], capacity: 2 }
+UI emitted Store { container: 1, item: 3 }
+storage phase 4 tick 510 wanted Verb { target: 0, kind: Pickup } hands [None, None] storage StorageSnapshot { entity: 1, locked: false, open: true, accessible: false, items: [], capacity: 2 }
+UI emitted Verb { target: 0, kind: Pickup }
+storage phase 5 tick 555 wanted Store { container: 1, item: 0 } hands [Some(0), None] storage StorageSnapshot { entity: 1, locked: false, open: true, accessible: true, items: [3], capacity: 2 }
+UI emitted Store { container: 1, item: 0 }
+storage phase 6 tick 600 wanted Take { container: 1, item: 0 } hands [None, None] storage StorageSnapshot { entity: 1, locked: false, open: true, accessible: true, items: [3, 0], capacity: 2 }
+UI emitted Take { container: 1, item: 0 }
+storage phase 7 tick 645 wanted Verb { target: 0, kind: Activate } hands [Some(0), None] storage StorageSnapshot { entity: 1, locked: false, open: true, accessible: true, items: [3], capacity: 2 }
+UI emitted Verb { target: 0, kind: Activate }
+storage phase 8 tick 690 wanted Verb { target: 1, kind: UseOn(0) } hands [Some(0), None] storage StorageSnapshot { entity: 1, locked: false, open: true, accessible: true, items: [3], capacity: 2 }
+UI emitted Verb { target: 1, kind: UseOn(0) }
+storage phase 9 tick 735 wanted Verb { target: 1, kind: Close } hands [None, None] storage StorageSnapshot { entity: 1, locked: false, open: true, accessible: true, items: [3, 0], capacity: 2 }
+UI emitted Verb { target: 1, kind: Close }
+storage phase 10 tick 780 wanted Verb { target: 1, kind: Open } hands [None, None] storage StorageSnapshot { entity: 1, locked: false, open: false, accessible: true, items: [], capacity: 2 }
+UI emitted Verb { target: 1, kind: Open }
+wgpu smoke passed: Snapshot { tick: 930, position: [2.6370058, 1.637482, 1.2987231], velocity: [3.681197e-16, -7.362394e-16, 0.0] }; terrain uploads during camera motion = 0

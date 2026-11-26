@@ -1,0 +1,205 @@
+{
+  "schema": "rust-anything/analyze@1",
+  "language": "csharp",
+  "summary": {
+    "packages": 1,
+    "source_files": 4,
+    "test_files": 0,
+    "ui_files": 0,
+    "loc": 773,
+    "units": 2,
+    "ready": 1,
+    "caution": 1,
+    "blocked": 0,
+    "keep": 0,
+    "parse_errors": 1
+  },
+  "packages": [
+    {
+      "name": "Oracle",
+      "dir": "",
+      "order": 1,
+      "runtime": "portable",
+      "workspace_deps": [],
+      "test_files": 0,
+      "units": [
+        "Rules.cs",
+        "upstream/"
+      ]
+    }
+  ],
+  "units": [
+    {
+      "id": "Rules.cs",
+      "package": "Oracle",
+      "files": [
+        "Rules.cs"
+      ],
+      "loc": 22,
+      "wave": 0,
+      "readiness": 99,
+      "status": "ready",
+      "bridge": "dotnet-ffi",
+      "platforms": [],
+      "risks": [],
+      "internal_deps": [],
+      "workspace_deps": [],
+      "external_deps": [],
+      "direct_tests": 0,
+      "fan_in": 0,
+      "density": 0.0,
+      "priority": 52,
+      "exports": 3,
+      "bridgeable": 3,
+      "notes": [
+        "Leaf: imports no other unit.",
+        "No tests found: write characterization tests against the original code first."
+      ]
+    },
+    {
+      "id": "upstream/",
+      "package": "Oracle",
+      "files": [
+        "upstream/CableNode.cs",
+        "upstream/PowerNetSystem.cs",
+        "upstream/SharedAirlockSystem.cs"
+      ],
+      "loc": 751,
+      "wave": 0,
+      "readiness": 26,
+      "status": "caution",
+      "bridge": "dotnet-ffi",
+      "platforms": [],
+      "risks": [
+        {
+          "risk": "pointers",
+          "severity": "high",
+          "count": 1,
+          "samples": [
+            "upstream/PowerNetSystem.cs:370"
+          ]
+        },
+        {
+          "risk": "dynamic-typing",
+          "severity": "medium",
+          "count": 9,
+          "samples": [
+            "upstream/CableNode.cs:17",
+            "upstream/CableNode.cs:30",
+            "upstream/CableNode.cs:35"
+          ]
+        },
+        {
+          "risk": "null-references",
+          "severity": "medium",
+          "count": 9,
+          "samples": [
+            "upstream/PowerNetSystem.cs:178",
+            "upstream/PowerNetSystem.cs:184",
+            "upstream/PowerNetSystem.cs:190"
+          ]
+        },
+        {
+          "risk": "integer-semantics",
+          "severity": "medium",
+          "count": 6,
+          "samples": [
+            "upstream/CableNode.cs:46",
+            "upstream/CableNode.cs:54",
+            "upstream/CableNode.cs:63"
+          ]
+        },
+        {
+          "risk": "class-inheritance",
+          "severity": "medium",
+          "count": 3,
+          "samples": [
+            "upstream/CableNode.cs:8",
+            "upstream/PowerNetSystem.cs:21",
+            "upstream/SharedAirlockSystem.cs:13"
+          ]
+        },
+        {
+          "risk": "callbacks",
+          "severity": "medium",
+          "count": 3,
+          "samples": [
+            "upstream/PowerNetSystem.cs:232",
+            "upstream/PowerNetSystem.cs:233",
+            "upstream/PowerNetSystem.cs:237"
+          ]
+        },
+        {
+          "risk": "generators",
+          "severity": "medium",
+          "count": 2,
+          "samples": [
+            "upstream/CableNode.cs:18",
+            "upstream/CableNode.cs:66"
+          ]
+        }
+      ],
+      "internal_deps": [],
+      "workspace_deps": [],
+      "external_deps": [
+        "Content.Server",
+        "Content.Shared",
+        "JetBrains.Annotations",
+        "Robust.Server",
+        "Robust.Shared"
+      ],
+      "direct_tests": 0,
+      "fan_in": 0,
+      "density": 2.1,
+      "priority": 22,
+      "exports": 0,
+      "bridgeable": 0,
+      "notes": [
+        "1 parse errors: results for this unit are partial.",
+        "5 NuGet dependencies not in the crate table: check them by hand.",
+        "Leaf: imports no other unit.",
+        "No tests found: write characterization tests against the original code first."
+      ]
+    }
+  ],
+  "start_here": [
+    "Rules.cs"
+  ],
+  "dependencies": [
+    {
+      "name": "Content.Server",
+      "used_by": 1,
+      "crates": null,
+      "fit": "unknown",
+      "note": ""
+    },
+    {
+      "name": "Content.Shared",
+      "used_by": 1,
+      "crates": null,
+      "fit": "unknown",
+      "note": ""
+    },
+    {
+      "name": "JetBrains.Annotations",
+      "used_by": 1,
+      "crates": null,
+      "fit": "unknown",
+      "note": ""
+    },
+    {
+      "name": "Robust.Server",
+      "used_by": 1,
+      "crates": null,
+      "fit": "unknown",
+      "note": ""
+    },
+    {
+      "name": "Robust.Shared",
+      "used_by": 1,
+      "crates": null,
+      "fit": "unknown",
+      "note": ""
+    }
+  ]
+}

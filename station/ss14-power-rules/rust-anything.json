@@ -1,0 +1,138 @@
+{
+  "schema": "rust-anything/bridge@1",
+  "root": "C:\\Users\\1\\Documents\\Codex\\2026-11-23\\referenced-chatgpt-conversation-this-is-an\\outputs\\horizon\\station\\ss14-port\\power-oracle",
+  "unit": "Rules.cs",
+  "language": "csharp",
+  "kind": "ffi",
+  "crate_name": "ss14-power-rules",
+  "exports": [
+    {
+      "name": "ReceiverPowered",
+      "file": "Rules.cs",
+      "line": 6,
+      "params": [
+        {
+          "name": "disabled",
+          "ts_type": "boolean",
+          "optional": false,
+          "rest": false,
+          "native_type": "bool"
+        },
+        {
+          "name": "needsPower",
+          "ts_type": "boolean",
+          "optional": false,
+          "rest": false,
+          "native_type": "bool"
+        },
+        {
+          "name": "positiveLoad",
+          "ts_type": "boolean",
+          "optional": false,
+          "rest": false,
+          "native_type": "bool"
+        },
+        {
+          "name": "enoughPower",
+          "ts_type": "boolean",
+          "optional": false,
+          "rest": false,
+          "native_type": "bool"
+        }
+      ],
+      "returns": "boolean",
+      "is_async": false,
+      "is_generator": false,
+      "type_params": [],
+      "uses_instanceof": false,
+      "native_return": "bool",
+      "prototype": "StationOracle.Rules.ReceiverPowered(bool disabled, bool needsPower, bool positiveLoad, bool enoughPower)"
+    },
+    {
+      "name": "CableReachable",
+      "file": "Rules.cs",
+      "line": 12,
+      "params": [
+        {
+          "name": "anchored",
+          "ts_type": "boolean",
+          "optional": false,
+          "rest": false,
+          "native_type": "bool"
+        },
+        {
+          "name": "hasGrid",
+          "ts_type": "boolean",
+          "optional": false,
+          "rest": false,
+          "native_type": "bool"
+        },
+        {
+          "name": "cable",
+          "ts_type": "boolean",
+          "optional": false,
+          "rest": false,
+          "native_type": "bool"
+        },
+        {
+          "name": "sameTileDevice",
+          "ts_type": "boolean",
+          "optional": false,
+          "rest": false,
+          "native_type": "bool"
+        },
+        {
+          "name": "blockedDirection",
+          "ts_type": "boolean",
+          "optional": false,
+          "rest": false,
+          "native_type": "bool"
+        }
+      ],
+      "returns": "boolean",
+      "is_async": false,
+      "is_generator": false,
+      "type_params": [],
+      "uses_instanceof": false,
+      "native_return": "bool",
+      "prototype": "StationOracle.Rules.CableReachable(bool anchored, bool hasGrid, bool cable, bool sameTileDevice, bool blockedDirection)"
+    },
+    {
+      "name": "PryAllowed",
+      "file": "Rules.cs",
+      "line": 18,
+      "params": [
+        {
+          "name": "cancelled",
+          "ts_type": "boolean",
+          "optional": false,
+          "rest": false,
+          "native_type": "bool"
+        },
+        {
+          "name": "powered",
+          "ts_type": "boolean",
+          "optional": false,
+          "rest": false,
+          "native_type": "bool"
+        },
+        {
+          "name": "pryPowered",
+          "ts_type": "boolean",
+          "optional": false,
+          "rest": false,
+          "native_type": "bool"
+        }
+      ],
+      "returns": "boolean",
+      "is_async": false,
+      "is_generator": false,
+      "type_params": [],
+      "uses_instanceof": false,
+      "native_return": "bool",
+      "prototype": "StationOracle.Rules.PryAllowed(bool cancelled, bool powered, bool pryPowered)"
+    }
+  ],
+  "classes": [],
+  "js_only": []
+}

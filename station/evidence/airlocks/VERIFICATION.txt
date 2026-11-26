@@ -1,0 +1,14 @@
+Airlock increment verification
+
+PASS: workspace cargo test --workspace --locked --offline: 104 tests (render 25, client 10, server 17, sim 52). See tests.log.
+PASS: additional animation test: 1 (RSI opening retraction at start/middle/end, standard/glass, both orientations). See animation-test.log. Total: 105 tests.
+PASS: cargo clippy --workspace --all-targets --locked --offline -- -D warnings. See clippy.log.
+PASS: cargo build --workspace --locked --offline.
+PASS: verify-airlocks.ps1 isolated editor + two TCP GUI clients, engineer tick 450 / doctor tick 300. Closed/open sight, floor lift/return/lay count 10, intact deck. No terrain uploads caused by camera motion.
+PASS: all 180 imported SS14 manifest files match SHA-256, including 12 original airlock files. Airlocks by AftrLite, CC BY-SA 4.0.
+
+Pictures: windows.png (normal + glass airlocks); engineer-closed.png, engineer-opening.png, engineer-open.png; doctor variants; tile-cycle.png.
+
+Network test exercises phase replication to both clients, new observer while opening, shared collision change. Simulation tests exercise exact collision timing, obstruction during closing/reopening, collider extents and glass collision. Client test verifies light and sight across glass versus opaque door.
+
+Scope: original SS14 graphics integrated into station-format server/client/editor. No electricity, atmosphere, welding, hacking or automatic closing.

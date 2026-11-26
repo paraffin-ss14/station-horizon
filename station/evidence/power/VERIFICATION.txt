@@ -1,0 +1,13 @@
+Power increment verification — 2026-11-23
+
+PASS rust-anything bridge/record/build/gate: 112/112 C# oracle cases match, 0 mismatches. Full boolean domains for receiver power, cable reachability and powered-door prying. See ../../ss14-port/POWER-GATE.json and POWER-DIFF.json. These are extracted guards, not the complete SS14 electricity solver.
+PASS cargo test --workspace --locked --offline: 111 tests (renderer 25, client 12, server 18, simulation 56). See tests.log.
+PASS cargo clippy --workspace --all-targets --locked --offline -- -D warnings. See clippy.log.
+PASS cargo build --workspace --locked --offline; final client rebuilt after GUI test-driver changes. See build.log.
+PASS verify-power.ps1: isolated editor paint/undo/redo/save/load; two TCP graphical clients. Engineer lifted floor, disconnected cable, verified zero lamp energy in affected room with neighbor still lit, opened dead door with crowbar, reconnected cable and restored light. Observer separately confirmed outage, unpowered opening and restoration. Engineer tick 967, observer tick 966. No terrain uploads caused by camera motion.
+PASS screenshots visually inspected: windows.png (editor wiring), dark.png and restored.png (red/green controller and changed illumination); pried.png also retained.
+PASS 192 original SS14 resource hashes, including newly imported wirecutters RSI. Author/license metadata retained; new native power glyphs use a reserved white atlas pixel, not imported graphics.
+
+Behaviour tests include alternate cable routes, deck separation, missing floor, template reset, cancelled concurrent work, covered cable, restored power cancelling prying, exact timed completion, editor persistence, two-client synchronization and actual renderable pixels for exposed wiring.
+
+Limits: binary supply only; nearest controller within 8 tiles on same deck; no batteries, wattage, overloads or cable material economy. New wiring placed in editor, existing connections operated in gameplay. Network protocol 12.

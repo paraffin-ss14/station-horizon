@@ -1,0 +1,1340 @@
+{
+  "version": 1,
+  "prototypes": {
+    "flashlight": {
+      "kind": "Flashlight",
+      "name": "item.flashlight",
+      "description": "examine.flashlight",
+      "half": 0.28,
+      "mass": 1,
+      "clothing": false,
+      "slots": 0,
+      "size": 1,
+      "color": [
+        0.7,
+        0.5,
+        0.2,
+        1
+      ],
+      "billboard": true,
+      "capacity": 0,
+      "sprite": {
+        "layers": [
+          {
+            "rsi": "flashlight",
+            "state": "flashlight",
+            "key": "layer_0"
+          }
+        ],
+        "inhand_left": [
+          {
+            "rsi": "flashlight",
+            "state": "inhand-left",
+            "key": "layer_0"
+          }
+        ],
+        "inhand_right": [
+          {
+            "rsi": "flashlight",
+            "state": "inhand-right",
+            "key": "layer_0"
+          }
+        ],
+        "active_layers": [],
+        "rules": [
+          {
+            "key": "activated",
+            "value": "true",
+            "layer": "layer_0",
+            "patch": {
+              "state": "flashlight-on",
+              "unshaded": true
+            }
+          }
+        ]
+      }
+    },
+    "crate": {
+      "kind": "Crate",
+      "name": "item.crate",
+      "description": "examine.crate",
+      "half": 0.35,
+      "mass": 4,
+      "clothing": false,
+      "slots": 0,
+      "size": 3,
+      "color": [
+        0.7,
+        0.5,
+        0.2,
+        1
+      ],
+      "billboard": false,
+      "capacity": 2,
+      "sprite": {
+        "layers": [
+          {
+            "rsi": "crate",
+            "state": "base",
+            "key": "layer_0"
+          },
+          {
+            "rsi": "crate",
+            "state": "closed",
+            "key": "layer_1"
+          }
+        ],
+        "open_layers": [
+          {
+            "rsi": "crate",
+            "state": "base",
+            "key": "layer_0"
+          },
+          {
+            "rsi": "crate",
+            "state": "open",
+            "key": "layer_1"
+          }
+        ],
+        "working_layers": [
+          {
+            "rsi": "crate",
+            "state": "sparking",
+            "key": "working_0"
+          }
+        ]
+      },
+      "sprite_size": [
+        1.0,
+        1.0
+      ]
+    },
+    "helmet": {
+      "kind": "Helmet",
+      "name": "item.helmet",
+      "description": "examine.helmet",
+      "half": 0.18,
+      "mass": 0.3,
+      "clothing": true,
+      "slots": 2,
+      "size": 1,
+      "color": [
+        0.7,
+        0.5,
+        0.2,
+        1
+      ],
+      "billboard": true,
+      "capacity": 0,
+      "sprite": {
+        "layers": [
+          {
+            "rsi": "helmet",
+            "state": "icon",
+            "key": "layer_0"
+          }
+        ],
+        "inhand_left": [
+          {
+            "rsi": "helmet",
+            "state": "inhand-left",
+            "key": "layer_0"
+          }
+        ],
+        "inhand_right": [
+          {
+            "rsi": "helmet",
+            "state": "inhand-right",
+            "key": "layer_0"
+          }
+        ],
+        "worn": [
+          {
+            "rsi": "helmet",
+            "state": "equipped-HELMET",
+            "key": "layer_0"
+          }
+        ]
+      }
+    },
+    "crowbar": {
+      "kind": "Crowbar",
+      "name": "item.crowbar",
+      "description": "examine.crowbar",
+      "half": 0.16,
+      "mass": 0.6,
+      "clothing": false,
+      "slots": 0,
+      "size": 1,
+      "color": [
+        0.7,
+        0.5,
+        0.2,
+        1
+      ],
+      "billboard": true,
+      "capacity": 0,
+      "sprite": {
+        "layers": [
+          {
+            "rsi": "crowbar",
+            "state": "icon",
+            "key": "layer_0"
+          }
+        ],
+        "inhand_left": [
+          {
+            "rsi": "crowbar",
+            "state": "inhand-left",
+            "key": "layer_0"
+          }
+        ],
+        "inhand_right": [
+          {
+            "rsi": "crowbar",
+            "state": "inhand-right",
+            "key": "layer_0"
+          }
+        ]
+      }
+    },
+    "medkit": {
+      "kind": "Medkit",
+      "name": "item.medkit",
+      "description": "examine.medkit",
+      "half": 0.12,
+      "mass": 0.2,
+      "clothing": false,
+      "slots": 0,
+      "size": 1,
+      "color": [
+        0.7,
+        0.5,
+        0.2,
+        1
+      ],
+      "billboard": true,
+      "capacity": 0,
+      "sprite": {
+        "layers": [
+          {
+            "rsi": "medkit",
+            "state": "firstaid",
+            "key": "layer_0"
+          }
+        ],
+        "inhand_left": [
+          {
+            "rsi": "medkit",
+            "state": "firstaid-inhand-left",
+            "key": "layer_0"
+          }
+        ],
+        "inhand_right": [
+          {
+            "rsi": "medkit",
+            "state": "firstaid-inhand-right",
+            "key": "layer_0"
+          }
+        ]
+      }
+    },
+    "id.engineer": {
+      "kind": {
+        "IdCard": 1
+      },
+      "name": "item.id.engineer",
+      "description": "examine.id",
+      "half": 0.12,
+      "mass": 0.2,
+      "clothing": true,
+      "slots": 2048,
+      "size": 1,
+      "color": [
+        0.7,
+        0.5,
+        0.2,
+        1
+      ],
+      "billboard": false,
+      "capacity": 0,
+      "sprite": {
+        "layers": [
+          {
+            "rsi": "id",
+            "state": "default",
+            "key": "layer_0"
+          }
+        ],
+        "inhand_left": [
+          {
+            "rsi": "id",
+            "state": "default-inhand-left",
+            "key": "layer_0"
+          }
+        ],
+        "inhand_right": [
+          {
+            "rsi": "id",
+            "state": "default-inhand-right",
+            "key": "layer_0"
+          }
+        ]
+      }
+    },
+    "id.doctor": {
+      "kind": {
+        "IdCard": 2
+      },
+      "name": "item.id.doctor",
+      "description": "examine.id",
+      "half": 0.12,
+      "mass": 0.2,
+      "clothing": true,
+      "slots": 2048,
+      "size": 1,
+      "color": [
+        0.7,
+        0.5,
+        0.2,
+        1
+      ],
+      "billboard": false,
+      "capacity": 0,
+      "sprite": {
+        "layers": [
+          {
+            "rsi": "id",
+            "state": "default",
+            "key": "layer_0"
+          }
+        ],
+        "inhand_left": [
+          {
+            "rsi": "id",
+            "state": "default-inhand-left",
+            "key": "layer_0"
+          }
+        ],
+        "inhand_right": [
+          {
+            "rsi": "id",
+            "state": "default-inhand-right",
+            "key": "layer_0"
+          }
+        ]
+      }
+    },
+    "id.assistant": {
+      "kind": {
+        "IdCard": 0
+      },
+      "name": "item.id.assistant",
+      "description": "examine.id",
+      "half": 0.12,
+      "mass": 0.2,
+      "clothing": true,
+      "slots": 2048,
+      "size": 1,
+      "color": [
+        0.7,
+        0.5,
+        0.2,
+        1
+      ],
+      "billboard": false,
+      "capacity": 0,
+      "sprite": {
+        "layers": [
+          {
+            "rsi": "id",
+            "state": "default",
+            "key": "layer_0"
+          }
+        ],
+        "inhand_left": [
+          {
+            "rsi": "id",
+            "state": "default-inhand-left",
+            "key": "layer_0"
+          }
+        ],
+        "inhand_right": [
+          {
+            "rsi": "id",
+            "state": "default-inhand-right",
+            "key": "layer_0"
+          }
+        ]
+      }
+    },
+    "uniform.engineer": {
+      "kind": "Generic",
+      "name": "uniform.engineer",
+      "description": "uniform.engineer",
+      "half": 0.18,
+      "mass": 0.2,
+      "clothing": true,
+      "slots": 64,
+      "size": 2,
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "billboard": true,
+      "capacity": 0,
+      "sprite": {
+        "layers": [
+          {
+            "rsi": "engineer",
+            "state": "icon",
+            "key": "layer_0"
+          }
+        ],
+        "worn": [
+          {
+            "rsi": "engineer",
+            "state": "equipped-INNERCLOTHING",
+            "key": "layer_0"
+          }
+        ],
+        "inhand_left": [
+          {
+            "rsi": "engineer",
+            "state": "inhand-left",
+            "key": "layer_0"
+          }
+        ],
+        "inhand_right": [
+          {
+            "rsi": "engineer",
+            "state": "inhand-right",
+            "key": "layer_0"
+          }
+        ]
+      }
+    },
+    "uniform.doctor": {
+      "kind": "Generic",
+      "name": "uniform.doctor",
+      "description": "uniform.doctor",
+      "half": 0.18,
+      "mass": 0.2,
+      "clothing": true,
+      "slots": 64,
+      "size": 2,
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "billboard": true,
+      "capacity": 0,
+      "sprite": {
+        "layers": [
+          {
+            "rsi": "doctor",
+            "state": "icon",
+            "key": "layer_0"
+          }
+        ],
+        "worn": [
+          {
+            "rsi": "doctor",
+            "state": "equipped-INNERCLOTHING",
+            "key": "layer_0"
+          }
+        ],
+        "inhand_left": [
+          {
+            "rsi": "doctor",
+            "state": "inhand-left",
+            "key": "layer_0"
+          }
+        ],
+        "inhand_right": [
+          {
+            "rsi": "doctor",
+            "state": "inhand-right",
+            "key": "layer_0"
+          }
+        ]
+      }
+    },
+    "uniform.assistant": {
+      "kind": "Generic",
+      "name": "uniform.assistant",
+      "description": "uniform.assistant",
+      "half": 0.18,
+      "mass": 0.2,
+      "clothing": true,
+      "slots": 64,
+      "size": 2,
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "billboard": true,
+      "capacity": 0,
+      "sprite": {
+        "layers": [
+          {
+            "rsi": "assistant",
+            "state": "icon",
+            "color": [
+              0.55,
+              0.55,
+              0.55,
+              1
+            ],
+            "key": "layer_0"
+          }
+        ],
+        "worn": [
+          {
+            "rsi": "assistant",
+            "state": "equipped-INNERCLOTHING",
+            "color": [
+              0.55,
+              0.55,
+              0.55,
+              1
+            ],
+            "key": "layer_0"
+          }
+        ],
+        "inhand_left": [
+          {
+            "rsi": "assistant",
+            "state": "inhand-left",
+            "color": [
+              0.55,
+              0.55,
+              0.55,
+              1
+            ],
+            "key": "layer_0"
+          }
+        ],
+        "inhand_right": [
+          {
+            "rsi": "assistant",
+            "state": "inhand-right",
+            "color": [
+              0.55,
+              0.55,
+              0.55,
+              1
+            ],
+            "key": "layer_0"
+          }
+        ]
+      }
+    },
+    "tile.steel": {
+      "kind": {
+        "Tile": "Steel"
+      },
+      "stack_count": 10,
+      "name": "item.tile_steel",
+      "description": "examine.tile",
+      "half": 0.12,
+      "mass": 0.4,
+      "clothing": false,
+      "slots": 0,
+      "size": 1,
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "billboard": true,
+      "capacity": 0,
+      "sprite_size": [
+        1,
+        1
+      ],
+      "sprite": {
+        "layers": [
+          {
+            "rsi": "floor",
+            "state": "steel",
+            "key": "tile",
+            "auto_animated": false,
+            "scale": [
+              0.45,
+              0.45
+            ]
+          }
+        ],
+        "inhand_left": [
+          {
+            "rsi": "floor",
+            "state": "steel",
+            "key": "tile",
+            "auto_animated": false,
+            "scale": [
+              0.25,
+              0.25
+            ],
+            "offset": [
+              -0.2,
+              -0.1
+            ]
+          }
+        ],
+        "inhand_right": [
+          {
+            "rsi": "floor",
+            "state": "steel",
+            "key": "tile",
+            "auto_animated": false,
+            "scale": [
+              0.25,
+              0.25
+            ],
+            "offset": [
+              0.2,
+              -0.1
+            ]
+          }
+        ]
+      }
+    },
+    "tile.damaged": {
+      "kind": {
+        "Tile": "Damaged"
+      },
+      "stack_count": 10,
+      "name": "item.tile_damaged",
+      "description": "examine.tile",
+      "half": 0.12,
+      "mass": 0.4,
+      "clothing": false,
+      "slots": 0,
+      "size": 1,
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "billboard": true,
+      "capacity": 0,
+      "sprite_size": [
+        1,
+        1
+      ],
+      "sprite": {
+        "layers": [
+          {
+            "rsi": "floor",
+            "state": "damaged",
+            "key": "tile",
+            "auto_animated": false,
+            "scale": [
+              0.45,
+              0.45
+            ]
+          }
+        ],
+        "inhand_left": [
+          {
+            "rsi": "floor",
+            "state": "damaged",
+            "key": "tile",
+            "auto_animated": false,
+            "scale": [
+              0.25,
+              0.25
+            ],
+            "offset": [
+              -0.2,
+              -0.1
+            ]
+          }
+        ],
+        "inhand_right": [
+          {
+            "rsi": "floor",
+            "state": "damaged",
+            "key": "tile",
+            "auto_animated": false,
+            "scale": [
+              0.25,
+              0.25
+            ],
+            "offset": [
+              0.2,
+              -0.1
+            ]
+          }
+        ]
+      }
+    },
+    "tile.tech": {
+      "kind": {
+        "Tile": "Tech"
+      },
+      "stack_count": 10,
+      "name": "item.tile_tech",
+      "description": "examine.tile",
+      "half": 0.12,
+      "mass": 0.4,
+      "clothing": false,
+      "slots": 0,
+      "size": 1,
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "billboard": true,
+      "capacity": 0,
+      "sprite_size": [
+        1,
+        1
+      ],
+      "sprite": {
+        "layers": [
+          {
+            "rsi": "floor",
+            "state": "tech",
+            "key": "tile",
+            "auto_animated": false,
+            "scale": [
+              0.45,
+              0.45
+            ]
+          }
+        ],
+        "inhand_left": [
+          {
+            "rsi": "floor",
+            "state": "tech",
+            "key": "tile",
+            "auto_animated": false,
+            "scale": [
+              0.25,
+              0.25
+            ],
+            "offset": [
+              -0.2,
+              -0.1
+            ]
+          }
+        ],
+        "inhand_right": [
+          {
+            "rsi": "floor",
+            "state": "tech",
+            "key": "tile",
+            "auto_animated": false,
+            "scale": [
+              0.25,
+              0.25
+            ],
+            "offset": [
+              0.2,
+              -0.1
+            ]
+          }
+        ]
+      }
+    },
+    "tile.grating": {
+      "kind": {
+        "Tile": "Grating"
+      },
+      "stack_count": 10,
+      "name": "item.tile_grating",
+      "description": "examine.tile",
+      "half": 0.12,
+      "mass": 0.4,
+      "clothing": false,
+      "slots": 0,
+      "size": 1,
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "billboard": true,
+      "capacity": 0,
+      "sprite_size": [
+        1,
+        1
+      ],
+      "sprite": {
+        "layers": [
+          {
+            "rsi": "floor",
+            "state": "grating",
+            "key": "tile",
+            "auto_animated": false,
+            "scale": [
+              0.45,
+              0.45
+            ]
+          }
+        ],
+        "inhand_left": [
+          {
+            "rsi": "floor",
+            "state": "grating",
+            "key": "tile",
+            "auto_animated": false,
+            "scale": [
+              0.25,
+              0.25
+            ],
+            "offset": [
+              -0.2,
+              -0.1
+            ]
+          }
+        ],
+        "inhand_right": [
+          {
+            "rsi": "floor",
+            "state": "grating",
+            "key": "tile",
+            "auto_animated": false,
+            "scale": [
+              0.25,
+              0.25
+            ],
+            "offset": [
+              0.2,
+              -0.1
+            ]
+          }
+        ]
+      }
+    },
+    "wirecutters": {
+      "kind": "Wirecutters",
+      "name": "item.wirecutters",
+      "description": "examine.wirecutters",
+      "half": 0.16,
+      "mass": 0.6,
+      "clothing": true,
+      "slots": 512,
+      "size": 1,
+      "color": [
+        0.7,
+        0.5,
+        0.2,
+        1
+      ],
+      "billboard": true,
+      "capacity": 0,
+      "sprite": {
+        "layers": [
+          {
+            "rsi": "wirecutters",
+            "state": "cutters",
+            "key": "layer_0"
+          }
+        ],
+        "inhand_left": [
+          {
+            "rsi": "wirecutters",
+            "state": "inhand-left",
+            "key": "layer_0"
+          }
+        ],
+        "inhand_right": [
+          {
+            "rsi": "wirecutters",
+            "state": "inhand-right",
+            "key": "layer_0"
+          }
+        ]
+      }
+    }
+  },
+  "map": {
+    "base": [
+      {
+        "min": [
+          -4,
+          -3,
+          0
+        ],
+        "max": [
+          4,
+          3,
+          0
+        ]
+      },
+      {
+        "min": [
+          -4,
+          -3,
+          1
+        ],
+        "max": [
+          4,
+          -3,
+          2
+        ]
+      },
+      {
+        "min": [
+          -4,
+          3,
+          1
+        ],
+        "max": [
+          4,
+          3,
+          2
+        ]
+      },
+      {
+        "min": [
+          -4,
+          -2,
+          1
+        ],
+        "max": [
+          -4,
+          2,
+          2
+        ]
+      },
+      {
+        "min": [
+          4,
+          -2,
+          1
+        ],
+        "max": [
+          4,
+          2,
+          2
+        ]
+      },
+      {
+        "min": [
+          -4,
+          -3,
+          -4
+        ],
+        "max": [
+          4,
+          3,
+          -4
+        ]
+      },
+      {
+        "min": [
+          -4,
+          -3,
+          -3
+        ],
+        "max": [
+          4,
+          -3,
+          -2
+        ]
+      },
+      {
+        "min": [
+          -4,
+          3,
+          -3
+        ],
+        "max": [
+          4,
+          3,
+          -2
+        ]
+      },
+      {
+        "min": [
+          -4,
+          -2,
+          -3
+        ],
+        "max": [
+          -4,
+          2,
+          -2
+        ]
+      },
+      {
+        "min": [
+          4,
+          -2,
+          -3
+        ],
+        "max": [
+          4,
+          2,
+          -2
+        ]
+      },
+      {
+        "min": [
+          0,
+          -2,
+          1
+        ],
+        "max": [
+          0,
+          -2,
+          2
+        ]
+      },
+      {
+        "min": [
+          0,
+          -1,
+          1
+        ],
+        "max": [
+          0,
+          -1,
+          2
+        ]
+      },
+      {
+        "min": [
+          0,
+          1,
+          1
+        ],
+        "max": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "min": [
+          0,
+          2,
+          1
+        ],
+        "max": [
+          0,
+          2,
+          2
+        ]
+      }
+    ],
+    "departments": [],
+    "asteroid": false,
+    "items": [
+      {
+        "key": "flashlight",
+        "prototype": "flashlight",
+        "position": [
+          1.5,
+          0.5,
+          3
+        ]
+      },
+      {
+        "key": "crate",
+        "prototype": "crate",
+        "position": [
+          3.5,
+          2.5,
+          3
+        ]
+      },
+      {
+        "key": "helmet",
+        "prototype": "helmet",
+        "position": [
+          -3.5,
+          -2.5,
+          3
+        ]
+      },
+      {
+        "key": "crowbar",
+        "prototype": "crowbar",
+        "position": [
+          2.5,
+          2.5,
+          3
+        ]
+      }
+    ],
+    "crate_round_position": [
+      2,
+      2,
+      1.4
+    ],
+    "doors": [
+      {
+        "cell": [
+          0,
+          0,
+          1
+        ],
+        "access": 0,
+        "name": "door.title",
+        "glass": true,
+        "horizontal": false
+      }
+    ],
+    "spawns": {
+      "local": [
+        0.5,
+        0.5,
+        3
+      ],
+      "job.engineer": [
+        -0.5,
+        0.5,
+        1.3
+      ],
+      "job.doctor": [
+        2.5,
+        0.5,
+        1.3
+      ],
+      "job.assistant": [
+        -2.5,
+        -1.5,
+        1.3
+      ],
+      "arrival": [
+        -2.5,
+        1.5,
+        1.3
+      ]
+    },
+    "lamps": [
+      {
+        "position": [
+          -2,
+          0.5,
+          2.5
+        ],
+        "radius": 5,
+        "color": [
+          0.85,
+          0.9,
+          1.0
+        ],
+        "energy": 2
+      },
+      {
+        "position": [
+          2,
+          0.5,
+          2.5
+        ],
+        "radius": 5,
+        "color": [
+          0.85,
+          0.9,
+          1.0
+        ],
+        "energy": 2
+      },
+      {
+        "position": [
+          0,
+          0.5,
+          -1.5
+        ],
+        "radius": 5,
+        "color": [
+          0.85,
+          0.9,
+          1.0
+        ],
+        "energy": 2
+      }
+    ],
+    "power": null,
+    "floors": [],
+    "barriers": []
+  },
+  "kits": {
+    "job.engineer": [
+      {
+        "prototype": "id.engineer",
+        "slot": 10
+      },
+      {
+        "prototype": "crowbar",
+        "slot": 11
+      },
+      {
+        "prototype": "uniform.engineer",
+        "slot": 7
+      }
+    ],
+    "job.doctor": [
+      {
+        "prototype": "id.doctor",
+        "slot": 10
+      },
+      {
+        "prototype": "medkit",
+        "slot": 11
+      },
+      {
+        "prototype": "uniform.doctor",
+        "slot": 7
+      }
+    ],
+    "job.assistant": [
+      {
+        "prototype": "id.assistant",
+        "slot": 10
+      },
+      {
+        "prototype": "uniform.assistant",
+        "slot": 7
+      }
+    ]
+  },
+  "character": {
+    "radius": 0.3,
+    "speed": 4,
+    "sprite_size": [
+      1.0,
+      1.0
+    ],
+    "layers": [
+      {
+        "rsi": "human",
+        "state": "r_leg",
+        "color": [
+          1,
+          0.76,
+          0.6,
+          1
+        ],
+        "key": "body_0"
+      },
+      {
+        "rsi": "human",
+        "state": "l_leg",
+        "color": [
+          1,
+          0.76,
+          0.6,
+          1
+        ],
+        "key": "body_1"
+      },
+      {
+        "rsi": "human",
+        "state": "r_foot",
+        "color": [
+          1,
+          0.76,
+          0.6,
+          1
+        ],
+        "key": "body_2"
+      },
+      {
+        "rsi": "human",
+        "state": "l_foot",
+        "color": [
+          1,
+          0.76,
+          0.6,
+          1
+        ],
+        "key": "body_3"
+      },
+      {
+        "rsi": "human",
+        "state": "torso_m",
+        "color": [
+          1,
+          0.76,
+          0.6,
+          1
+        ],
+        "key": "body_4"
+      },
+      {
+        "rsi": "human",
+        "state": "r_arm",
+        "color": [
+          1,
+          0.76,
+          0.6,
+          1
+        ],
+        "key": "body_5"
+      },
+      {
+        "rsi": "human",
+        "state": "l_arm",
+        "color": [
+          1,
+          0.76,
+          0.6,
+          1
+        ],
+        "key": "body_6"
+      },
+      {
+        "rsi": "human",
+        "state": "r_hand",
+        "color": [
+          1,
+          0.76,
+          0.6,
+          1
+        ],
+        "key": "body_7"
+      },
+      {
+        "rsi": "human",
+        "state": "l_hand",
+        "color": [
+          1,
+          0.76,
+          0.6,
+          1
+        ],
+        "key": "body_8"
+      },
+      {
+        "rsi": "human",
+        "state": "head_m",
+        "color": [
+          1,
+          0.76,
+          0.6,
+          1
+        ],
+        "key": "body_9"
+      },
+      {
+        "rsi": "assistant",
+        "state": "equipped-INNERCLOTHING",
+        "color": [
+          0.55,
+          0.55,
+          0.55,
+          1
+        ],
+        "key": "body_10"
+      }
+    ]
+  }
+}

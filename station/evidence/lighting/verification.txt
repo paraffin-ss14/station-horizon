@@ -1,0 +1,7 @@
+2026-11-23
+Workspace tests: 67 passed (render 7, client 5, server 15, sim 40).
+Clippy --workspace --all-targets --locked --offline -- -D warnings: passed.
+Build --workspace --locked --offline: passed.
+git diff --check: passed.
+rust-anything LIGHT-GATE.json: passed, 285/285 cases.
+verify-lighting.ps1: editor and two TCP clients passed; see editor.log, engineer.log, doctor.log and PNG captures.

@@ -1,0 +1,8 @@
+2026-11-23 editor increment
+cargo test --manifest-path station/Cargo.toml --workspace --locked --offline: 61 passed (3 render, 4 client, 15 server, 39 sim).
+After adding lower-deck occupied-door assertion: cargo test --manifest-path station/Cargo.toml -p station-sim editor:: --locked --offline: 4 passed.
+cargo clippy --manifest-path station/Cargo.toml --workspace --all-targets --locked --offline -- -D warnings: passed.
+cargo build --manifest-path station/Cargo.toml --workspace --locked --offline: passed.
+rust-anything gate ss14-editor-rules: passed; 530/530 C# oracle cases match. See ../../ss14-port/EDITOR-GATE.json.
+GUI editor smoke: exit 0. See smoke.log and editor.png.
+Dedicated server loading edited-map.json + engineer GUI client round smoke: exit 0; tick 300. See play.log and edited-map-in-game.png.

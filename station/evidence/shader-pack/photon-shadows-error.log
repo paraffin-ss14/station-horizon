@@ -1,0 +1,2 @@
+photon_v1.4.zip: Photon opaque shadows + SSAO + final (partial compatibility)
+Photon shadow cache: updates=1 reused=20

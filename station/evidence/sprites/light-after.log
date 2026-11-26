@@ -1,0 +1,8 @@
+light CPU submit 1.19 ms
+light CPU submit 0.71 ms
+light CPU submit 0.50 ms
+light CPU submit 0.48 ms
+light CPU submit 0.67 ms
+light CPU submit 0.60 ms
+light CPU submit 0.57 ms
+render CPU/wait frames=1453 median=4.45ms p95=5.22ms max=39.61ms (captures excluded)

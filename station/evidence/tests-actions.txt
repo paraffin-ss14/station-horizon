@@ -1,0 +1,84 @@
+   Compiling station-sim v0.1.0 (C:\Users\1\Documents\Codex\2026-11-23\referenced-chatgpt-conversation-this-is-an\outputs\horizon\station\sim)
+   Compiling station-server v0.1.0 (C:\Users\1\Documents\Codex\2026-11-23\referenced-chatgpt-conversation-this-is-an\outputs\horizon\station\server)
+   Compiling station-client v0.1.0 (C:\Users\1\Documents\Codex\2026-11-23\referenced-chatgpt-conversation-this-is-an\outputs\horizon\station\client)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 2.46s
+     Running unittests ..\..\crates\horizon-client-render\src\station_renderer.rs (station\target\debug\deps\horizon_station_render-bfe6de52577450ed.exe)
+
+running 3 tests
+test tests::projection_is_orthographic_and_tracks_player ... ok
+test tests::removing_last_chunk_releases_cache ... ok
+test tests::cache_rebuilds_boundary_neighbors_only ... ok
+
+test result: ok. 3 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running unittests src\main.rs (station\target\debug\deps\station_client-c8f984014aba93d2.exe)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running unittests src\lib.rs (station\target\debug\deps\station_server-6289ee28ebba9c3d.exe)
+
+running 4 tests
+test tests::authority_rejects_nonfinite_movement ... ok
+test inventory_session_tests::ordered_commands_survive_render_updates ... ok
+test session_tests::commands_pick_drop_throw_and_publish_items ... ok
+test session_tests::server_ticks_without_renderer_and_replicates_destruction ... ok
+
+test result: ok. 4 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 2.45s
+
+     Running unittests src\main.rs (station\target\debug\deps\station_server-03c5242aa7eccfeb.exe)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running unittests src\lib.rs (station\target\debug\deps\station_sim-aad3c6561a47c4fc.exe)
+
+running 26 tests
+test item_tests::edit_preserves_other_chunk_handles_and_noop_does_nothing ... ok
+test interaction::tests::hand_switch_retains_items_without_duplication ... ok
+test actions::tests::obstacle_target_loss_and_external_movement_cancel ... ok
+test ss14_rules::tests::hand_and_priority ... ok
+test interaction::tests::rejects_stale_out_of_range_and_invalid_slots ... ok
+test ss14_rules::tests::pocket_and_clothing ... ok
+test interaction::tests::occupied_slot_keeps_both_items_and_wall_blocks_actions ... ok
+test interaction::tests::pockets_preserve_identity_and_disable_physics ... ok
+test actions::tests::missing_floor_wrong_tool_and_boundary_are_rejected ... ok
+test item_tests::pickup_drop_throw_and_occlusion ... ok
+test tests::horizon_generation_is_seeded ... ok
+test tests::negative_chunk_edit_roundtrip ... ok
+test tests::top_projection_has_no_height_parallax ... ok
+test item_tests::zero_gravity_preserves_momentum_and_bounces_at_wall ... ok
+test actions::tests::cancel_at_last_tick_and_stale_cancel_cannot_cancel_new_work ... ok
+test actions::tests::no_early_unlock_and_repeated_start_does_not_restart ... ok
+test item_tests::sleeping_crate_falls_through_hole_and_lands ... ok
+test actions::tests::floor_completion_updates_collision_and_is_applied_once ... ok
+test storage::tests::full_and_replayed_requests_preserve_all_items ... ok
+test storage::tests::hidden_items_cannot_be_picked_and_crate_cannot_contain_itself ... ok
+test storage::tests::unlock_store_take_use_and_return ... ok
+test storage::tests::wrong_tool_wall_distance_and_stale_hand_rejected ... ok
+test tests::floor_removal_falls_to_lower_deck ... ok
+test tests::voxel_edits_update_collision_geometry ... ok
+test tests::wall_stops_player_and_zero_gravity_preserves_z_motion ... ok
+test actions::tests::changing_hand_dropping_throwing_and_moving_cancel ... ok
+
+test result: ok. 26 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 2.56s
+
+   Doc-tests horizon_station_render
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+   Doc-tests station_server
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+   Doc-tests station_sim
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s

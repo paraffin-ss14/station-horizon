@@ -1,0 +1,4 @@
+   Compiling station-client v0.1.0 (C:\Users\1\Documents\Codex\2026-11-23\referenced-chatgpt-conversation-this-is-an\outputs\horizon\station\client)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 4.20s
+     Running `station\target\debug\station-client.exe --smoke --smoke-actions`
+wgpu smoke passed: Snapshot { tick: 720, position: [2.4612234, 1.4634662, -2.7012777], velocity: [0.0, 0.0, 0.0] }; terrain uploads during camera motion = 0

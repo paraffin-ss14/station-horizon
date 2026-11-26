@@ -1,0 +1,16 @@
+Floor tile increment, 2026-11-23
+PASS: workspace tests: render 25, client 9, server 16, simulation 47 = 97.
+PASS: locked offline workspace build and Clippy all targets with -D warnings.
+PASS: verify-floors.ps1: actual UI paint/undo/redo/save/load, round surface check,
+clean textured-station preview, two TCP clients through tick 300, gear, movement,
+doors and visibility. Camera motion uploads no terrain.
+PASS: existing two-client/multiple-round test extended with a painted tile:
+metadata survives unchanged snapshots, demolition removes the tile on both peers,
+next round restores its original kind/variant.
+PASS: only affected terrain chunks plus neighbours rebuild on surface edit;
+physics collider handles stay unchanged when repainting.
+PASS: all 168 original imported asset hashes match the manifest.
+Visually inspected windows.png: steel corridor, technical workshop, grated storage,
+and stable damaged variants. Static floor sheets are not animated.
+Protocol 9. Placement from held tile items/material consumption is not implemented;
+this increment provides editor painting and authoritative server surface API.

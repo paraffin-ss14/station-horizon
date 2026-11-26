@@ -1,0 +1,75 @@
+{
+  "schema": "rust-anything/bridge@1",
+  "root": "C:\\Users\\1\\Documents\\Codex\\2026-11-23\\referenced-chatgpt-conversation-this-is-an\\outputs\\horizon\\station\\ss14-port\\ui-oracle",
+  "unit": "Rules.cs",
+  "language": "csharp",
+  "kind": "ffi",
+  "crate_name": "ss14-ui-rules",
+  "exports": [
+    {
+      "name": "ShowCategory",
+      "file": "Rules.cs",
+      "line": 5,
+      "params": [
+        {
+          "name": "count",
+          "ts_type": "int",
+          "optional": false,
+          "rest": false,
+          "native_type": "int"
+        },
+        {
+          "name": "extra",
+          "ts_type": "boolean",
+          "optional": false,
+          "rest": false,
+          "native_type": "bool"
+        }
+      ],
+      "returns": "boolean",
+      "is_async": false,
+      "is_generator": false,
+      "type_params": [],
+      "uses_instanceof": false,
+      "native_return": "bool",
+      "prototype": "StationOracle.Rules.ShowCategory(int count, bool extra)"
+    },
+    {
+      "name": "TooltipText",
+      "file": "Rules.cs",
+      "line": 7,
+      "params": [
+        {
+          "name": "hasMessage",
+          "ts_type": "boolean",
+          "optional": false,
+          "rest": false,
+          "native_type": "bool"
+        },
+        {
+          "name": "message",
+          "ts_type": "string",
+          "optional": false,
+          "rest": false,
+          "native_type": "string"
+        },
+        {
+          "name": "text",
+          "ts_type": "string",
+          "optional": false,
+          "rest": false,
+          "native_type": "string"
+        }
+      ],
+      "returns": "string",
+      "is_async": false,
+      "is_generator": false,
+      "type_params": [],
+      "uses_instanceof": false,
+      "native_return": "string",
+      "prototype": "StationOracle.Rules.TooltipText(bool hasMessage, string message, string text)"
+    }
+  ],
+  "classes": [],
+  "js_only": []
+}

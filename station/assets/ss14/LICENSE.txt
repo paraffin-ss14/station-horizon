@@ -1,0 +1,5 @@
+Imported artwork: Creative Commons Attribution-ShareAlike 3.0 Unported.
+https://creativecommons.org/licenses/by-sa/3.0/
+Legal code: https://creativecommons.org/licenses/by-sa/3.0/legalcode
+Copyright and source attribution: ATTRIBUTION.md and original meta.json files.
+The station code MIT license does not replace these artwork terms.

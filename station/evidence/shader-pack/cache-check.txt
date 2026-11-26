@@ -1,0 +1,6 @@
+Station static-camera GPU capture
+Shadows: updates=1 reused=20
+Volumetrics: updates=1 reused=20
+Volumetrics before/after RGB mean difference: [0.0, 0.0, 0.0]
+Volumetrics before/after channel extrema: [(0,0),(0,0),(0,0)]
+No FPS claim: frame-time benchmark was not run.

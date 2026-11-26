@@ -1,0 +1,8 @@
+// Copyright (c) 2019 Space Station 14 Contributors. MIT: ../ROBUST-LICENSE.txt.
+// Selected new arithmetic from commit 895cd6e03e01c883c3861b875a9e7643e55dafe6.
+// Robust.Client/Placement/PlacementMode.cs, GridCoordinates. 2023-01-19.
+// This is an excerpt, not the whole historically mixed-license file.
+var xSign = Math.Sign(placementdiff.X);
+var ySign = Math.Sign(placementdiff.Y);
+var iterationsX = Math.Ceiling(Math.Abs((placementdiff.X + GridDistancing / 2f * xSign) / GridDistancing));
+var iterationsY = Math.Ceiling(Math.Abs((placementdiff.Y + GridDistancing / 2f * ySign) / GridDistancing));

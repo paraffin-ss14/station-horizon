@@ -1,0 +1,1 @@
+Wirecutters: original SS14 wirecutters.rsi, CC BY-SA 3.0. Metadata credits vgstation at https://github.com/vgstation-coders/vgstation13/commit/1cdfb0230cc96d0ba751fa002d04f8aa2f25ad7d . Original files unmodified; source paths and hashes: manifest.json. License: https://creativecommons.org/licenses/by-sa/3.0/ .

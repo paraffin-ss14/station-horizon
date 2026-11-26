@@ -1,0 +1,66 @@
+d52cbca984 (Leon Friedrich 2023-02-14 02:21:52 +1300 1699)             internal void AdvanceFrameAnimation(RSI.State state)
+d52cbca984 (Leon Friedrich 2023-02-14 02:21:52 +1300 1700)             {
+d52cbca984 (Leon Friedrich 2023-02-14 02:21:52 +1300 1701)                 var delayCount = state.DelayCount;
+ac3cb4dc2a (OnsenCapy      2025-09-20 23:36:07 -0300 1702) 
+d52cbca984 (Leon Friedrich 2023-02-14 02:21:52 +1300 1703)                 while (AnimationTimeLeft < 0)
+d52cbca984 (Leon Friedrich 2023-02-14 02:21:52 +1300 1704)                 {
+495671576e (metalgearsloth 2023-12-28 08:51:00 +1100 1705)                     if (Reversed)
+495671576e (metalgearsloth 2023-12-28 08:51:00 +1100 1706)                     {
+495671576e (metalgearsloth 2023-12-28 08:51:00 +1100 1707)                         AnimationFrame -= 1;
+495671576e (metalgearsloth 2023-12-28 08:51:00 +1100 1708) 
+495671576e (metalgearsloth 2023-12-28 08:51:00 +1100 1709)                         if (AnimationFrame < 0)
+495671576e (metalgearsloth 2023-12-28 08:51:00 +1100 1710)                         {
+ac3cb4dc2a (OnsenCapy      2025-09-20 23:36:07 -0300 1711)                             if (!Loop || !_parent.Loop)
+ac3cb4dc2a (OnsenCapy      2025-09-20 23:36:07 -0300 1712)                             {
+ac3cb4dc2a (OnsenCapy      2025-09-20 23:36:07 -0300 1713)                                 // stop at first frame
+ac3cb4dc2a (OnsenCapy      2025-09-20 23:36:07 -0300 1714)                                 AnimationFrame = 0;
+ac3cb4dc2a (OnsenCapy      2025-09-20 23:36:07 -0300 1715)                                 AnimationTimeLeft = 0;
+ac3cb4dc2a (OnsenCapy      2025-09-20 23:36:07 -0300 1716)                                 AutoAnimated = false;
+ac3cb4dc2a (OnsenCapy      2025-09-20 23:36:07 -0300 1717)                                 return;
+ac3cb4dc2a (OnsenCapy      2025-09-20 23:36:07 -0300 1718)                             }
+ac3cb4dc2a (OnsenCapy      2025-09-20 23:36:07 -0300 1719) 
+495671576e (metalgearsloth 2023-12-28 08:51:00 +1100 1720)                             if (Cycle)
+495671576e (metalgearsloth 2023-12-28 08:51:00 +1100 1721)                             {
+495671576e (metalgearsloth 2023-12-28 08:51:00 +1100 1722)                                 AnimationFrame = 1;
+495671576e (metalgearsloth 2023-12-28 08:51:00 +1100 1723)                                 Reversed = false;
+495671576e (metalgearsloth 2023-12-28 08:51:00 +1100 1724)                             }
+495671576e (metalgearsloth 2023-12-28 08:51:00 +1100 1725)                             else
+495671576e (metalgearsloth 2023-12-28 08:51:00 +1100 1726)                             {
+495671576e (metalgearsloth 2023-12-28 08:51:00 +1100 1727)                                 AnimationFrame = delayCount - 1;
+495671576e (metalgearsloth 2023-12-28 08:51:00 +1100 1728)                             }
+7cd78f3f4e (Leon Friedrich 2023-12-27 19:13:25 -0500 1729) 
+7cd78f3f4e (Leon Friedrich 2023-12-27 19:13:25 -0500 1730)                             AnimationTime = -AnimationTimeLeft;
+495671576e (metalgearsloth 2023-12-28 08:51:00 +1100 1731)                         }
+495671576e (metalgearsloth 2023-12-28 08:51:00 +1100 1732)                     }
+495671576e (metalgearsloth 2023-12-28 08:51:00 +1100 1733)                     else
+d52cbca984 (Leon Friedrich 2023-02-14 02:21:52 +1300 1734)                     {
+495671576e (metalgearsloth 2023-12-28 08:51:00 +1100 1735)                         AnimationFrame += 1;
+495671576e (metalgearsloth 2023-12-28 08:51:00 +1100 1736) 
+495671576e (metalgearsloth 2023-12-28 08:51:00 +1100 1737)                         if (AnimationFrame >= delayCount)
+495671576e (metalgearsloth 2023-12-28 08:51:00 +1100 1738)                         {
+ac3cb4dc2a (OnsenCapy      2025-09-20 23:36:07 -0300 1739)                             if (!Loop || !_parent.Loop)
+ac3cb4dc2a (OnsenCapy      2025-09-20 23:36:07 -0300 1740)                             {
+ac3cb4dc2a (OnsenCapy      2025-09-20 23:36:07 -0300 1741)                                 // stop at last frame
+ac3cb4dc2a (OnsenCapy      2025-09-20 23:36:07 -0300 1742)                                 AnimationFrame = delayCount - 1;
+ac3cb4dc2a (OnsenCapy      2025-09-20 23:36:07 -0300 1743)                                 AnimationTimeLeft = 0;
+ac3cb4dc2a (OnsenCapy      2025-09-20 23:36:07 -0300 1744)                                 AutoAnimated = false;
+ac3cb4dc2a (OnsenCapy      2025-09-20 23:36:07 -0300 1745)                                 return;
+ac3cb4dc2a (OnsenCapy      2025-09-20 23:36:07 -0300 1746)                             }
+ac3cb4dc2a (OnsenCapy      2025-09-20 23:36:07 -0300 1747) 
+495671576e (metalgearsloth 2023-12-28 08:51:00 +1100 1748)                             if (Cycle)
+495671576e (metalgearsloth 2023-12-28 08:51:00 +1100 1749)                             {
+495671576e (metalgearsloth 2023-12-28 08:51:00 +1100 1750)                                 AnimationFrame = delayCount - 2;
+495671576e (metalgearsloth 2023-12-28 08:51:00 +1100 1751)                                 Reversed = true;
+495671576e (metalgearsloth 2023-12-28 08:51:00 +1100 1752)                             }
+495671576e (metalgearsloth 2023-12-28 08:51:00 +1100 1753)                             else
+495671576e (metalgearsloth 2023-12-28 08:51:00 +1100 1754)                             {
+495671576e (metalgearsloth 2023-12-28 08:51:00 +1100 1755)                                 AnimationFrame = 0;
+495671576e (metalgearsloth 2023-12-28 08:51:00 +1100 1756)                             }
+7cd78f3f4e (Leon Friedrich 2023-12-27 19:13:25 -0500 1757) 
+7cd78f3f4e (Leon Friedrich 2023-12-27 19:13:25 -0500 1758)                             AnimationTime = -AnimationTimeLeft;
+495671576e (metalgearsloth 2023-12-28 08:51:00 +1100 1759)                         }
+d52cbca984 (Leon Friedrich 2023-02-14 02:21:52 +1300 1760)                     }
+d52cbca984 (Leon Friedrich 2023-02-14 02:21:52 +1300 1761) 
+d52cbca984 (Leon Friedrich 2023-02-14 02:21:52 +1300 1762)                     AnimationTimeLeft += state.GetDelay(AnimationFrame);
+d52cbca984 (Leon Friedrich 2023-02-14 02:21:52 +1300 1763)                 }
+d52cbca984 (Leon Friedrich 2023-02-14 02:21:52 +1300 1764)             }

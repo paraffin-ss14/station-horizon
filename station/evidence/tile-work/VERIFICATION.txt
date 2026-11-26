@@ -1,0 +1,13 @@
+Tile gameplay, 2026-11-23
+PASS: full workspace tests: render 25 + client 9 + server 17 + simulation 50 = 101.
+PASS: locked/offline workspace build; Clippy all targets with -D warnings.
+PASS: verify-tile-work.ps1: editor painting roundtrip, two TCP clients, real UI
+clicks for crowbar pickup, tile lifting, hand switch, stack pickup and laying.
+Engineer material count returns to 10 after lift/lay; deck remains intact.
+PASS: concurrent two-client lift/lay gives/consumes exactly one tile per cell;
+surface revision invalidates the losing action and prevents stale completion.
+PASS: cancellation costs nothing, final tile despawns, unreachable/blocked/other-deck
+work rejected, changed-then-restored surfaces invalidate the original action.
+Visually inspected tile-cycle.png: stack count in right hand, crowbar in left,
+laid surface and status text. Camera movement causes zero terrain uploads.
+Protocol 10. Existing textures reused; no new art downloads.

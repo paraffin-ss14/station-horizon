@@ -1,0 +1,195 @@
+{"fn": "CanInterpolate", "args": [0, false, false, false, false]}
+{"fn": "CanInterpolate", "args": [9.99999e-07, false, false, false, false]}
+{"fn": "CanInterpolate", "args": [1e-06, false, false, false, false]}
+{"fn": "CanInterpolate", "args": [1.000001e-06, false, false, false, false]}
+{"fn": "CanInterpolate", "args": [1, false, false, false, false]}
+{"fn": "CanInterpolate", "args": [3.999999, false, false, false, false]}
+{"fn": "CanInterpolate", "args": [4, false, false, false, false]}
+{"fn": "CanInterpolate", "args": [4.000001, false, false, false, false]}
+{"fn": "CanInterpolate", "args": [-1, false, false, false, false]}
+{"fn": "CanInterpolate", "args": [0, false, false, false, true]}
+{"fn": "CanInterpolate", "args": [9.99999e-07, false, false, false, true]}
+{"fn": "CanInterpolate", "args": [1e-06, false, false, false, true]}
+{"fn": "CanInterpolate", "args": [1.000001e-06, false, false, false, true]}
+{"fn": "CanInterpolate", "args": [1, false, false, false, true]}
+{"fn": "CanInterpolate", "args": [3.999999, false, false, false, true]}
+{"fn": "CanInterpolate", "args": [4, false, false, false, true]}
+{"fn": "CanInterpolate", "args": [4.000001, false, false, false, true]}
+{"fn": "CanInterpolate", "args": [-1, false, false, false, true]}
+{"fn": "CanInterpolate", "args": [0, false, false, true, false]}
+{"fn": "CanInterpolate", "args": [9.99999e-07, false, false, true, false]}
+{"fn": "CanInterpolate", "args": [1e-06, false, false, true, false]}
+{"fn": "CanInterpolate", "args": [1.000001e-06, false, false, true, false]}
+{"fn": "CanInterpolate", "args": [1, false, false, true, false]}
+{"fn": "CanInterpolate", "args": [3.999999, false, false, true, false]}
+{"fn": "CanInterpolate", "args": [4, false, false, true, false]}
+{"fn": "CanInterpolate", "args": [4.000001, false, false, true, false]}
+{"fn": "CanInterpolate", "args": [-1, false, false, true, false]}
+{"fn": "CanInterpolate", "args": [0, false, false, true, true]}
+{"fn": "CanInterpolate", "args": [9.99999e-07, false, false, true, true]}
+{"fn": "CanInterpolate", "args": [1e-06, false, false, true, true]}
+{"fn": "CanInterpolate", "args": [1.000001e-06, false, false, true, true]}
+{"fn": "CanInterpolate", "args": [1, false, false, true, true]}
+{"fn": "CanInterpolate", "args": [3.999999, false, false, true, true]}
+{"fn": "CanInterpolate", "args": [4, false, false, true, true]}
+{"fn": "CanInterpolate", "args": [4.000001, false, false, true, true]}
+{"fn": "CanInterpolate", "args": [-1, false, false, true, true]}
+{"fn": "CanInterpolate", "args": [0, false, true, false, false]}
+{"fn": "CanInterpolate", "args": [9.99999e-07, false, true, false, false]}
+{"fn": "CanInterpolate", "args": [1e-06, false, true, false, false]}
+{"fn": "CanInterpolate", "args": [1.000001e-06, false, true, false, false]}
+{"fn": "CanInterpolate", "args": [1, false, true, false, false]}
+{"fn": "CanInterpolate", "args": [3.999999, false, true, false, false]}
+{"fn": "CanInterpolate", "args": [4, false, true, false, false]}
+{"fn": "CanInterpolate", "args": [4.000001, false, true, false, false]}
+{"fn": "CanInterpolate", "args": [-1, false, true, false, false]}
+{"fn": "CanInterpolate", "args": [0, false, true, false, true]}
+{"fn": "CanInterpolate", "args": [9.99999e-07, false, true, false, true]}
+{"fn": "CanInterpolate", "args": [1e-06, false, true, false, true]}
+{"fn": "CanInterpolate", "args": [1.000001e-06, false, true, false, true]}
+{"fn": "CanInterpolate", "args": [1, false, true, false, true]}
+{"fn": "CanInterpolate", "args": [3.999999, false, true, false, true]}
+{"fn": "CanInterpolate", "args": [4, false, true, false, true]}
+{"fn": "CanInterpolate", "args": [4.000001, false, true, false, true]}
+{"fn": "CanInterpolate", "args": [-1, false, true, false, true]}
+{"fn": "CanInterpolate", "args": [0, false, true, true, false]}
+{"fn": "CanInterpolate", "args": [9.99999e-07, false, true, true, false]}
+{"fn": "CanInterpolate", "args": [1e-06, false, true, true, false]}
+{"fn": "CanInterpolate", "args": [1.000001e-06, false, true, true, false]}
+{"fn": "CanInterpolate", "args": [1, false, true, true, false]}
+{"fn": "CanInterpolate", "args": [3.999999, false, true, true, false]}
+{"fn": "CanInterpolate", "args": [4, false, true, true, false]}
+{"fn": "CanInterpolate", "args": [4.000001, false, true, true, false]}
+{"fn": "CanInterpolate", "args": [-1, false, true, true, false]}
+{"fn": "CanInterpolate", "args": [0, false, true, true, true]}
+{"fn": "CanInterpolate", "args": [9.99999e-07, false, true, true, true]}
+{"fn": "CanInterpolate", "args": [1e-06, false, true, true, true]}
+{"fn": "CanInterpolate", "args": [1.000001e-06, false, true, true, true]}
+{"fn": "CanInterpolate", "args": [1, false, true, true, true]}
+{"fn": "CanInterpolate", "args": [3.999999, false, true, true, true]}
+{"fn": "CanInterpolate", "args": [4, false, true, true, true]}
+{"fn": "CanInterpolate", "args": [4.000001, false, true, true, true]}
+{"fn": "CanInterpolate", "args": [-1, false, true, true, true]}
+{"fn": "CanInterpolate", "args": [0, true, false, false, false]}
+{"fn": "CanInterpolate", "args": [9.99999e-07, true, false, false, false]}
+{"fn": "CanInterpolate", "args": [1e-06, true, false, false, false]}
+{"fn": "CanInterpolate", "args": [1.000001e-06, true, false, false, false]}
+{"fn": "CanInterpolate", "args": [1, true, false, false, false]}
+{"fn": "CanInterpolate", "args": [3.999999, true, false, false, false]}
+{"fn": "CanInterpolate", "args": [4, true, false, false, false]}
+{"fn": "CanInterpolate", "args": [4.000001, true, false, false, false]}
+{"fn": "CanInterpolate", "args": [-1, true, false, false, false]}
+{"fn": "CanInterpolate", "args": [0, true, false, false, true]}
+{"fn": "CanInterpolate", "args": [9.99999e-07, true, false, false, true]}
+{"fn": "CanInterpolate", "args": [1e-06, true, false, false, true]}
+{"fn": "CanInterpolate", "args": [1.000001e-06, true, false, false, true]}
+{"fn": "CanInterpolate", "args": [1, true, false, false, true]}
+{"fn": "CanInterpolate", "args": [3.999999, true, false, false, true]}
+{"fn": "CanInterpolate", "args": [4, true, false, false, true]}
+{"fn": "CanInterpolate", "args": [4.000001, true, false, false, true]}
+{"fn": "CanInterpolate", "args": [-1, true, false, false, true]}
+{"fn": "CanInterpolate", "args": [0, true, false, true, false]}
+{"fn": "CanInterpolate", "args": [9.99999e-07, true, false, true, false]}
+{"fn": "CanInterpolate", "args": [1e-06, true, false, true, false]}
+{"fn": "CanInterpolate", "args": [1.000001e-06, true, false, true, false]}
+{"fn": "CanInterpolate", "args": [1, true, false, true, false]}
+{"fn": "CanInterpolate", "args": [3.999999, true, false, true, false]}
+{"fn": "CanInterpolate", "args": [4, true, false, true, false]}
+{"fn": "CanInterpolate", "args": [4.000001, true, false, true, false]}
+{"fn": "CanInterpolate", "args": [-1, true, false, true, false]}
+{"fn": "CanInterpolate", "args": [0, true, false, true, true]}
+{"fn": "CanInterpolate", "args": [9.99999e-07, true, false, true, true]}
+{"fn": "CanInterpolate", "args": [1e-06, true, false, true, true]}
+{"fn": "CanInterpolate", "args": [1.000001e-06, true, false, true, true]}
+{"fn": "CanInterpolate", "args": [1, true, false, true, true]}
+{"fn": "CanInterpolate", "args": [3.999999, true, false, true, true]}
+{"fn": "CanInterpolate", "args": [4, true, false, true, true]}
+{"fn": "CanInterpolate", "args": [4.000001, true, false, true, true]}
+{"fn": "CanInterpolate", "args": [-1, true, false, true, true]}
+{"fn": "CanInterpolate", "args": [0, true, true, false, false]}
+{"fn": "CanInterpolate", "args": [9.99999e-07, true, true, false, false]}
+{"fn": "CanInterpolate", "args": [1e-06, true, true, false, false]}
+{"fn": "CanInterpolate", "args": [1.000001e-06, true, true, false, false]}
+{"fn": "CanInterpolate", "args": [1, true, true, false, false]}
+{"fn": "CanInterpolate", "args": [3.999999, true, true, false, false]}
+{"fn": "CanInterpolate", "args": [4, true, true, false, false]}
+{"fn": "CanInterpolate", "args": [4.000001, true, true, false, false]}
+{"fn": "CanInterpolate", "args": [-1, true, true, false, false]}
+{"fn": "CanInterpolate", "args": [0, true, true, false, true]}
+{"fn": "CanInterpolate", "args": [9.99999e-07, true, true, false, true]}
+{"fn": "CanInterpolate", "args": [1e-06, true, true, false, true]}
+{"fn": "CanInterpolate", "args": [1.000001e-06, true, true, false, true]}
+{"fn": "CanInterpolate", "args": [1, true, true, false, true]}
+{"fn": "CanInterpolate", "args": [3.999999, true, true, false, true]}
+{"fn": "CanInterpolate", "args": [4, true, true, false, true]}
+{"fn": "CanInterpolate", "args": [4.000001, true, true, false, true]}
+{"fn": "CanInterpolate", "args": [-1, true, true, false, true]}
+{"fn": "CanInterpolate", "args": [0, true, true, true, false]}
+{"fn": "CanInterpolate", "args": [9.99999e-07, true, true, true, false]}
+{"fn": "CanInterpolate", "args": [1e-06, true, true, true, false]}
+{"fn": "CanInterpolate", "args": [1.000001e-06, true, true, true, false]}
+{"fn": "CanInterpolate", "args": [1, true, true, true, false]}
+{"fn": "CanInterpolate", "args": [3.999999, true, true, true, false]}
+{"fn": "CanInterpolate", "args": [4, true, true, true, false]}
+{"fn": "CanInterpolate", "args": [4.000001, true, true, true, false]}
+{"fn": "CanInterpolate", "args": [-1, true, true, true, false]}
+{"fn": "CanInterpolate", "args": [0, true, true, true, true]}
+{"fn": "CanInterpolate", "args": [9.99999e-07, true, true, true, true]}
+{"fn": "CanInterpolate", "args": [1e-06, true, true, true, true]}
+{"fn": "CanInterpolate", "args": [1.000001e-06, true, true, true, true]}
+{"fn": "CanInterpolate", "args": [1, true, true, true, true]}
+{"fn": "CanInterpolate", "args": [3.999999, true, true, true, true]}
+{"fn": "CanInterpolate", "args": [4, true, true, true, true]}
+{"fn": "CanInterpolate", "args": [4.000001, true, true, true, true]}
+{"fn": "CanInterpolate", "args": [-1, true, true, true, true]}
+{"fn": "DiscardInput", "args": [0, 0]}
+{"fn": "DiscardInput", "args": [0, 1]}
+{"fn": "DiscardInput", "args": [0, 2]}
+{"fn": "DiscardInput", "args": [0, 4294967295]}
+{"fn": "DiscardInput", "args": [0, 4294967296]}
+{"fn": "DiscardInput", "args": [0, -1]}
+{"fn": "DiscardInput", "args": [1, 0]}
+{"fn": "DiscardInput", "args": [1, 1]}
+{"fn": "DiscardInput", "args": [1, 2]}
+{"fn": "DiscardInput", "args": [1, 4294967295]}
+{"fn": "DiscardInput", "args": [1, 4294967296]}
+{"fn": "DiscardInput", "args": [1, -1]}
+{"fn": "DiscardInput", "args": [2, 0]}
+{"fn": "DiscardInput", "args": [2, 1]}
+{"fn": "DiscardInput", "args": [2, 2]}
+{"fn": "DiscardInput", "args": [2, 4294967295]}
+{"fn": "DiscardInput", "args": [2, 4294967296]}
+{"fn": "DiscardInput", "args": [2, -1]}
+{"fn": "DiscardInput", "args": [4294967295, 0]}
+{"fn": "DiscardInput", "args": [4294967295, 1]}
+{"fn": "DiscardInput", "args": [4294967295, 2]}
+{"fn": "DiscardInput", "args": [4294967295, 4294967295]}
+{"fn": "DiscardInput", "args": [4294967295, 4294967296]}
+{"fn": "DiscardInput", "args": [4294967295, -1]}
+{"fn": "DiscardInput", "args": [4294967296, 0]}
+{"fn": "DiscardInput", "args": [4294967296, 1]}
+{"fn": "DiscardInput", "args": [4294967296, 2]}
+{"fn": "DiscardInput", "args": [4294967296, 4294967295]}
+{"fn": "DiscardInput", "args": [4294967296, 4294967296]}
+{"fn": "DiscardInput", "args": [4294967296, -1]}
+{"fn": "DiscardInput", "args": [-1, 0]}
+{"fn": "DiscardInput", "args": [-1, 1]}
+{"fn": "DiscardInput", "args": [-1, 2]}
+{"fn": "DiscardInput", "args": [-1, 4294967295]}
+{"fn": "DiscardInput", "args": [-1, 4294967296]}
+{"fn": "DiscardInput", "args": [-1, -1]}
+{"fn": "LagTicks", "args": [60, 0, 0.5]}
+{"fn": "LagTicks", "args": [60, 0, 1]}
+{"fn": "LagTicks", "args": [60, 0, 2]}
+{"fn": "LagTicks", "args": [60, 0.016, 0.5]}
+{"fn": "LagTicks", "args": [60, 0.016, 1]}
+{"fn": "LagTicks", "args": [60, 0.016, 2]}
+{"fn": "LagTicks", "args": [60, 0.1, 0.5]}
+{"fn": "LagTicks", "args": [60, 0.1, 1]}
+{"fn": "LagTicks", "args": [60, 0.1, 2]}
+{"fn": "LagTicks", "args": [60, 0.2, 0.5]}
+{"fn": "LagTicks", "args": [60, 0.2, 1]}
+{"fn": "LagTicks", "args": [60, 0.2, 2]}
+{"fn": "LagTicks", "args": [60, 0.5, 0.5]}
+{"fn": "LagTicks", "args": [60, 0.5, 1]}
+{"fn": "LagTicks", "args": [60, 0.5, 2]}

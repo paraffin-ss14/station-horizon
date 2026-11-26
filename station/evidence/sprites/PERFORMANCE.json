@@ -1,0 +1,20 @@
+{
+  "before": {
+    "samples": 7,
+    "min_ms": 181.78,
+    "median_ms": 203.52,
+    "max_ms": 299.49,
+    "scope": "CPU field calculation"
+  },
+  "after": {
+    "samples": 7,
+    "min_ms": 0.48,
+    "median_ms": 0.6,
+    "max_ms": 1.19,
+    "scope": "CPU preparation and GPU command submission; excludes GPU execution"
+  },
+  "render_after": {
+    "engineer": "render CPU/wait frames=1453 median=4.45ms p95=5.22ms max=39.61ms (captures excluded)",
+    "doctor": "render CPU/wait frames=1665 median=4.50ms p95=5.33ms max=21.13ms (captures excluded)"
+  }
+}

@@ -1,0 +1,13 @@
+[package]
+name = "station-client"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+[dependencies]
+station-sim = { path = "../sim" }
+station-server = { path = "../server" }
+horizon-station-render = { path = "../render" }
+winit = "0.30.13"
+
+egui = "0.37.0"
+egui-winit = "0.37.0"

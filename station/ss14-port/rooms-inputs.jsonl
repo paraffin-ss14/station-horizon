@@ -1,0 +1,8 @@
+{"fn": "EdgeOpen", "args": [false, false]}
+{"fn": "EdgeOpen", "args": [false, true]}
+{"fn": "EdgeOpen", "args": [true, false]}
+{"fn": "EdgeOpen", "args": [true, true]}
+{"fn": "DefaultSpace", "args": [false, false]}
+{"fn": "DefaultSpace", "args": [false, true]}
+{"fn": "DefaultSpace", "args": [true, false]}
+{"fn": "DefaultSpace", "args": [true, true]}

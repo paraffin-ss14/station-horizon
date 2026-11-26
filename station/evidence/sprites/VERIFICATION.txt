@@ -1,0 +1,39 @@
+2026-11-23 — station-prototype, SS14 RSI integration
+
+cargo test --manifest-path station/Cargo.toml --workspace --locked --offline
+PASS: render 13, client 6, server 15, sim 41; total 75.
+
+cargo clippy --manifest-path station/Cargo.toml --workspace --all-targets --locked --offline -- -D warnings
+PASS: no warnings.
+
+cargo build --manifest-path station/Cargo.toml --workspace --locked --offline
+PASS.
+
+station/verify-sprites.ps1 -ScratchRoot <fresh scratch root>
+PASS: editor save/load, independent TCP engineer/doctor clients, actual UI
+clicks to take gear from pockets, replicated uniforms and in-hand layers,
+closed/open-door visibility, two directional poses, zero terrain reuploads
+on camera movement. See editor/engineer/doctor logs and PNGs in this folder.
+Images visually inspected: engineer-open.png and doctor-open.png.
+
+rust-anything sprite gate: PASS, 358/358 C# cases match, including float bits.
+Report: ../../ss14-port/SPRITE-GATE.json.
+
+Asset manifest SHA-256 verification: PASS, 163/163 original PNG/meta files.
+Imported art remains CC BY-SA 3.0; see ../../assets/ss14/ATTRIBUTION.md.
+
+Scope: station workspace and isolated sprite port. Full original Horizon
+game/launcher workspace was not rebuilt by this verification.
+
+Updated: wall textures, 4x4 inventory with original empty-slot icons, 256x256
+filtered lighting with bilinear shader sampling. Editor and both TCP clients
+passed again; screenshots updated. Added ambient/occlusion filter regression.
+
+Latest: connected wall corner layers; GPU compute light field 512x512 with cubic
+reconstruction. Full 75 tests, Clippy and two-client GUI smoke passed. GPU parity
+compares 2883 samples with CPU ray traversal/attenuation. Performance evidence:
+light-before.log, light-after.log, PERFORMANCE.json. CPU frame timings include
+render submission/wait, exclude PNG captures, and are not GPU timestamp queries.
+
+Sprite-system update: 85 tests, v7, keyed runtime, composition, hot reload.
+Latest verification details: ../sprite-runtime/VERIFICATION.txt.

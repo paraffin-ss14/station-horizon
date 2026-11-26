@@ -1,0 +1,6 @@
+visibility: other crew hidden behind closed doors
+RSI sprites: replicated uniforms and hand layers; 167 states in GPU atlas
+network render: 2 peers, RTT 19.8 ms
+visibility: other crew visible through opened doors; lamps=7
+locomotion: distance-driven walk exercised with equipped layers
+wgpu smoke passed: Snapshot { tick: 300, position: [4.337592, 2.5, 1.2987231], velocity: [0.0, 0.0, 0.0] }; terrain uploads during camera motion = 0

@@ -1,0 +1,5 @@
+
+Algorithm : SHA256
+Hash      : DA0929B38F5FD99BEFAAA8CD141CBF60E1FAD05B92D916D0EEEEE7C79F86C0FD
+Path      : C:\Users\1\Downloads\photon_v1.4.zip
+

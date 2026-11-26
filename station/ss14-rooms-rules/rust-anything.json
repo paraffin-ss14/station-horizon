@@ -1,0 +1,68 @@
+{
+  "schema": "rust-anything/bridge@1",
+  "root": "C:\\Users\\1\\Documents\\Codex\\2026-11-23\\referenced-chatgpt-conversation-this-is-an\\outputs\\horizon\\station\\ss14-port\\rooms-oracle",
+  "unit": "Rules.cs",
+  "language": "csharp",
+  "kind": "ffi",
+  "crate_name": "ss14-rooms-rules",
+  "exports": [
+    {
+      "name": "EdgeOpen",
+      "file": "Rules.cs",
+      "line": 5,
+      "params": [
+        {
+          "name": "ownBlocked",
+          "ts_type": "boolean",
+          "optional": false,
+          "rest": false,
+          "native_type": "bool"
+        },
+        {
+          "name": "adjacentBlocked",
+          "ts_type": "boolean",
+          "optional": false,
+          "rest": false,
+          "native_type": "bool"
+        }
+      ],
+      "returns": "boolean",
+      "is_async": false,
+      "is_generator": false,
+      "type_params": [],
+      "uses_instanceof": false,
+      "native_return": "bool",
+      "prototype": "StationOracle.Rules.EdgeOpen(bool ownBlocked, bool adjacentBlocked)"
+    },
+    {
+      "name": "DefaultSpace",
+      "file": "Rules.cs",
+      "line": 10,
+      "params": [
+        {
+          "name": "hasMap",
+          "ts_type": "boolean",
+          "optional": false,
+          "rest": false,
+          "native_type": "bool"
+        },
+        {
+          "name": "mapSpace",
+          "ts_type": "boolean",
+          "optional": false,
+          "rest": false,
+          "native_type": "bool"
+        }
+      ],
+      "returns": "boolean",
+      "is_async": false,
+      "is_generator": false,
+      "type_params": [],
+      "uses_instanceof": false,
+      "native_return": "bool",
+      "prototype": "StationOracle.Rules.DefaultSpace(bool hasMap, bool mapSpace)"
+    }
+  ],
+  "classes": [],
+  "js_only": []
+}

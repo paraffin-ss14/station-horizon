@@ -1,0 +1,15 @@
+[workspace]
+members = ["sim", "client", "server", "render"]
+resolver = "2"
+
+[workspace.package]
+version = "0.1.0"
+edition = "2024"
+license = "MIT"
+
+[workspace.dependencies]
+station-sim = { path = "sim" }
+rapier3d = "=0.22.0"
+
+[patch.crates-io]
+naga = { path = "../third_party/naga" }

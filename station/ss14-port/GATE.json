@@ -1,0 +1,65 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "fmt",
+      "passed": true,
+      "detail": "formatted"
+    },
+    {
+      "name": "clippy",
+      "passed": true,
+      "detail": "no warnings"
+    },
+    {
+      "name": "cargo test",
+      "passed": true,
+      "detail": "passed"
+    },
+    {
+      "name": "unsafe",
+      "passed": true,
+      "detail": "6 unsafe uses, each with a `// SAFETY:` comment"
+    },
+    {
+      "name": "lockfile",
+      "passed": true,
+      "detail": "Cargo.lock matches Cargo.toml"
+    },
+    {
+      "name": "ported",
+      "passed": true,
+      "detail": "nothing in port.rs is `unimplemented!`, `todo!` or only a `panic!`"
+    },
+    {
+      "name": "size",
+      "passed": true,
+      "detail": "71 lines of Rust for 24 lines of C# (3.0x)"
+    },
+    {
+      "name": "error cases",
+      "passed": true,
+      "detail": "the original fails on purpose nowhere"
+    },
+    {
+      "name": "panics",
+      "passed": true,
+      "detail": "no unwrap, expect or panic where the original returns an error"
+    },
+    {
+      "name": "build",
+      "passed": true,
+      "detail": "built C:\\Users\\1\\Documents\\Codex\\2026-11-23\\referenced-chatgpt-conversation-this-is-an\\outputs\\horizon\\station\\ss14-rules\\cs\\ss14_rules.dll"
+    },
+    {
+      "name": "api",
+      "passed": true,
+      "detail": "exports CanFit, SlotAction, Priority, NextHand"
+    },
+    {
+      "name": "behavior",
+      "passed": true,
+      "detail": "523/523 recorded cases match"
+    }
+  ]
+}

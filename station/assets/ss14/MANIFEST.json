@@ -1,0 +1,966 @@
+{
+  "repository": "https://github.com/space-wizards/space-station-14",
+  "revision": "f5b48b6547a1f9bfd1f1613d879d68064e22f57f",
+  "files": [
+    {
+      "path": "human.rsi/eyelid-left.png",
+      "source": "Resources/Textures/Mobs/Species/Human/parts.rsi/eyelid-left.png",
+      "sha256": "cbe9c5ee3a46d497d5792d234fdc6ba279f537e1d1641a3126db53eefc880b9b"
+    },
+    {
+      "path": "human.rsi/eyelid-right.png",
+      "source": "Resources/Textures/Mobs/Species/Human/parts.rsi/eyelid-right.png",
+      "sha256": "1af91ae6cf6bf4e3dd7a9df1af37783c8e8526ae0535ff08e26cb63f46b30dab"
+    },
+    {
+      "path": "human.rsi/full.png",
+      "source": "Resources/Textures/Mobs/Species/Human/parts.rsi/full.png",
+      "sha256": "8608a66c5e57408ced24ca7c7e7c018fd887b4b6908e0e45096d1297784b137c"
+    },
+    {
+      "path": "human.rsi/head_f.png",
+      "source": "Resources/Textures/Mobs/Species/Human/parts.rsi/head_f.png",
+      "sha256": "5d97d21e994a918d6666cc5d839bac2ce156746b11c0edafd37816be1de02e1b"
+    },
+    {
+      "path": "human.rsi/head_m.png",
+      "source": "Resources/Textures/Mobs/Species/Human/parts.rsi/head_m.png",
+      "sha256": "6602f37ca07c49892951631ebfba0e9110042d94070e172ba8d31ac62272c5b1"
+    },
+    {
+      "path": "human.rsi/l_arm.png",
+      "source": "Resources/Textures/Mobs/Species/Human/parts.rsi/l_arm.png",
+      "sha256": "1e0007c0a7978d8d966f1f24a24a9490f7a4e3d1db07fe59a866ed6385361d9a"
+    },
+    {
+      "path": "human.rsi/l_foot.png",
+      "source": "Resources/Textures/Mobs/Species/Human/parts.rsi/l_foot.png",
+      "sha256": "830d514a18b800fa4d37532cc5b531cdb5b834c230375cbb9971fd03476ba71b"
+    },
+    {
+      "path": "human.rsi/l_hand.png",
+      "source": "Resources/Textures/Mobs/Species/Human/parts.rsi/l_hand.png",
+      "sha256": "23e25d1378cd5d486f9ff22a392ed1de52d79db9f6c1a377ee70fe7fec1a2486"
+    },
+    {
+      "path": "human.rsi/l_leg.png",
+      "source": "Resources/Textures/Mobs/Species/Human/parts.rsi/l_leg.png",
+      "sha256": "f776ed024ed057a92275bc859b3aa1229a943631b5faf2a3ca9c2ed908ae90ae"
+    },
+    {
+      "path": "human.rsi/meta.json",
+      "source": "Resources/Textures/Mobs/Species/Human/parts.rsi/meta.json",
+      "sha256": "eceee3d245635914dd6b0056d591f010518c86719fe981349ce97a733355803c"
+    },
+    {
+      "path": "human.rsi/r_arm.png",
+      "source": "Resources/Textures/Mobs/Species/Human/parts.rsi/r_arm.png",
+      "sha256": "eda0e05f9f2b44ff0e6cd8035cc76910553f0d798305e0d505789dd91f3d3b19"
+    },
+    {
+      "path": "human.rsi/r_foot.png",
+      "source": "Resources/Textures/Mobs/Species/Human/parts.rsi/r_foot.png",
+      "sha256": "9c4a850ba8340711af2a94f70c75a7d371b9a1c6fb78019f81b6346e9b51e5dc"
+    },
+    {
+      "path": "human.rsi/r_hand.png",
+      "source": "Resources/Textures/Mobs/Species/Human/parts.rsi/r_hand.png",
+      "sha256": "1015a6def68fa6fbc9867140b760c93f1cce49eb44d481dbe01df664da9001f5"
+    },
+    {
+      "path": "human.rsi/r_leg.png",
+      "source": "Resources/Textures/Mobs/Species/Human/parts.rsi/r_leg.png",
+      "sha256": "62a59859ffaec108d4b94df433b962959124d0975645faaae886043af6e376d9"
+    },
+    {
+      "path": "human.rsi/torso_f.png",
+      "source": "Resources/Textures/Mobs/Species/Human/parts.rsi/torso_f.png",
+      "sha256": "62e6524ba4262710b7232016bbaf19787fb0935b0d438e09ebbae243cc8d0255"
+    },
+    {
+      "path": "human.rsi/torso_m.png",
+      "source": "Resources/Textures/Mobs/Species/Human/parts.rsi/torso_m.png",
+      "sha256": "a1efdde1c3d3383128ee1efccd04d0ba837d63885b6d386e3b6aec8936055013"
+    },
+    {
+      "path": "engineer.rsi/equipped-INNERCLOTHING-monkey.png",
+      "source": "Resources/Textures/Clothing/Uniforms/Jumpsuits/Engineering/engineering.rsi/equipped-INNERCLOTHING-monkey.png",
+      "sha256": "2481cc195f96d4e4443ce09ae57f583c43ae9db230b654da6a31c41253a43036"
+    },
+    {
+      "path": "engineer.rsi/equipped-INNERCLOTHING.png",
+      "source": "Resources/Textures/Clothing/Uniforms/Jumpsuits/Engineering/engineering.rsi/equipped-INNERCLOTHING.png",
+      "sha256": "8322c1992cf8aa907365477349f83651528a499c1e09708103dd32eaea826f11"
+    },
+    {
+      "path": "engineer.rsi/folded-equipped-INNERCLOTHING.png",
+      "source": "Resources/Textures/Clothing/Uniforms/Jumpsuits/Engineering/engineering.rsi/folded-equipped-INNERCLOTHING.png",
+      "sha256": "66907ad31b88758e92c84f5554e6024883482b92bf33c46d9bd3478dc6ec43aa"
+    },
+    {
+      "path": "engineer.rsi/icon.png",
+      "source": "Resources/Textures/Clothing/Uniforms/Jumpsuits/Engineering/engineering.rsi/icon.png",
+      "sha256": "361b9c3d13f40e81243283fc9500bea1fca313da9edcb9a89a7cd31adcbb6635"
+    },
+    {
+      "path": "engineer.rsi/inhand-left.png",
+      "source": "Resources/Textures/Clothing/Uniforms/Jumpsuits/Engineering/engineering.rsi/inhand-left.png",
+      "sha256": "5f402e715a5140d1ac6b51a603750d4dd8312a04ab7e6c366f420ce417273053"
+    },
+    {
+      "path": "engineer.rsi/inhand-right.png",
+      "source": "Resources/Textures/Clothing/Uniforms/Jumpsuits/Engineering/engineering.rsi/inhand-right.png",
+      "sha256": "6ce53ab81845ab268b8f58ee7cf65fc879beba09d91a274839d3702749f16c21"
+    },
+    {
+      "path": "engineer.rsi/meta.json",
+      "source": "Resources/Textures/Clothing/Uniforms/Jumpsuits/Engineering/engineering.rsi/meta.json",
+      "sha256": "8904cf711afc9b5c809da61a09837c0c1dcdeae62aa27cc9aa5d6241238bce2d"
+    },
+    {
+      "path": "doctor.rsi/equipped-INNERCLOTHING-monkey.png",
+      "source": "Resources/Textures/Clothing/Uniforms/Jumpsuits/Medical/medical.rsi/equipped-INNERCLOTHING-monkey.png",
+      "sha256": "4d610ff61f51fc9328d42eff65617120c425a50ed87dd14e8d74ad78aebf9847"
+    },
+    {
+      "path": "doctor.rsi/equipped-INNERCLOTHING.png",
+      "source": "Resources/Textures/Clothing/Uniforms/Jumpsuits/Medical/medical.rsi/equipped-INNERCLOTHING.png",
+      "sha256": "2d10903660c0221a8dcb6f5a62746c547db1241174b09364fa377106461ce002"
+    },
+    {
+      "path": "doctor.rsi/folded-equipped-INNERCLOTHING.png",
+      "source": "Resources/Textures/Clothing/Uniforms/Jumpsuits/Medical/medical.rsi/folded-equipped-INNERCLOTHING.png",
+      "sha256": "7ad3b192897bcb368950b0c62b28a855799769ca907f45171957c528def1c35b"
+    },
+    {
+      "path": "doctor.rsi/icon.png",
+      "source": "Resources/Textures/Clothing/Uniforms/Jumpsuits/Medical/medical.rsi/icon.png",
+      "sha256": "0a8d54d70fa6e559a300652cbf728b2c1bee0f8b0c47bb3f37eb21bec8526033"
+    },
+    {
+      "path": "doctor.rsi/inhand-left.png",
+      "source": "Resources/Textures/Clothing/Uniforms/Jumpsuits/Medical/medical.rsi/inhand-left.png",
+      "sha256": "ab192d776a751c0d9b0589c654e9749dc9ff990ae7d0a15c0178acfb5da2abd5"
+    },
+    {
+      "path": "doctor.rsi/inhand-right.png",
+      "source": "Resources/Textures/Clothing/Uniforms/Jumpsuits/Medical/medical.rsi/inhand-right.png",
+      "sha256": "1195f62fad68769da8c3f60cdaec4d8b19990fb09f226f180945df35aaf85782"
+    },
+    {
+      "path": "doctor.rsi/meta.json",
+      "source": "Resources/Textures/Clothing/Uniforms/Jumpsuits/Medical/medical.rsi/meta.json",
+      "sha256": "c304f2f45a0c2f9f0b971620cc204ae91d9620e6650ef77e80b039e68a208cad"
+    },
+    {
+      "path": "assistant.rsi/equipped-INNERCLOTHING-monkey.png",
+      "source": "Resources/Textures/Clothing/Uniforms/Jumpsuits/Color/color.rsi/equipped-INNERCLOTHING-monkey.png",
+      "sha256": "d0f21a892333ad5cb8adca26b1afab2d49ab8c56a09f12bcbc220842bd2b76d7"
+    },
+    {
+      "path": "assistant.rsi/equipped-INNERCLOTHING.png",
+      "source": "Resources/Textures/Clothing/Uniforms/Jumpsuits/Color/color.rsi/equipped-INNERCLOTHING.png",
+      "sha256": "5929f998e64766e1a3a1ace1bf4808c147efb320dedd1364d4fd4bd325ba1837"
+    },
+    {
+      "path": "assistant.rsi/icon.png",
+      "source": "Resources/Textures/Clothing/Uniforms/Jumpsuits/Color/color.rsi/icon.png",
+      "sha256": "86d670933f9b34293d4998d10959a0e61bbb231e7ecf59b40e2b92720e0fb82c"
+    },
+    {
+      "path": "assistant.rsi/inhand-left.png",
+      "source": "Resources/Textures/Clothing/Uniforms/Jumpsuits/Color/color.rsi/inhand-left.png",
+      "sha256": "cad7d52f4dcebf9b46709d207745218a8d40e3e1755924764ebb534325a6a7d9"
+    },
+    {
+      "path": "assistant.rsi/inhand-right.png",
+      "source": "Resources/Textures/Clothing/Uniforms/Jumpsuits/Color/color.rsi/inhand-right.png",
+      "sha256": "077c8ab92f6c7b55d0d6d95c03685b004c11537371afd21aed8740d642d43d07"
+    },
+    {
+      "path": "assistant.rsi/meta.json",
+      "source": "Resources/Textures/Clothing/Uniforms/Jumpsuits/Color/color.rsi/meta.json",
+      "sha256": "1e4cd96aad3e63b0350f0967490104f46e1c3f4040c1d3afc15423baf0c43f0f"
+    },
+    {
+      "path": "assistant.rsi/prisoner-equipped-INNERCLOTHING-monkey.png",
+      "source": "Resources/Textures/Clothing/Uniforms/Jumpsuits/Color/color.rsi/prisoner-equipped-INNERCLOTHING-monkey.png",
+      "sha256": "41a9df262c50fc4cdcc002006526fcd6f0573f6e0d28179397464580417ad4c4"
+    },
+    {
+      "path": "assistant.rsi/prisoner-equipped-INNERCLOTHING.png",
+      "source": "Resources/Textures/Clothing/Uniforms/Jumpsuits/Color/color.rsi/prisoner-equipped-INNERCLOTHING.png",
+      "sha256": "6b29d84b1fe1dc4dbfc0d152b62e34ac25a75acc4115f4115aa4a07fc2057beb"
+    },
+    {
+      "path": "assistant.rsi/prisoner-icon.png",
+      "source": "Resources/Textures/Clothing/Uniforms/Jumpsuits/Color/color.rsi/prisoner-icon.png",
+      "sha256": "5978f512d457379fb47eb1e490cf24bebeb78021eb65ae8fd659e580da9ea2f6"
+    },
+    {
+      "path": "assistant.rsi/prisoner-inhand-left.png",
+      "source": "Resources/Textures/Clothing/Uniforms/Jumpsuits/Color/color.rsi/prisoner-inhand-left.png",
+      "sha256": "f1414a2d3fa0029b6e90137bb4d9dd33925954e9ae034709be1d5492e6e6b73d"
+    },
+    {
+      "path": "assistant.rsi/prisoner-inhand-right.png",
+      "source": "Resources/Textures/Clothing/Uniforms/Jumpsuits/Color/color.rsi/prisoner-inhand-right.png",
+      "sha256": "cdabf55624417e6525666cc792b7d120f98b7d98ff72317275162b9bebdd2945"
+    },
+    {
+      "path": "assistant.rsi/trinkets-equipped-INNERCLOTHING-monkey.png",
+      "source": "Resources/Textures/Clothing/Uniforms/Jumpsuits/Color/color.rsi/trinkets-equipped-INNERCLOTHING-monkey.png",
+      "sha256": "a8a4b2c7e21abd4cf41f5b0e4524c8335363ea9d8822d7a956be5b4fff842807"
+    },
+    {
+      "path": "assistant.rsi/trinkets-equipped-INNERCLOTHING.png",
+      "source": "Resources/Textures/Clothing/Uniforms/Jumpsuits/Color/color.rsi/trinkets-equipped-INNERCLOTHING.png",
+      "sha256": "f90743a4d354fbeb2f95534fda1548b39e4f8ea796452ebe61f9474e75c16398"
+    },
+    {
+      "path": "assistant.rsi/trinkets-icon.png",
+      "source": "Resources/Textures/Clothing/Uniforms/Jumpsuits/Color/color.rsi/trinkets-icon.png",
+      "sha256": "6857e3bf4ab7225dd0651cbef778197e6da2014a9419682fbedb5b452a363ce6"
+    },
+    {
+      "path": "assistant.rsi/trinkets-inhand-left.png",
+      "source": "Resources/Textures/Clothing/Uniforms/Jumpsuits/Color/color.rsi/trinkets-inhand-left.png",
+      "sha256": "24573ce2adcb8b11e53256409c502fa12365d59550114e846ae16f45e2855b98"
+    },
+    {
+      "path": "assistant.rsi/trinkets-inhand-right.png",
+      "source": "Resources/Textures/Clothing/Uniforms/Jumpsuits/Color/color.rsi/trinkets-inhand-right.png",
+      "sha256": "19de7b1c23a28ec99386333c4553ae06ebe97c7efdd884d66fbcc2c0f8158fd8"
+    },
+    {
+      "path": "helmet.rsi/equipped-HELMET-vox.png",
+      "source": "Resources/Textures/Clothing/Head/Helmets/security.rsi/equipped-HELMET-vox.png",
+      "sha256": "ef4412b514addbcd69990dfc2f610d799df2466adbc5d36d37d415375a8f5ce7"
+    },
+    {
+      "path": "helmet.rsi/equipped-HELMET.png",
+      "source": "Resources/Textures/Clothing/Head/Helmets/security.rsi/equipped-HELMET.png",
+      "sha256": "506d8ea9e9cfb79dccb5412223bebb32892cd05044f0b7319d7629a4990f54c8"
+    },
+    {
+      "path": "helmet.rsi/icon-visor.png",
+      "source": "Resources/Textures/Clothing/Head/Helmets/security.rsi/icon-visor.png",
+      "sha256": "db5b93f1cf457d8e2d3dd58265cf84bae8d0d34f754b9edde6a2027d7ce73275"
+    },
+    {
+      "path": "helmet.rsi/icon.png",
+      "source": "Resources/Textures/Clothing/Head/Helmets/security.rsi/icon.png",
+      "sha256": "ac0e294b2298370ce4808df80f8532769951b98c0221331e87fdaaa52a72cf10"
+    },
+    {
+      "path": "helmet.rsi/inhand-left.png",
+      "source": "Resources/Textures/Clothing/Head/Helmets/security.rsi/inhand-left.png",
+      "sha256": "f96e3d44562b71a9d2e1d513eafd1b1f154ab6ec7ae9e1db77ef02ffa63636bd"
+    },
+    {
+      "path": "helmet.rsi/inhand-right.png",
+      "source": "Resources/Textures/Clothing/Head/Helmets/security.rsi/inhand-right.png",
+      "sha256": "a55b46186c0746a08622f134c67236e83d7d092cdee54d399fe0784c5cba7949"
+    },
+    {
+      "path": "helmet.rsi/meta.json",
+      "source": "Resources/Textures/Clothing/Head/Helmets/security.rsi/meta.json",
+      "sha256": "5cf3f5f9e50721b4f3718817cea1160d7d45dcf83ecbc8facc08c978751a1229"
+    },
+    {
+      "path": "helmet.rsi/visor-equipped-HELMET-vox.png",
+      "source": "Resources/Textures/Clothing/Head/Helmets/security.rsi/visor-equipped-HELMET-vox.png",
+      "sha256": "ff201730ddcbcdb158610e29f95c9145927f9b05a4af6b282add63a0de36adde"
+    },
+    {
+      "path": "helmet.rsi/visor-equipped-HELMET.png",
+      "source": "Resources/Textures/Clothing/Head/Helmets/security.rsi/visor-equipped-HELMET.png",
+      "sha256": "09eff1fbf2b5db80dc1e8bc0e44ed59b29c5abcfb28e5e0efd1e2170fb6f1f40"
+    },
+    {
+      "path": "helmet.rsi/visor-inhand-left.png",
+      "source": "Resources/Textures/Clothing/Head/Helmets/security.rsi/visor-inhand-left.png",
+      "sha256": "eee6a779a6b067d48c86e591a852ec90c785a14e3d9513185d258c1a73cd9d20"
+    },
+    {
+      "path": "helmet.rsi/visor-inhand-right.png",
+      "source": "Resources/Textures/Clothing/Head/Helmets/security.rsi/visor-inhand-right.png",
+      "sha256": "37f930c7d3d93713b3eae424e1e2e9e2e3d013de4d821bf67ba9546bcb10b4f3"
+    },
+    {
+      "path": "flashlight.rsi/equipped-BELT.png",
+      "source": "Resources/Textures/Objects/Tools/flashlight.rsi/equipped-BELT.png",
+      "sha256": "f11c711b7d76e1e796bb77d3149ae62fd71f42a0fbdf0c79ee3efd80e5e8bf95"
+    },
+    {
+      "path": "flashlight.rsi/flashlight-on.png",
+      "source": "Resources/Textures/Objects/Tools/flashlight.rsi/flashlight-on.png",
+      "sha256": "d30912d1b869ad946f77dc06168d9c9171606833636c7457523a4b0e3ab9472b"
+    },
+    {
+      "path": "flashlight.rsi/flashlight-overlay.png",
+      "source": "Resources/Textures/Objects/Tools/flashlight.rsi/flashlight-overlay.png",
+      "sha256": "c505be2d3be481f53c6f654e29dbb4ddaaedb582617ebfdc7ec11d8a1c2d6f59"
+    },
+    {
+      "path": "flashlight.rsi/flashlight.png",
+      "source": "Resources/Textures/Objects/Tools/flashlight.rsi/flashlight.png",
+      "sha256": "ac642c3e95ff9cb11fecee18820580b4055ea7996c32af80b5974258b9df55bd"
+    },
+    {
+      "path": "flashlight.rsi/inhand-left-light.png",
+      "source": "Resources/Textures/Objects/Tools/flashlight.rsi/inhand-left-light.png",
+      "sha256": "4a4aebf2be0f5cb820d14cb70c790fa432e2240e2af81fce5226cb4cec1b1655"
+    },
+    {
+      "path": "flashlight.rsi/inhand-left.png",
+      "source": "Resources/Textures/Objects/Tools/flashlight.rsi/inhand-left.png",
+      "sha256": "b50fe54da4503728222e03a510fa55d319aa5c115ac6e0b73cb230894761b35d"
+    },
+    {
+      "path": "flashlight.rsi/inhand-right-light.png",
+      "source": "Resources/Textures/Objects/Tools/flashlight.rsi/inhand-right-light.png",
+      "sha256": "ae7144f39ebaf4c1473786dd45516e89454e7e649c4a262fcbcfe6fa0695392e"
+    },
+    {
+      "path": "flashlight.rsi/inhand-right.png",
+      "source": "Resources/Textures/Objects/Tools/flashlight.rsi/inhand-right.png",
+      "sha256": "6169e26c3e767768775c854a55f65f5abf4d4b1f5f264de5d38f16c3d8fa3fda"
+    },
+    {
+      "path": "flashlight.rsi/meta.json",
+      "source": "Resources/Textures/Objects/Tools/flashlight.rsi/meta.json",
+      "sha256": "301eb2df7c687d23c43a935a1d0d103c0e7148a196514daa9bb92a57997b5f54"
+    },
+    {
+      "path": "crowbar.rsi/cover-equipped-BELT.png",
+      "source": "Resources/Textures/Objects/Tools/crowbar.rsi/cover-equipped-BELT.png",
+      "sha256": "b0248563cc98708006812a136157afc27e7a14286170e87b4aebf2cc699eb023"
+    },
+    {
+      "path": "crowbar.rsi/cover-icon.png",
+      "source": "Resources/Textures/Objects/Tools/crowbar.rsi/cover-icon.png",
+      "sha256": "f322360d44cfb91e05a941c98c8177002bee314897a8bca1c5f6a612559520a5"
+    },
+    {
+      "path": "crowbar.rsi/cover-inhand-left.png",
+      "source": "Resources/Textures/Objects/Tools/crowbar.rsi/cover-inhand-left.png",
+      "sha256": "1b29c9ee36e0184edf64cb2420d90374a9d5289dd37c463a47ac1268f213246d"
+    },
+    {
+      "path": "crowbar.rsi/cover-inhand-right.png",
+      "source": "Resources/Textures/Objects/Tools/crowbar.rsi/cover-inhand-right.png",
+      "sha256": "e9d3aa3818a2fc86b007b7cefc7cc353eef994d613f262576253c1c91988953a"
+    },
+    {
+      "path": "crowbar.rsi/equipped-BELT.png",
+      "source": "Resources/Textures/Objects/Tools/crowbar.rsi/equipped-BELT.png",
+      "sha256": "efbf7d445765c36316515190ac9b6ed6b1b2e65cd88572e1cd8ea8ee50a1a521"
+    },
+    {
+      "path": "crowbar.rsi/green-storage.png",
+      "source": "Resources/Textures/Objects/Tools/crowbar.rsi/green-storage.png",
+      "sha256": "99cc8eded2c13ac10c940e587ac682377d324deedc4a18f33354ac8061b9fb3e"
+    },
+    {
+      "path": "crowbar.rsi/icon.png",
+      "source": "Resources/Textures/Objects/Tools/crowbar.rsi/icon.png",
+      "sha256": "9cc55ae7b49b9651e459192e61372e06a6fad5e972ccadb775fd82f42eb916bb"
+    },
+    {
+      "path": "crowbar.rsi/inhand-left.png",
+      "source": "Resources/Textures/Objects/Tools/crowbar.rsi/inhand-left.png",
+      "sha256": "9e37f8d4eee248b8a82fb3620aebeee378ea2cbc3918f320cb4f94a01bc47cc0"
+    },
+    {
+      "path": "crowbar.rsi/inhand-right.png",
+      "source": "Resources/Textures/Objects/Tools/crowbar.rsi/inhand-right.png",
+      "sha256": "94da1e665447836c6fd5373fa7847418dd59ee3d4c43d71470d8c29dd780d9b4"
+    },
+    {
+      "path": "crowbar.rsi/meta.json",
+      "source": "Resources/Textures/Objects/Tools/crowbar.rsi/meta.json",
+      "sha256": "9c6b7a3f8a05cde36e0bd2d81f24a779613c792fb72a12ef2c72afbcc8112f82"
+    },
+    {
+      "path": "crowbar.rsi/orange-storage.png",
+      "source": "Resources/Textures/Objects/Tools/crowbar.rsi/orange-storage.png",
+      "sha256": "b1d16d2c1a404f66f237bb6360f83a62c5bff88617acc7e8760eeb24185d7198"
+    },
+    {
+      "path": "crowbar.rsi/red-storage.png",
+      "source": "Resources/Textures/Objects/Tools/crowbar.rsi/red-storage.png",
+      "sha256": "af4ed621b8c7f3b782403955f09b04956649d44ddfa53604c520b43da9306677"
+    },
+    {
+      "path": "crowbar.rsi/storage.png",
+      "source": "Resources/Textures/Objects/Tools/crowbar.rsi/storage.png",
+      "sha256": "b468d9b88ee7378bc3ee0e994dcd08f092d7b44b15fb7743e6add2e25a4ed91d"
+    },
+    {
+      "path": "crowbar.rsi/yellow-storage.png",
+      "source": "Resources/Textures/Objects/Tools/crowbar.rsi/yellow-storage.png",
+      "sha256": "1f2b1f43fce76bd568134b6485d42346b3f0aeaaa5ce66b4c159e46d6b47fda6"
+    },
+    {
+      "path": "medkit.rsi/advkit-inhand-left.png",
+      "source": "Resources/Textures/Objects/Specific/Medical/firstaidkits.rsi/advkit-inhand-left.png",
+      "sha256": "732f0eca3f08b655bfeda28f34e625eef1f733e83d3d509e6e329b128064b79e"
+    },
+    {
+      "path": "medkit.rsi/advkit-inhand-right.png",
+      "source": "Resources/Textures/Objects/Specific/Medical/firstaidkits.rsi/advkit-inhand-right.png",
+      "sha256": "549fbebf3e19d720e55b4c79b8502deac7831558cc7bfe752f4983f4050c59d4"
+    },
+    {
+      "path": "medkit.rsi/advkit.png",
+      "source": "Resources/Textures/Objects/Specific/Medical/firstaidkits.rsi/advkit.png",
+      "sha256": "7e89b876f9e9c0e5980cb244fddf78fc8d6a480215fe2007401b5a2baad46a06"
+    },
+    {
+      "path": "medkit.rsi/blackkit-inhand-left.png",
+      "source": "Resources/Textures/Objects/Specific/Medical/firstaidkits.rsi/blackkit-inhand-left.png",
+      "sha256": "30087047786d73a0746284e275cfd9acedb28ad91528cdbcc5df7ed8fe488e8f"
+    },
+    {
+      "path": "medkit.rsi/blackkit-inhand-right.png",
+      "source": "Resources/Textures/Objects/Specific/Medical/firstaidkits.rsi/blackkit-inhand-right.png",
+      "sha256": "07376fecf20f95f77809c1ac87a47ea15fa50bd7c6d4817f329a53eac8c2481a"
+    },
+    {
+      "path": "medkit.rsi/blackkit.png",
+      "source": "Resources/Textures/Objects/Specific/Medical/firstaidkits.rsi/blackkit.png",
+      "sha256": "f4e5f6368e93fc5925ba15a6afc9c873238b4a8454208ada7445b4ad2fef6220"
+    },
+    {
+      "path": "medkit.rsi/brutekit-inhand-left.png",
+      "source": "Resources/Textures/Objects/Specific/Medical/firstaidkits.rsi/brutekit-inhand-left.png",
+      "sha256": "1b8dc429e405df391a60f6404670287110b01828162ebc8c97b21e20dc06201e"
+    },
+    {
+      "path": "medkit.rsi/brutekit-inhand-right.png",
+      "source": "Resources/Textures/Objects/Specific/Medical/firstaidkits.rsi/brutekit-inhand-right.png",
+      "sha256": "736b9c0988c67f2613194095d87fa7394f9d13fb807ecc52d6b5f5883a99614b"
+    },
+    {
+      "path": "medkit.rsi/brutekit.png",
+      "source": "Resources/Textures/Objects/Specific/Medical/firstaidkits.rsi/brutekit.png",
+      "sha256": "44563267d72c00be5e16855e44b73208f9b4e4cd70750bce29d497134947bc13"
+    },
+    {
+      "path": "medkit.rsi/burnkit-inhand-left.png",
+      "source": "Resources/Textures/Objects/Specific/Medical/firstaidkits.rsi/burnkit-inhand-left.png",
+      "sha256": "e00d6f9f1ec9819240498d5ee7cc1cb4def30465505900715c1f6c216b6902b6"
+    },
+    {
+      "path": "medkit.rsi/burnkit-inhand-right.png",
+      "source": "Resources/Textures/Objects/Specific/Medical/firstaidkits.rsi/burnkit-inhand-right.png",
+      "sha256": "8a341da336d7b9a4ab19473c00c8c12322d8dd98b341fc71b1e62c2df9428953"
+    },
+    {
+      "path": "medkit.rsi/burnkit.png",
+      "source": "Resources/Textures/Objects/Specific/Medical/firstaidkits.rsi/burnkit.png",
+      "sha256": "8131d1829e492743d6fc992041d098d336f25b6419e87be5e6e401519b8f83c5"
+    },
+    {
+      "path": "medkit.rsi/firstaid-inhand-left.png",
+      "source": "Resources/Textures/Objects/Specific/Medical/firstaidkits.rsi/firstaid-inhand-left.png",
+      "sha256": "36f5f1db111717d9ae5d23be5fc5a3e659eeea1d9a54750614ca6693545c9fbc"
+    },
+    {
+      "path": "medkit.rsi/firstaid-inhand-right.png",
+      "source": "Resources/Textures/Objects/Specific/Medical/firstaidkits.rsi/firstaid-inhand-right.png",
+      "sha256": "97ee88bdfe4ccba3f19c6cf3450398787878768661ad9b04ca39d4620417d2a7"
+    },
+    {
+      "path": "medkit.rsi/firstaid.png",
+      "source": "Resources/Textures/Objects/Specific/Medical/firstaidkits.rsi/firstaid.png",
+      "sha256": "433823bd91aee9fb45d3d00ea6299a122c89296a127d89236f235d1395d6fe26"
+    },
+    {
+      "path": "medkit.rsi/meta.json",
+      "source": "Resources/Textures/Objects/Specific/Medical/firstaidkits.rsi/meta.json",
+      "sha256": "ba1c044637c04662a6cf720fe40510699f8bcac1d8cc42fd2d616226c833ddb1"
+    },
+    {
+      "path": "medkit.rsi/o2kit-inhand-left.png",
+      "source": "Resources/Textures/Objects/Specific/Medical/firstaidkits.rsi/o2kit-inhand-left.png",
+      "sha256": "7d138179d09166c861dc75bb7dbd935aa7ef63aa4ead9fb8319cbec379ad4c37"
+    },
+    {
+      "path": "medkit.rsi/o2kit-inhand-right.png",
+      "source": "Resources/Textures/Objects/Specific/Medical/firstaidkits.rsi/o2kit-inhand-right.png",
+      "sha256": "4360f51e6701e23999a745c52238323e9640b971bee9cd19b8be36559849cb85"
+    },
+    {
+      "path": "medkit.rsi/o2kit.png",
+      "source": "Resources/Textures/Objects/Specific/Medical/firstaidkits.rsi/o2kit.png",
+      "sha256": "1a59c3c292457bb67b60d053670dadcc4f409c820f5353f2119ff47fa7372566"
+    },
+    {
+      "path": "medkit.rsi/radkit-inhand-left.png",
+      "source": "Resources/Textures/Objects/Specific/Medical/firstaidkits.rsi/radkit-inhand-left.png",
+      "sha256": "b629f0f42af754663b6b883ebb611a4e81991e62238abf9ea57c76c723cd1a12"
+    },
+    {
+      "path": "medkit.rsi/radkit-inhand-right.png",
+      "source": "Resources/Textures/Objects/Specific/Medical/firstaidkits.rsi/radkit-inhand-right.png",
+      "sha256": "f5c15238d011c6b67c79567361857549ad805f6ae89f81312f4d3776322861b8"
+    },
+    {
+      "path": "medkit.rsi/radkit.png",
+      "source": "Resources/Textures/Objects/Specific/Medical/firstaidkits.rsi/radkit.png",
+      "sha256": "b718d3f9cdde9b0325976b00e3397e97558f985b6469ee82bda0e7c197b955e3"
+    },
+    {
+      "path": "medkit.rsi/toxinkit-inhand-left.png",
+      "source": "Resources/Textures/Objects/Specific/Medical/firstaidkits.rsi/toxinkit-inhand-left.png",
+      "sha256": "b75928a66b7fa061b798bdb3b68a567ff3faebf374168976529def4e354aebc6"
+    },
+    {
+      "path": "medkit.rsi/toxinkit-inhand-right.png",
+      "source": "Resources/Textures/Objects/Specific/Medical/firstaidkits.rsi/toxinkit-inhand-right.png",
+      "sha256": "d92d172e427b61fe23276620b0e7b8f4e07b3ab06da140070dfef19ee413ada1"
+    },
+    {
+      "path": "medkit.rsi/toxinkit.png",
+      "source": "Resources/Textures/Objects/Specific/Medical/firstaidkits.rsi/toxinkit.png",
+      "sha256": "ada3299c7c3116872735df776aea5c648cbbd6bf6000dd74fb9758fe87014c81"
+    },
+    {
+      "path": "id.rsi/admin.png",
+      "source": "Resources/Textures/Objects/Misc/id_cards.rsi/admin.png",
+      "sha256": "6a6dac962fd99fa1b9972ad139d8723d00136a407714c65371b13eeb27c1d92f"
+    },
+    {
+      "path": "id.rsi/black-inhand-left.png",
+      "source": "Resources/Textures/Objects/Misc/id_cards.rsi/black-inhand-left.png",
+      "sha256": "c5fe5443e3659f5b1b6fa499e6332e639fe40823ee0b856e6eab4f08e7615f38"
+    },
+    {
+      "path": "id.rsi/black-inhand-right.png",
+      "source": "Resources/Textures/Objects/Misc/id_cards.rsi/black-inhand-right.png",
+      "sha256": "37a801108758e36cc7a8cdc80b3129e84848b4d3a1d6efc8e6432e1985a2f74e"
+    },
+    {
+      "path": "id.rsi/black.png",
+      "source": "Resources/Textures/Objects/Misc/id_cards.rsi/black.png",
+      "sha256": "c3f4e59dadd9f14ca2f556aa96ec1adec780fa0e78b49e36c80d20a57116d812"
+    },
+    {
+      "path": "id.rsi/blue-inhand-left.png",
+      "source": "Resources/Textures/Objects/Misc/id_cards.rsi/blue-inhand-left.png",
+      "sha256": "1c32fad4082f521100e50aa7018587184878797b2a119b9fde2577b2e7510200"
+    },
+    {
+      "path": "id.rsi/blue-inhand-right.png",
+      "source": "Resources/Textures/Objects/Misc/id_cards.rsi/blue-inhand-right.png",
+      "sha256": "323070256a63f2b5eac934c11c35e1fa42c1fcae09b1316facf0dea1c60b7eea"
+    },
+    {
+      "path": "id.rsi/centcom.png",
+      "source": "Resources/Textures/Objects/Misc/id_cards.rsi/centcom.png",
+      "sha256": "11a2e1468cde768464a4230a2382dbb68f0d4fc9856f4cd83a0806d217f9ba56"
+    },
+    {
+      "path": "id.rsi/default-inhand-left.png",
+      "source": "Resources/Textures/Objects/Misc/id_cards.rsi/default-inhand-left.png",
+      "sha256": "8b269c1cb35ee0f47ae9c9ff839de1a606c64b3ab8fbaa29cdd1353ac40a592f"
+    },
+    {
+      "path": "id.rsi/default-inhand-right.png",
+      "source": "Resources/Textures/Objects/Misc/id_cards.rsi/default-inhand-right.png",
+      "sha256": "5f37fd18d6b77a39718241ba49638185e12505499a8906419bb8e65aed5ddc4b"
+    },
+    {
+      "path": "id.rsi/default.png",
+      "source": "Resources/Textures/Objects/Misc/id_cards.rsi/default.png",
+      "sha256": "726f69645042aacced17092c3ff712698bd9415f16fdb93585c75bd30b38d23f"
+    },
+    {
+      "path": "id.rsi/gold-inhand-left.png",
+      "source": "Resources/Textures/Objects/Misc/id_cards.rsi/gold-inhand-left.png",
+      "sha256": "30430ecd73a6127684b8c8767e5d51fdd20db876f18467c370227ebbb8332f4d"
+    },
+    {
+      "path": "id.rsi/gold-inhand-right.png",
+      "source": "Resources/Textures/Objects/Misc/id_cards.rsi/gold-inhand-right.png",
+      "sha256": "22414fa411a7df9128c545e09b7c44bbfc0bac2bd6c5ac3e40efd01379a2c1c8"
+    },
+    {
+      "path": "id.rsi/gold.png",
+      "source": "Resources/Textures/Objects/Misc/id_cards.rsi/gold.png",
+      "sha256": "951a9ec0add22f305eb8ccaf751ca71846e825cfa40924abb4a4b08f869af305"
+    },
+    {
+      "path": "id.rsi/green-inhand-left.png",
+      "source": "Resources/Textures/Objects/Misc/id_cards.rsi/green-inhand-left.png",
+      "sha256": "da35a28d5c0fe4fd85ea21983b7bf06fa25487c5cde83ce0027e32c0355e356f"
+    },
+    {
+      "path": "id.rsi/green-inhand-right.png",
+      "source": "Resources/Textures/Objects/Misc/id_cards.rsi/green-inhand-right.png",
+      "sha256": "574f3be02807e8536c9a7c28e266f692b3f478e70a96f07333082eebf9e995ed"
+    },
+    {
+      "path": "id.rsi/icon-captain.png",
+      "source": "Resources/Textures/Objects/Misc/id_cards.rsi/icon-captain.png",
+      "sha256": "5dc25ff90b3dfc01e7fbde73ffe5db7a4ee5db9780153c5c0f0fa5d060061f4f"
+    },
+    {
+      "path": "id.rsi/makeshift-inhand-left.png",
+      "source": "Resources/Textures/Objects/Misc/id_cards.rsi/makeshift-inhand-left.png",
+      "sha256": "8182140973f5ad6b266a5791a80d93c3cf839c81be757e7425e5ae4e0218bcf4"
+    },
+    {
+      "path": "id.rsi/makeshift-inhand-right.png",
+      "source": "Resources/Textures/Objects/Misc/id_cards.rsi/makeshift-inhand-right.png",
+      "sha256": "df25876cf9719d666dbd0b2814acc52be6c93f91d6a8730a8802c03c3614f285"
+    },
+    {
+      "path": "id.rsi/makeshift.png",
+      "source": "Resources/Textures/Objects/Misc/id_cards.rsi/makeshift.png",
+      "sha256": "af4aa5dd80db2e40b40ba54f55a194753a865d66e4905b762016e4a094406546"
+    },
+    {
+      "path": "id.rsi/makeshift_base.png",
+      "source": "Resources/Textures/Objects/Misc/id_cards.rsi/makeshift_base.png",
+      "sha256": "e2cb60a57b69be74576fad5f73710035d630db05c5d88034298536fe31268c92"
+    },
+    {
+      "path": "id.rsi/makeshift_soldered.png",
+      "source": "Resources/Textures/Objects/Misc/id_cards.rsi/makeshift_soldered.png",
+      "sha256": "4a388d84f5eaa97ce77a59e54af639ed6d6601c951c292c2576f81401eb952c5"
+    },
+    {
+      "path": "id.rsi/meta.json",
+      "source": "Resources/Textures/Objects/Misc/id_cards.rsi/meta.json",
+      "sha256": "18dea49a7a413d5cd2f1cf531ce8fa4a7d93e3fe5f9913376fd0a36b62193dd8"
+    },
+    {
+      "path": "id.rsi/ninja.png",
+      "source": "Resources/Textures/Objects/Misc/id_cards.rsi/ninja.png",
+      "sha256": "a429d6ff1c9b877f833fbc927ae89c2cd9b5048f1552d41426f08f1fd352d077"
+    },
+    {
+      "path": "id.rsi/orange-inhand-left.png",
+      "source": "Resources/Textures/Objects/Misc/id_cards.rsi/orange-inhand-left.png",
+      "sha256": "912bede38a9c185a8ba737ed58a32deb1efb7a6a7965be98beb1c9ea1f0e3831"
+    },
+    {
+      "path": "id.rsi/orange-inhand-right.png",
+      "source": "Resources/Textures/Objects/Misc/id_cards.rsi/orange-inhand-right.png",
+      "sha256": "20cf21be56ba1ef59a50c4df9fa2ebd137754cff7e450f2fe8793e3eb1c8d01a"
+    },
+    {
+      "path": "id.rsi/orange.png",
+      "source": "Resources/Textures/Objects/Misc/id_cards.rsi/orange.png",
+      "sha256": "44505fecbd6a9d187d328ce486048645424eda27136a3015eb349b1e0352dea9"
+    },
+    {
+      "path": "id.rsi/pirate.png",
+      "source": "Resources/Textures/Objects/Misc/id_cards.rsi/pirate.png",
+      "sha256": "5655b089a81f2723eb0d30f9360313dbc90f51d00c3cb3a134bdf2ef5be23cc5"
+    },
+    {
+      "path": "id.rsi/silver-inhand-left.png",
+      "source": "Resources/Textures/Objects/Misc/id_cards.rsi/silver-inhand-left.png",
+      "sha256": "79ca602f8eda89e4059acdf035addc5b1ea0686ddc93609b7c23319d48bbdbfe"
+    },
+    {
+      "path": "id.rsi/silver-inhand-right.png",
+      "source": "Resources/Textures/Objects/Misc/id_cards.rsi/silver-inhand-right.png",
+      "sha256": "531953dbc27eba4201cd12dc2a760ed95f7ae88ef8d7478dd3bc86c290bfb17c"
+    },
+    {
+      "path": "id.rsi/silver.png",
+      "source": "Resources/Textures/Objects/Misc/id_cards.rsi/silver.png",
+      "sha256": "e9f7bfa5f27d3e0c30394f6aaaf9a9b88129e11867864830242bf8b314afe173"
+    },
+    {
+      "path": "id.rsi/stripe_bottom.png",
+      "source": "Resources/Textures/Objects/Misc/id_cards.rsi/stripe_bottom.png",
+      "sha256": "8171d0157e153fe1e72e4b61bf1528d9e68272e4e70799de7b71718bd5732011"
+    },
+    {
+      "path": "id.rsi/stripe_clown.png",
+      "source": "Resources/Textures/Objects/Misc/id_cards.rsi/stripe_clown.png",
+      "sha256": "3b689b8209f50de96cb5dfd4b10422311c213e3f99ce2cc9280be508e508559d"
+    },
+    {
+      "path": "id.rsi/stripe_top.png",
+      "source": "Resources/Textures/Objects/Misc/id_cards.rsi/stripe_top.png",
+      "sha256": "3ac0ca7b9e456f71b716c60ada1cf565c3dfebce390aa1ba97530d6b1bca31d4"
+    },
+    {
+      "path": "id.rsi/wizard.png",
+      "source": "Resources/Textures/Objects/Misc/id_cards.rsi/wizard.png",
+      "sha256": "067c44f4b6f2b882b470cb7cf9e1df2d48853e60d4e775449af2b79c20bdd2aa"
+    },
+    {
+      "path": "crate.rsi/base.png",
+      "source": "Resources/Textures/Structures/Storage/Crates/generic.rsi/base.png",
+      "sha256": "e10636002a837e741323615a878114e459ef0225e05790c620cdb348906fd481"
+    },
+    {
+      "path": "crate.rsi/closed.png",
+      "source": "Resources/Textures/Structures/Storage/Crates/generic.rsi/closed.png",
+      "sha256": "7cd278d8ea7783732e45af33f0329e750f80f967a579319d3299b00fb2046990"
+    },
+    {
+      "path": "crate.rsi/icon.png",
+      "source": "Resources/Textures/Structures/Storage/Crates/generic.rsi/icon.png",
+      "sha256": "1cf962982e908aa80b1bfe8f64296fef145fad0103332c95f28dda37f7376799"
+    },
+    {
+      "path": "crate.rsi/meta.json",
+      "source": "Resources/Textures/Structures/Storage/Crates/generic.rsi/meta.json",
+      "sha256": "1409dcf445a96547cefefa54e26d87d5c03fbd3690931c43bdcc29466371044e"
+    },
+    {
+      "path": "crate.rsi/open.png",
+      "source": "Resources/Textures/Structures/Storage/Crates/generic.rsi/open.png",
+      "sha256": "659a0ac5ddeb774d90225fe0e1ec08f7956286858de830dca849f9b2923b43f6"
+    },
+    {
+      "path": "crate.rsi/sparking.png",
+      "source": "Resources/Textures/Structures/Storage/Crates/generic.rsi/sparking.png",
+      "sha256": "ae9c8adaad25016aefd43bf460a6934e1328a1c36519ae301fa2b75daa26abf4"
+    },
+    {
+      "path": "crate.rsi/welded.png",
+      "source": "Resources/Textures/Structures/Storage/Crates/generic.rsi/welded.png",
+      "sha256": "5c230a13bc25301d6cc21e8a37308f6ddb36780379798b6535f6d7dcfc7528ae"
+    },
+    {
+      "path": "wall.rsi/full.png",
+      "source": "Resources/Textures/Structures/Walls/solid.rsi/full.png",
+      "sha256": "08f1c4947895112a34e4fbda3c8be1b101405c7c5160a09a84de9799064afd03"
+    },
+    {
+      "path": "wall.rsi/meta.json",
+      "source": "Resources/Textures/Structures/Walls/solid.rsi/meta.json",
+      "sha256": "45322b9d4a37acfb25966f0d377a398af20e76fcbfd13136a3c79935e326ba1e"
+    },
+    {
+      "path": "wall.rsi/wall0.png",
+      "source": "Resources/Textures/Structures/Walls/solid.rsi/wall0.png",
+      "sha256": "c85563e630e3b6a3c87f9f206c4b228a4d128dbcad990a8cdc99f240ae91e647"
+    },
+    {
+      "path": "wall.rsi/wall1.png",
+      "source": "Resources/Textures/Structures/Walls/solid.rsi/wall1.png",
+      "sha256": "5a4cf773b07d51249319295e0fe66e97ab8bcf1e76351464c66d6774d190d7bb"
+    },
+    {
+      "path": "wall.rsi/wall10.png",
+      "source": "Resources/Textures/Structures/Walls/solid.rsi/wall10.png",
+      "sha256": "642e58ae30867c6e6c4e4e96bdb0c8cbd4accc8933d224515d6ba733a9f290d4"
+    },
+    {
+      "path": "wall.rsi/wall11.png",
+      "source": "Resources/Textures/Structures/Walls/solid.rsi/wall11.png",
+      "sha256": "07d8bee39f3a8968d6d6d60d34418df26f57594ce7b80a95c4e881a6e601ac03"
+    },
+    {
+      "path": "wall.rsi/wall12.png",
+      "source": "Resources/Textures/Structures/Walls/solid.rsi/wall12.png",
+      "sha256": "9f16f10e3e56e5fcb4dcb68bd8b438d0670a1e0bcbdef451f7bc977016d32c09"
+    },
+    {
+      "path": "wall.rsi/wall13.png",
+      "source": "Resources/Textures/Structures/Walls/solid.rsi/wall13.png",
+      "sha256": "e8a7a79c576b1989f53e0947852fd07afca771e0741ff02b5adf0ddc2506b90b"
+    },
+    {
+      "path": "wall.rsi/wall2.png",
+      "source": "Resources/Textures/Structures/Walls/solid.rsi/wall2.png",
+      "sha256": "59a3b2c22b21d13e5ccedb44b740546ffbb06c9928e5ee70c9928265b857cf48"
+    },
+    {
+      "path": "wall.rsi/wall3.png",
+      "source": "Resources/Textures/Structures/Walls/solid.rsi/wall3.png",
+      "sha256": "a08a5d57bd553038755f0c7c0e7b40e29f8b3010571c78dc819dffad0ce7cfb2"
+    },
+    {
+      "path": "wall.rsi/wall4.png",
+      "source": "Resources/Textures/Structures/Walls/solid.rsi/wall4.png",
+      "sha256": "8bb209ceb830c8bc70457076e4757f365c362a7c6c7c72aab126a4aa967038e4"
+    },
+    {
+      "path": "wall.rsi/wall5.png",
+      "source": "Resources/Textures/Structures/Walls/solid.rsi/wall5.png",
+      "sha256": "1b13e401b5b042bc84c0af3994d52616cfd1e7ac61f43c81766fdeef7554a99c"
+    },
+    {
+      "path": "wall.rsi/wall6.png",
+      "source": "Resources/Textures/Structures/Walls/solid.rsi/wall6.png",
+      "sha256": "e7e10587fc5f0aa3c9bb64c8d32bf77d86ee4b13d9366dbe3324ffa8b43e0d63"
+    },
+    {
+      "path": "wall.rsi/wall7.png",
+      "source": "Resources/Textures/Structures/Walls/solid.rsi/wall7.png",
+      "sha256": "b533d3a2c8e715efdd75efb1b77a18e7bf23329295590621dce1b150adacdfc3"
+    },
+    {
+      "path": "wall.rsi/wall8.png",
+      "source": "Resources/Textures/Structures/Walls/solid.rsi/wall8.png",
+      "sha256": "caf3fa06381c4347e05477877db6e059588eaf24dfc4f167fb7723742e3764a5"
+    },
+    {
+      "path": "wall.rsi/wall9.png",
+      "source": "Resources/Textures/Structures/Walls/solid.rsi/wall9.png",
+      "sha256": "b555e34b94d7ef0aacb68a004a2f1bce4c0f309f60200a7c9e066d01afa34b07"
+    },
+    {
+      "path": "wall.rsi/wall_girder.png",
+      "source": "Resources/Textures/Structures/Walls/solid.rsi/wall_girder.png",
+      "sha256": "873f2a8be4a8339888d02071f3380476663d680266d9946332c9200f27f6ee6c"
+    },
+    {
+      "path": "floor.rsi/steel.png",
+      "source": "Resources/Textures/Tiles/Basic/Gray/gray.png",
+      "sha256": "3ce1a836d03b20f25894aeab29424a75b31af5143aeb618eca7bff0ff977b018"
+    },
+    {
+      "path": "floor.rsi/damaged.png",
+      "source": "Resources/Textures/Tiles/Basic/Gray/gray-damaged.png",
+      "sha256": "63ea89644da532275efc99cebb0dc59cc417e4212db1bfa1a332516664e360d1"
+    },
+    {
+      "path": "floor.rsi/tech.png",
+      "source": "Resources/Textures/Tiles/Basic/Gray/gray-maint.png",
+      "sha256": "634ae4101ff5d741c7a94c0597b05480e9b88eb0cbef793216db6e735252246d"
+    },
+    {
+      "path": "floor.rsi/grating.png",
+      "source": "Resources/Textures/Tiles/grating-maint.png",
+      "sha256": "b569da9e8946653556de3c5666b18ca2fa52c581754f03efc4a7252bdea6f92b"
+    },
+    {
+      "path": "floor.rsi/plating.png",
+      "source": "Resources/Textures/Tiles/plating.png",
+      "sha256": "8e70648d790302de457581b4f11f148782fcff5dde0d73426c497ef9008393ff"
+    },
+    {
+      "path": "airlock.rsi/assembly.png",
+      "source": "Resources/Textures/Structures/Doors/Airlocks/Standard/airlock-base.rsi/assembly.png",
+      "sha256": "39558e1e4ec9859ab3f12fdf7a394b980c96abfa3c59d6823b877d0e95d1ae6f"
+    },
+    {
+      "path": "airlock.rsi/closed.png",
+      "source": "Resources/Textures/Structures/Doors/Airlocks/Standard/airlock-base.rsi/closed.png",
+      "sha256": "91e31c15f9de04c73b93de13a9bde830efaa6b80a150e6c8b3163144b92459c7"
+    },
+    {
+      "path": "airlock.rsi/closing.png",
+      "source": "Resources/Textures/Structures/Doors/Airlocks/Standard/airlock-base.rsi/closing.png",
+      "sha256": "c962a6253d55ab97facaa531123bacf9e55cdacf45ad973597d881d1ec81a52e"
+    },
+    {
+      "path": "airlock.rsi/meta.json",
+      "source": "Resources/Textures/Structures/Doors/Airlocks/Standard/airlock-base.rsi/meta.json",
+      "sha256": "8f2baa6a755ea20675c0d557f6b6ffda852f293f767313a845bdd85e42315516"
+    },
+    {
+      "path": "airlock.rsi/open.png",
+      "source": "Resources/Textures/Structures/Doors/Airlocks/Standard/airlock-base.rsi/open.png",
+      "sha256": "89dd54d950b4f9eeef554371878e90f48020858cdef81e1a6006959157b26fd1"
+    },
+    {
+      "path": "airlock.rsi/opening.png",
+      "source": "Resources/Textures/Structures/Doors/Airlocks/Standard/airlock-base.rsi/opening.png",
+      "sha256": "b982fba6295b0ed66ca0de3a577cadaea06d901ff634b5de4e1368bae624e1bc"
+    },
+    {
+      "path": "airlock-glass.rsi/assembly.png",
+      "source": "Resources/Textures/Structures/Doors/Airlocks/Glass/airlock-base.rsi/assembly.png",
+      "sha256": "8054815da1bafbf73f31d01b27fe5d985188813b066754e3da18f41f755acca6"
+    },
+    {
+      "path": "airlock-glass.rsi/closed.png",
+      "source": "Resources/Textures/Structures/Doors/Airlocks/Glass/airlock-base.rsi/closed.png",
+      "sha256": "11d18450eb6483fea38bc03b4fd85b03668d7dd6a6ad35719fcb9aac675e5c86"
+    },
+    {
+      "path": "airlock-glass.rsi/closing.png",
+      "source": "Resources/Textures/Structures/Doors/Airlocks/Glass/airlock-base.rsi/closing.png",
+      "sha256": "62bd90885a7946dcf4c184d493d7b9820c5332659d16d25eaaa78ee7f838812f"
+    },
+    {
+      "path": "airlock-glass.rsi/meta.json",
+      "source": "Resources/Textures/Structures/Doors/Airlocks/Glass/airlock-base.rsi/meta.json",
+      "sha256": "8f2baa6a755ea20675c0d557f6b6ffda852f293f767313a845bdd85e42315516"
+    },
+    {
+      "path": "airlock-glass.rsi/open.png",
+      "source": "Resources/Textures/Structures/Doors/Airlocks/Glass/airlock-base.rsi/open.png",
+      "sha256": "630a4a72ef821161608e188466b35bebd14b9806407f62209e2b3d78f5c3db13"
+    },
+    {
+      "path": "airlock-glass.rsi/opening.png",
+      "source": "Resources/Textures/Structures/Doors/Airlocks/Glass/airlock-base.rsi/opening.png",
+      "sha256": "a51f302383e11709b290d3067db26b77ecf56c35224bf8c592d44548602272dc"
+    },
+    {
+      "path": "wirecutters.rsi/cutters-cutty-thingy.png",
+      "source": "Resources/Textures/Objects/Tools/wirecutters.rsi/cutters-cutty-thingy.png",
+      "sha256": "047f974d8f74eef7e0df71959840ca34ac84a4b73fd374f9ce99fb0422be7944"
+    },
+    {
+      "path": "wirecutters.rsi/cutters-equipped-BELT.png",
+      "source": "Resources/Textures/Objects/Tools/wirecutters.rsi/cutters-equipped-BELT.png",
+      "sha256": "f2adee23dca1c0121bcee38b248d2e978b4f4b3eccc577e07b8ee086298ad4a8"
+    },
+    {
+      "path": "wirecutters.rsi/cutters-inhand-left.png",
+      "source": "Resources/Textures/Objects/Tools/wirecutters.rsi/cutters-inhand-left.png",
+      "sha256": "3ef403a0e990d2b8d6f79adc99c789244ee3a7bc2f26b4f82ee118a21574c8ed"
+    },
+    {
+      "path": "wirecutters.rsi/cutters-inhand-right.png",
+      "source": "Resources/Textures/Objects/Tools/wirecutters.rsi/cutters-inhand-right.png",
+      "sha256": "7405afb6b8491e5f085673d14c57e6a98bd00e7004025718d2180a67a4e104cb"
+    },
+    {
+      "path": "wirecutters.rsi/cutters-map.png",
+      "source": "Resources/Textures/Objects/Tools/wirecutters.rsi/cutters-map.png",
+      "sha256": "7d2a5f054fa64f44648483769b2549f15ed1f851c3138b33f0ae3fb879d50df2"
+    },
+    {
+      "path": "wirecutters.rsi/cutters.png",
+      "source": "Resources/Textures/Objects/Tools/wirecutters.rsi/cutters.png",
+      "sha256": "ad6888b1f526a82468f85b355da69e42f96abae15162fec1b093a5508da0238d"
+    },
+    {
+      "path": "wirecutters.rsi/handle-equipped-BELT.png",
+      "source": "Resources/Textures/Objects/Tools/wirecutters.rsi/handle-equipped-BELT.png",
+      "sha256": "e9b3da20cf2507399e08baf8eac345a998eb85f39149f6144a0fd5ba5788abfe"
+    },
+    {
+      "path": "wirecutters.rsi/handle-inhand-left.png",
+      "source": "Resources/Textures/Objects/Tools/wirecutters.rsi/handle-inhand-left.png",
+      "sha256": "cf8d25973ee749271c27d5725358a7f7e4aa5d52233a8b1c789e6486d09e5fba"
+    },
+    {
+      "path": "wirecutters.rsi/handle-inhand-right.png",
+      "source": "Resources/Textures/Objects/Tools/wirecutters.rsi/handle-inhand-right.png",
+      "sha256": "746234447c2d34f3cd61f837d1204b00bc724e0384cc233e68f8592bb2a7f1de"
+    },
+    {
+      "path": "wirecutters.rsi/inhand-left.png",
+      "source": "Resources/Textures/Objects/Tools/wirecutters.rsi/inhand-left.png",
+      "sha256": "87f0083ff26bbb1dc0a740480f3226400ee363018f06224563755b20847360fb"
+    },
+    {
+      "path": "wirecutters.rsi/inhand-right.png",
+      "source": "Resources/Textures/Objects/Tools/wirecutters.rsi/inhand-right.png",
+      "sha256": "51b04083c546c1ce1bfc188e258146c784fce1a0640f6c98ecc69cf9705c7158"
+    },
+    {
+      "path": "wirecutters.rsi/meta.json",
+      "source": "Resources/Textures/Objects/Tools/wirecutters.rsi/meta.json",
+      "sha256": "b8bb0e9fdbf7e76cf578b4b8b6c547571cd4eb8d79169b0f89a90c34f8ccf028"
+    }
+  ]
+}

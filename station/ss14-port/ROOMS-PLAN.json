@@ -1,0 +1,63 @@
+{
+  "schema": "rust-anything/analyze@1",
+  "language": "csharp",
+  "summary": {
+    "packages": 1,
+    "source_files": 1,
+    "test_files": 0,
+    "ui_files": 0,
+    "loc": 14,
+    "units": 1,
+    "ready": 1,
+    "caution": 0,
+    "blocked": 0,
+    "keep": 0,
+    "parse_errors": 0
+  },
+  "packages": [
+    {
+      "name": "Oracle",
+      "dir": "",
+      "order": 1,
+      "runtime": "portable",
+      "workspace_deps": [],
+      "test_files": 0,
+      "units": [
+        "Rules.cs"
+      ]
+    }
+  ],
+  "units": [
+    {
+      "id": "Rules.cs",
+      "package": "Oracle",
+      "files": [
+        "Rules.cs"
+      ],
+      "loc": 14,
+      "wave": 0,
+      "readiness": 100,
+      "status": "ready",
+      "bridge": "dotnet-ffi",
+      "platforms": [],
+      "risks": [],
+      "internal_deps": [],
+      "workspace_deps": [],
+      "external_deps": [],
+      "direct_tests": 0,
+      "fan_in": 0,
+      "density": 0.0,
+      "priority": 52,
+      "exports": 2,
+      "bridgeable": 2,
+      "notes": [
+        "Leaf: imports no other unit.",
+        "No tests found: write characterization tests against the original code first."
+      ]
+    }
+  ],
+  "start_here": [
+    "Rules.cs"
+  ],
+  "dependencies": []
+}

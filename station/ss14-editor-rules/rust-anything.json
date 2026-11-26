@@ -1,0 +1,33 @@
+{
+  "schema": "rust-anything/bridge@1",
+  "root": "C:\\Users\\1\\Documents\\Codex\\2026-11-23\\referenced-chatgpt-conversation-this-is-an\\outputs\\horizon\\station\\ss14-port\\editor-oracle",
+  "unit": "Rules.cs",
+  "language": "csharp",
+  "kind": "ffi",
+  "crate_name": "ss14-editor-rules",
+  "exports": [
+    {
+      "name": "AxisCount",
+      "file": "Rules.cs",
+      "line": 6,
+      "params": [
+        {
+          "name": "delta",
+          "ts_type": "int",
+          "optional": false,
+          "rest": false,
+          "native_type": "long"
+        }
+      ],
+      "returns": "number",
+      "is_async": false,
+      "is_generator": false,
+      "type_params": [],
+      "uses_instanceof": false,
+      "native_return": "double",
+      "prototype": "StationOracle.Rules.AxisCount(long delta)"
+    }
+  ],
+  "classes": [],
+  "js_only": []
+}

@@ -1,0 +1,16 @@
+power GUI request phase 0: Slot(11); hand None
+power GUI request phase 1: Work { target: LiftTile([-4, 2, 0]), tool: 9 }; hand Some(9)
+power GUI request phase 2: Slot(11); hand Some(9)
+network render: 2 peers, RTT 13.3 ms
+power GUI request phase 3: Slot(8); hand None
+power GUI request phase 4: Work { target: Cable([-4, 2, 0]), tool: 12 }; hand Some(12)
+power GUI request phase 5: Slot(8); hand Some(12)
+power GUI request phase 6: Slot(11); hand None
+power GUI request phase 7: Work { target: Door(0), tool: 9 }; hand Some(9)
+power GUI request phase 7: Work { target: Door(0), tool: 9 }; hand Some(9)
+power GUI request phase 7: Work { target: Door(0), tool: 9 }; hand Some(9)
+power GUI request phase 8: Slot(11); hand Some(9)
+power GUI request phase 9: Slot(8); hand None
+power GUI request phase 10: Work { target: Cable([-4, 2, 0]), tool: 12 }; hand Some(12)
+power GUI smoke passed: lift, disconnect, dark room, manual pry, reconnect; two clients
+wgpu smoke passed: Snapshot { tick: 960, position: [-4.0, 2.5, 1.2987231], velocity: [0.0, 0.0, 0.0] }; terrain uploads during camera motion = 0

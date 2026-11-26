@@ -1,0 +1,40 @@
+{
+  "schema": "rust-anything/bridge@1",
+  "root": "C:\\Users\\1\\Documents\\Codex\\2026-11-23\\referenced-chatgpt-conversation-this-is-an\\outputs\\horizon\\station\\ss14-port\\light-oracle",
+  "unit": "Rules.cs",
+  "language": "csharp",
+  "kind": "ffi",
+  "crate_name": "ss14-light-rules",
+  "exports": [
+    {
+      "name": "Attenuation",
+      "file": "Rules.cs",
+      "line": 6,
+      "params": [
+        {
+          "name": "squaredDistance",
+          "ts_type": "number",
+          "optional": false,
+          "rest": false,
+          "native_type": "double"
+        },
+        {
+          "name": "radius",
+          "ts_type": "number",
+          "optional": false,
+          "rest": false,
+          "native_type": "double"
+        }
+      ],
+      "returns": "number",
+      "is_async": false,
+      "is_generator": false,
+      "type_params": [],
+      "uses_instanceof": false,
+      "native_return": "double",
+      "prototype": "StationOracle.Rules.Attenuation(double squaredDistance, double radius)"
+    }
+  ],
+  "classes": [],
+  "js_only": []
+}

@@ -1,0 +1,5 @@
+
+Algorithm : SHA256
+Hash      : C8F53E66E567F2E8EACDDBCC31ECBB6D77AC5F594D19423247C2A96C44D96A47
+Path      : C:\Users\1\Downloads\Solas-Shader-V3.7_1.zip
+

@@ -1,0 +1,91 @@
+   Compiling station-sim v0.1.0 (C:\Users\1\Documents\Codex\2026-11-23\referenced-chatgpt-conversation-this-is-an\outputs\horizon\station\sim)
+   Compiling station-server v0.1.0 (C:\Users\1\Documents\Codex\2026-11-23\referenced-chatgpt-conversation-this-is-an\outputs\horizon\station\server)
+   Compiling station-client v0.1.0 (C:\Users\1\Documents\Codex\2026-11-23\referenced-chatgpt-conversation-this-is-an\outputs\horizon\station\client)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 24.91s
+     Running unittests ..\..\crates\horizon-client-render\src\station_renderer.rs (station\target\debug\deps\horizon_station_render-13f31965f20693f7.exe)
+
+running 25 tests
+test station_light::rules::tests::cutoff_and_center ... ok
+test station_light::tests::doors_walls_corners_and_decks ... ok
+test station_light::tests::light_is_shadowed_colored_bounded_and_preserves_hdr_energy ... ok
+test station_light::tests::sight_and_light_flags_are_independent_and_removed_geometry_is_open ... ok
+test station_light::tests::continuous_wall_surface_has_no_cell_wedges_or_light_through_wall ... ok
+test station_sprite_runtime::playback_rules::tests::exact_boundary_and_ping_pong ... ok
+test sprite_types::tests::keyed_edits_and_appearance_are_atomic ... ok
+test sprite_types::tests::blank_layers_aliases_and_mask_removal_stay_valid ... ok
+test station_sprite::rules::tests::asynchronous_directions_and_bad_input ... ok
+test station_sprite::tests::rejects_bad_metadata_and_missing_sheets ... ok
+test tests::cache_rebuilds_boundary_neighbors_only ... ok
+test tests::projection_is_orthographic_and_tracks_player ... ok
+test tests::removing_last_chunk_releases_cache ... ok
+test tests::sprites_sort_by_depth_feet_and_identity_not_body_height ... ok
+test tests::wall_corner_covers_caps_edges_concave_and_filled_junctions ... ok
+test station_light::tests::unobstructed_room_has_no_ray_holes_at_grid_boundaries ... ok
+test station_sprite::tests::bundled_states_directions_and_animation ... ok
+test station_sprite_runtime::tests::transforms_masks_and_layer_order_are_resolved ... ok
+test station_sprite::tests::rsi_pixels_define_world_scale_without_cropping ... ok
+test station_sprite_runtime::tests::one_shot_cycle_reverse_hidden_layers_and_sync ... ok
+test station_sprite_runtime::tests::independent_animation_pause_seek_restart_and_cleanup ... ok
+test station_sprite_runtime::tests::named_layer_reorder_and_hide_preserve_playback ... ok
+test tests::floor_edit_rebuilds_boundary_chunks_but_not_distant_chunks ... ok
+test station_light::tests::filtered_field_preserves_ambient_and_keeps_far_side_hidden ... ok
+test station_light_gpu::tests::gpu_light_matches_cpu_visibility_and_attenuation ... ok
+
+test result: ok. 25 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 1.14s
+
+     Running unittests src\main.rs (station\target\debug\deps\station_client-fab1259d162c9a2b.exe)
+
+running 12 tests
+test locomotion::tests::walking_settles_at_walls_and_resets_on_teleport_and_round ... ok
+test motion::tests::lost_connection_freezes_prediction_and_does_not_change_authority ... ok
+test motion::tests::local_input_responds_before_server_then_corrects_and_stops_at_wall ... ok
+test motion::tests::orientation_uses_delayed_snapshot_and_animation_clock_is_continuous ... ok
+test motion::tests::peer_interpolation_teleport_and_round_reset ... ok
+test motion::tests::delayed_and_jittered_snapshots_keep_motion_bounded ... ok
+test airlock_tests::closed_glass_door_transmits_view_and_illumination ... ok
+test sprites::tests::exposed_cable_and_power_nodes_have_renderable_pixels ... ok
+test sprites::tests::airlock_rsi_seeks_mid_animation_and_retracts_both_orientations ... ok
+test sprites::tests::every_builtin_visual_resolves_to_an_imported_rsi_state ... ok
+test sprite_icons::tests::composed_icon_respects_hidden_layers_and_masks ... ok
+test lighting_tests::actual_door_and_wall_edits_change_visibility_without_changing_other_deck ... ok
+
+test result: ok. 12 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.69s
+
+     Running unittests src\lib.rs (station\target\debug\deps\station_server-b031ec8e7ddd36e2.exe)
+
+running 19 tests
+test crew::tests::seats_are_exclusive_failure_preserves_role_and_disconnect_releases ... ok
+test round_tests::readiness_cancel_restarts_full_countdown ... ok
+test round_tests::custom_content_survives_round_restart_but_entity_ids_do_not ... ok
+test net::tests::malformed_or_oversized_peer_does_not_stop_host ... ok
+test rounds::tests::deadline_ends_once_and_results_stay_frozen ... ok
+test round_tests::stale_mailbox_input_is_rejected ... ok
+test round_tests::two_rounds_restore_world_inventory_physics_and_actions ... ok
+test tests::authority_rejects_nonfinite_movement ... ok
+test net::delayed_transport_tests::acknowledgements_measure_100_and_200_ms_rtt_and_connection_loss ... ok
+test inventory_session_tests::ordered_commands_survive_render_updates ... ok
+test round_tests::stale_entity_reference_cannot_target_same_index_in_another_world ... ok
+test session_tests::commands_pick_drop_throw_and_publish_items ... ok
+test session_tests::server_ticks_without_renderer_and_replicates_destruction ... ok
+test net::tests::test_station_windows_replicate_and_door_opens_a_physical_route ... ok
+test net::tests::two_clients_lift_and_lay_one_surface_without_duplicating_material ... ok
+test net::tests::power_cut_replicates_dark_room_manual_door_and_repair ... ok
+test net::tests::professions_capacity_access_late_join_and_next_round ... ok
+test net::tests::two_tcp_clients_round_movement_ownership_disconnect_and_rejoin ... ok
+test net::tests::rooms_replicate_merge_vertical_connection_and_space_breach ... FAILED
+
+failures:
+
+---- net::tests::rooms_replicate_merge_vertical_connection_and_space_breach stdout ----
+
+thread 'net::tests::rooms_replicate_merge_vertical_connection_and_space_breach' (68008) panicked at server\src\net.rs:635:27:
+network timeout: pos=[-0.5, 0.5, -2.7012777], tick=851, msg=action.invalid, revision=2
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+
+failures:
+    net::tests::rooms_replicate_merge_vertical_connection_and_space_breach
+
+test result: FAILED. 18 passed; 1 failed; 0 ignored; 0 measured; 0 filtered out; finished in 19.99s
+
+error: test failed, to rerun pass `-p station-server --lib`

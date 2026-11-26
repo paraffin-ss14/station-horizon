@@ -1,0 +1,18 @@
+{"fn": "ShowCategory", "args": [-1, false]}
+{"fn": "ShowCategory", "args": [-1, true]}
+{"fn": "ShowCategory", "args": [0, false]}
+{"fn": "ShowCategory", "args": [0, true]}
+{"fn": "ShowCategory", "args": [1, false]}
+{"fn": "ShowCategory", "args": [1, true]}
+{"fn": "ShowCategory", "args": [16, false]}
+{"fn": "ShowCategory", "args": [16, true]}
+{"fn": "ShowCategory", "args": [2147483647, false]}
+{"fn": "ShowCategory", "args": [2147483647, true]}
+{"fn": "TooltipText", "args": [false, "", "Взять"]}
+{"fn": "TooltipText", "args": [false, "Рука занята", "Взять"]}
+{"fn": "TooltipText", "args": [false, "A\nB", "<x>"]}
+{"fn": "TooltipText", "args": [false, "", ""]}
+{"fn": "TooltipText", "args": [true, "", "Взять"]}
+{"fn": "TooltipText", "args": [true, "Рука занята", "Взять"]}
+{"fn": "TooltipText", "args": [true, "A\nB", "<x>"]}
+{"fn": "TooltipText", "args": [true, "", ""]}

@@ -1,0 +1,2 @@
+sprite reload: valid atlas replaced; invalid pack retained previous atlas
+editor GUI smoke passed: place wall, undo, redo, save, load, build round template

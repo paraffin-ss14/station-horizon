@@ -1,0 +1,4 @@
+visibility: other crew hidden behind closed doors
+network render: 2 peers, RTT 32.6 ms
+visibility: other crew visible through opened doors; lamps=7
+wgpu smoke passed: Snapshot { tick: 300, position: [5.0, 2.5, 1.2987231], velocity: [0.0, 0.0, 0.0] }; terrain uploads during camera motion = 0

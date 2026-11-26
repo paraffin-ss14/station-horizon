@@ -1,0 +1,25 @@
+[package]
+name = "horizon-station-render"
+version = "0.1.0"
+edition = "2024"
+license = "MIT"
+[lib]
+path = "../../crates/horizon-client-render/src/station_renderer.rs"
+[dependencies]
+egui = "0.37.0"
+egui-wgpu = "0.37.0"
+wgpu = { version = "=30.0.1", features = ["naga-ir"] }
+winit = "0.30.13"
+pollster = "0.4"
+bytemuck = { version = "1", features = ["derive"] }
+
+png = "0.18"
+
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+
+horizon-shaders = { path = "../../crates/horizon-shaders" }
+naga = { version = "=30.0.1", features = ["glsl-in"] }
+
+
+glam = "=0.30.10"

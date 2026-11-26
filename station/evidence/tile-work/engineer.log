@@ -1,0 +1,5 @@
+visibility: other crew hidden behind closed doors
+network render: 2 peers, RTT 11.9 ms
+visibility: other crew visible through opened doors; lamps=7
+tile GUI smoke passed: lift, returned material, lay, count=10, deck intact
+wgpu smoke passed: Snapshot { tick: 450, position: [-4.0, 2.5, 1.2987231], velocity: [0.0, 0.0, 0.0] }; terrain uploads during camera motion = 0

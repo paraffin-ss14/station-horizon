@@ -1,0 +1,168 @@
+   Compiling station-server v0.1.0 (C:\Users\1\Documents\Codex\2026-11-23\referenced-chatgpt-conversation-this-is-an\outputs\horizon\station\server)
+   Compiling station-client v0.1.0 (C:\Users\1\Documents\Codex\2026-11-23\referenced-chatgpt-conversation-this-is-an\outputs\horizon\station\client)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 12.63s
+     Running unittests ..\..\crates\horizon-client-render\src\station_renderer.rs (station\target\debug\deps\horizon_station_render-13f31965f20693f7.exe)
+
+running 25 tests
+test station_light::rules::tests::cutoff_and_center ... ok
+test station_light::tests::doors_walls_corners_and_decks ... ok
+test station_light::tests::light_is_shadowed_colored_bounded_and_preserves_hdr_energy ... ok
+test sprite_types::tests::blank_layers_aliases_and_mask_removal_stay_valid ... ok
+test sprite_types::tests::keyed_edits_and_appearance_are_atomic ... ok
+test station_light::tests::sight_and_light_flags_are_independent_and_removed_geometry_is_open ... ok
+test station_sprite::rules::tests::asynchronous_directions_and_bad_input ... ok
+test station_light::tests::continuous_wall_surface_has_no_cell_wedges_or_light_through_wall ... ok
+test station_sprite::tests::rejects_bad_metadata_and_missing_sheets ... ok
+test station_sprite_runtime::playback_rules::tests::exact_boundary_and_ping_pong ... ok
+test tests::cache_rebuilds_boundary_neighbors_only ... ok
+test tests::projection_is_orthographic_and_tracks_player ... ok
+test tests::sprites_sort_by_depth_feet_and_identity_not_body_height ... ok
+test tests::wall_corner_covers_caps_edges_concave_and_filled_junctions ... ok
+test tests::removing_last_chunk_releases_cache ... ok
+test station_light::tests::unobstructed_room_has_no_ray_holes_at_grid_boundaries ... ok
+test station_sprite_runtime::tests::one_shot_cycle_reverse_hidden_layers_and_sync ... ok
+test station_sprite_runtime::tests::independent_animation_pause_seek_restart_and_cleanup ... ok
+test station_sprite_runtime::tests::named_layer_reorder_and_hide_preserve_playback ... ok
+test station_sprite::tests::rsi_pixels_define_world_scale_without_cropping ... ok
+test tests::floor_edit_rebuilds_boundary_chunks_but_not_distant_chunks ... ok
+test station_sprite::tests::bundled_states_directions_and_animation ... ok
+test station_sprite_runtime::tests::transforms_masks_and_layer_order_are_resolved ... ok
+test station_light::tests::filtered_field_preserves_ambient_and_keeps_far_side_hidden ... ok
+test station_light_gpu::tests::gpu_light_matches_cpu_visibility_and_attenuation ... ok
+
+test result: ok. 25 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 1.05s
+
+     Running unittests src\main.rs (station\target\debug\deps\station_client-fab1259d162c9a2b.exe)
+
+running 12 tests
+test locomotion::tests::walking_settles_at_walls_and_resets_on_teleport_and_round ... ok
+test airlock_tests::closed_glass_door_transmits_view_and_illumination ... ok
+test motion::tests::orientation_uses_delayed_snapshot_and_animation_clock_is_continuous ... ok
+test motion::tests::lost_connection_freezes_prediction_and_does_not_change_authority ... ok
+test motion::tests::peer_interpolation_teleport_and_round_reset ... ok
+test motion::tests::delayed_and_jittered_snapshots_keep_motion_bounded ... ok
+test motion::tests::local_input_responds_before_server_then_corrects_and_stops_at_wall ... ok
+test sprites::tests::every_builtin_visual_resolves_to_an_imported_rsi_state ... ok
+test sprites::tests::exposed_cable_and_power_nodes_have_renderable_pixels ... ok
+test sprites::tests::airlock_rsi_seeks_mid_animation_and_retracts_both_orientations ... ok
+test sprite_icons::tests::composed_icon_respects_hidden_layers_and_masks ... ok
+test lighting_tests::actual_door_and_wall_edits_change_visibility_without_changing_other_deck ... ok
+
+test result: ok. 12 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.50s
+
+     Running unittests src\lib.rs (station\target\debug\deps\station_server-b031ec8e7ddd36e2.exe)
+
+running 19 tests
+test crew::tests::seats_are_exclusive_failure_preserves_role_and_disconnect_releases ... ok
+test round_tests::readiness_cancel_restarts_full_countdown ... ok
+test net::tests::malformed_or_oversized_peer_does_not_stop_host ... ok
+test round_tests::custom_content_survives_round_restart_but_entity_ids_do_not ... ok
+test rounds::tests::deadline_ends_once_and_results_stay_frozen ... ok
+test round_tests::stale_mailbox_input_is_rejected ... ok
+test round_tests::two_rounds_restore_world_inventory_physics_and_actions ... ok
+test tests::authority_rejects_nonfinite_movement ... ok
+test net::delayed_transport_tests::acknowledgements_measure_100_and_200_ms_rtt_and_connection_loss ... ok
+test inventory_session_tests::ordered_commands_survive_render_updates ... ok
+test round_tests::stale_entity_reference_cannot_target_same_index_in_another_world ... ok
+test session_tests::commands_pick_drop_throw_and_publish_items ... ok
+test session_tests::server_ticks_without_renderer_and_replicates_destruction ... ok
+test net::tests::test_station_windows_replicate_and_door_opens_a_physical_route ... ok
+test net::tests::two_clients_lift_and_lay_one_surface_without_duplicating_material ... ok
+test net::tests::power_cut_replicates_dark_room_manual_door_and_repair ... ok
+test net::tests::professions_capacity_access_late_join_and_next_round ... ok
+test net::tests::rooms_replicate_merge_vertical_connection_and_space_breach ... ok
+test net::tests::two_tcp_clients_round_movement_ownership_disconnect_and_rejoin ... ok
+
+test result: ok. 19 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 15.88s
+
+     Running unittests src\main.rs (station\target\debug\deps\station_server-6bc425f2102f7bcd.exe)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running unittests src\lib.rs (station\target\debug\deps\station_sim-5a501c2708d31ab8.exe)
+
+running 61 tests
+test appearance::tests::equipment_hands_and_remote_actor_layers_follow_authority ... ok
+test content::tests::invalid_definitions_are_rejected_before_world_creation ... ok
+test content::tests::custom_prototype_map_and_character_drive_simulation_without_code_changes ... ok
+test actors::tests::shared_physics_advances_once_and_independent_movement ... ok
+test actors::tests::actors_share_items_but_not_inventory_and_disconnect_releases ... ok
+test crew::tests::glass_airlock_keeps_physics_but_transmits_sight_and_light ... ok
+test editor::placement_rules::tests::endpoints_and_degenerate_axis ... ok
+test crew::tests::animation_controls_collision_and_obstruction_reverses_closing ... ok
+test editor::tests::invalid_edit_is_atomic_and_required_aliases_are_movable ... ok
+test crew::tests::late_arrival_has_id_and_outfitting_cannot_duplicate_items ... ok
+test editor::tests::painted_rectangle_roundtrips_without_geometry_changes_and_undoes ... ok
+test editor::tests::lamps_roundtrip_replace_undo_delete_and_reject_invalid_values ... ok
+test actions::tests::missing_floor_wrong_tool_and_boundary_are_rejected ... ok
+test actions::tests::obstacle_target_loss_and_external_movement_cancel ... ok
+test editor::tests::rectangle_is_one_transaction_and_redo_is_invalidated ... ok
+test editor::tests::rooms_follow_wall_edit_undo_redo_and_serialized_template ... ok
+test entity::tests::deleted_ids_never_resolve_after_slot_reuse_or_new_world ... ok
+test editor::tests::power_tools_roundtrip_undo_and_feed_receivers ... ok
+test editor::tests::windows_save_restore_and_replace_with_normal_walls ... ok
+test crew::tests::roles_get_distinct_gear_and_doors_use_actual_cards ... ok
+test item_tests::edit_preserves_other_chunk_handles_and_noop_does_nothing ... ok
+test actions::tests::no_early_unlock_and_repeated_start_does_not_restart ... ok
+test crew::tests::closed_door_blocks_physics_and_open_door_allows_passage ... ok
+test actions::tests::cancel_at_last_tick_and_stale_cancel_cannot_cancel_new_work ... ok
+test entity::tests::deletion_cleans_inventory_actions_storage_doors_and_actors ... ok
+test interaction::tests::hand_switch_retains_items_without_duplication ... ok
+test interaction::tests::occupied_slot_keeps_both_items_and_wall_blocks_actions ... ok
+test rooms::tests::door_phases_merge_split_and_glass_remains_airtight ... ok
+test interaction::tests::rejects_stale_out_of_range_and_invalid_slots ... ok
+test interaction::tests::pockets_preserve_identity_and_disable_physics ... ok
+test rooms::tests::incremental_graph_matches_full_rebuild_after_mixed_edits ... ok
+test item_tests::zero_gravity_preserves_momentum_and_bounces_at_wall ... ok
+test rooms::tests::wall_breach_repair_rebuilds_only_touching_component ... ok
+test sprite::tests::blank_layers_aliases_and_mask_removal_stay_valid ... ok
+test sprite::tests::keyed_edits_and_appearance_are_atomic ... ok
+test ss14_rules::tests::hand_and_priority ... ok
+test rooms::tests::surface_removal_is_not_a_breach_and_holes_connect_decks_before_space ... ok
+test ss14_rules::tests::pocket_and_clothing ... ok
+test actions::tests::floor_completion_updates_collision_and_is_applied_once ... ok
+test editor::tests::saved_template_overwrites_loads_and_builds_fresh_physics ... ok
+test item_tests::pickup_drop_throw_and_occlusion ... ok
+test tests::floor_surface_edit_preserves_physics_and_removal_clears_surface ... ok
+test tests::horizon_generation_is_seeded ... ok
+test tests::negative_chunk_edit_roundtrip ... ok
+test power::tests::topology_handles_alternate_routes_decks_missing_floor_and_restart ... ok
+test tests::top_projection_has_no_height_parallax ... ok
+test power::tests::competing_cable_work_and_floor_cover_cancel_without_double_toggle ... ok
+test item_tests::sleeping_crate_falls_through_hole_and_lands ... ok
+test power::tests::cable_outage_pry_and_repair_preserve_other_room_and_deck ... ok
+test storage::tests::wrong_tool_wall_distance_and_stale_hand_rejected ... ok
+test storage::tests::hidden_items_cannot_be_picked_and_crate_cannot_contain_itself ... ok
+test storage::tests::unlock_store_take_use_and_return ... ok
+test storage::tests::full_and_replayed_requests_preserve_all_items ... ok
+test tests::window_collision_and_passable_barrier_are_independent_of_occupancy ... ok
+test tile_work::tests::tile_work_rejects_obstacles_wrong_deck_and_stale_surface_versions ... ok
+test tests::floor_removal_falls_to_lower_deck ... ok
+test tests::voxel_edits_update_collision_geometry ... ok
+test actions::tests::changing_hand_dropping_throwing_and_moving_cancel ... ok
+test tests::wall_stops_player_and_zero_gravity_preserves_z_motion ... ok
+test tile_work::tests::lay_consumes_on_completion_cancel_is_free_and_lift_keeps_the_deck ... ok
+test tile_work::tests::two_actors_only_return_or_consume_one_tile_for_the_same_cell ... ok
+
+test result: ok. 61 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 4.48s
+
+   Doc-tests horizon_station_render
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+   Doc-tests station_server
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+   Doc-tests station_sim
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+

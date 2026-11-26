@@ -1,0 +1,12 @@
+Test station / barrier properties, 2026-11-23
+PASS: workspace tests: renderer 24, client 9, server 16, simulation 45 = 94.
+PASS: workspace Clippy all targets with -D warnings; locked offline build.
+PASS: editor save/load/undo/redo and fresh round; clean window-room preview.
+PASS: two TCP clients to tick 300, equipment/hands/direction/visibility and doors;
+zero terrain uploads on camera motion. See engineer.log and doctor.log.
+PASS: dedicated TCP window collision / door traversal / peer replication test.
+PASS: CPU/GPU independent sight/light masks and physical movement flags;
+window editor replacement and undo restore properties.
+Visually inspected windows.png from the pristine test-station.json template.
+New normal client/server/editor defaults use test-station.json; old fixtures stay available.
+Protocol 8: update both executables together. Window art is procedural geometry.

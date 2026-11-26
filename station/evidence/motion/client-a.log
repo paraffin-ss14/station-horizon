@@ -1,0 +1,2 @@
+network render: 2 peers, RTT 5.5 ms
+wgpu smoke passed: Snapshot { tick: 300, position: [2.5, -0.5, 1.2987231], velocity: [0.0, 0.0, 0.0] }; terrain uploads during camera motion = 0

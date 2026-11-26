@@ -1,0 +1,11 @@
+   Compiling station-sim v0.1.0 (C:\Users\1\Documents\Codex\2026-11-23\referenced-chatgpt-conversation-this-is-an\outputs\horizon\station\sim)
+   Compiling station-server v0.1.0 (C:\Users\1\Documents\Codex\2026-11-23\referenced-chatgpt-conversation-this-is-an\outputs\horizon\station\server)
+   Compiling station-client v0.1.0 (C:\Users\1\Documents\Codex\2026-11-23\referenced-chatgpt-conversation-this-is-an\outputs\horizon\station\client)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 9.66s
+     Running unittests src\main.rs (station\target\debug\deps\station_client-fab1259d162c9a2b.exe)
+
+running 1 test
+test sprites::tests::airlock_rsi_seeks_mid_animation_and_retracts_both_orientations ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 10 filtered out; finished in 0.09s
+

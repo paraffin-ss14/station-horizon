@@ -1,0 +1,534 @@
+[
+  {
+    "path": "C:\\Users\\1\\Documents\\Codex\\2026-11-23\\referenced-chatgpt-conversation-this-is-an\\outputs\\horizon\\docs\\media",
+    "directory": true,
+    "files": 70,
+    "bytes": 8952967.0,
+    "scope": "project"
+  },
+  {
+    "path": "C:\\Users\\1\\Documents\\Codex\\2026-11-23\\referenced-chatgpt-conversation-this-is-an\\outputs\\horizon\\launcher\\docs",
+    "directory": true,
+    "files": 15,
+    "bytes": 3880267.0,
+    "scope": "project"
+  },
+  {
+    "path": "C:\\Users\\1\\Documents\\Codex\\2026-11-23\\referenced-chatgpt-conversation-this-is-an\\outputs\\horizon\\launcher\\assets",
+    "directory": true,
+    "files": 8,
+    "bytes": 102683.0,
+    "scope": "project"
+  },
+  {
+    "path": "C:\\Users\\1\\Documents\\Codex\\2026-11-23\\referenced-chatgpt-conversation-this-is-an\\outputs\\horizon\\.local",
+    "directory": true,
+    "files": 1,
+    "bytes": 26534812.0,
+    "scope": "project"
+  },
+  {
+    "path": "C:\\Users\\1\\Documents\\Codex\\2026-11-23\\referenced-chatgpt-conversation-this-is-an\\outputs\\horizon\\target",
+    "directory": true,
+    "files": 3785,
+    "bytes": 2958465849.0,
+    "scope": "project"
+  },
+  {
+    "path": "C:\\Users\\1\\Documents\\Codex\\2026-11-23\\referenced-chatgpt-conversation-this-is-an\\outputs\\horizon\\tools\\fixtures\\biome_datapacks",
+    "directory": true,
+    "files": 5,
+    "bytes": 5000.0,
+    "scope": "project"
+  },
+  {
+    "path": "C:\\Users\\1\\Documents\\Codex\\2026-11-23\\referenced-chatgpt-conversation-this-is-an\\outputs\\horizon\\tools\\fixtures\\block_predicate_typed_ranges",
+    "directory": true,
+    "files": 14,
+    "bytes": 1736.0,
+    "scope": "project"
+  },
+  {
+    "path": "C:\\Users\\1\\Documents\\Codex\\2026-11-23\\referenced-chatgpt-conversation-this-is-an\\outputs\\horizon\\tools\\fixtures\\datapacks",
+    "directory": true,
+    "files": 9,
+    "bytes": 1984.0,
+    "scope": "project"
+  },
+  {
+    "path": "C:\\Users\\1\\Documents\\Codex\\2026-11-23\\referenced-chatgpt-conversation-this-is-an\\outputs\\horizon\\tools\\fixtures\\tall_datapacks",
+    "directory": true,
+    "files": 6,
+    "bytes": 3274.0,
+    "scope": "project"
+  },
+  {
+    "path": "C:\\Users\\1\\Documents\\Codex\\2026-11-23\\referenced-chatgpt-conversation-this-is-an\\outputs\\horizon\\tools\\fixtures\\recipes_hmod",
+    "directory": true,
+    "files": 2,
+    "bytes": 317.0,
+    "scope": "project"
+  },
+  {
+    "path": "C:\\Users\\1\\Documents\\Codex\\2026-11-23\\referenced-chatgpt-conversation-this-is-an\\outputs\\horizon\\benchmarks\\particle-culling\\2026-11-02\\main-off.png",
+    "directory": false,
+    "files": 1,
+    "bytes": 349760.0,
+    "scope": "project"
+  },
+  {
+    "path": "C:\\Users\\1\\Documents\\Codex\\2026-11-23\\referenced-chatgpt-conversation-this-is-an\\outputs\\horizon\\benchmarks\\particle-culling\\2026-11-02\\particle-async.png",
+    "directory": false,
+    "files": 1,
+    "bytes": 350761.0,
+    "scope": "project"
+  },
+  {
+    "path": "C:\\Users\\1\\Documents\\Codex\\2026-11-23\\referenced-chatgpt-conversation-this-is-an\\outputs\\horizon\\benchmarks\\particle-culling\\2026-11-02\\particle-off.png",
+    "directory": false,
+    "files": 1,
+    "bytes": 349429.0,
+    "scope": "project"
+  },
+  {
+    "path": "C:\\Users\\1\\Documents\\Codex\\2026-11-23\\referenced-chatgpt-conversation-this-is-an\\outputs\\horizon\\benchmarks\\particle-culling\\2026-11-02\\particle-sync.png",
+    "directory": false,
+    "files": 1,
+    "bytes": 349374.0,
+    "scope": "project"
+  },
+  {
+    "path": "C:\\Users\\1\\Documents\\Codex\\2026-11-23\\referenced-chatgpt-conversation-this-is-an\\outputs\\horizon\\benchmarks\\entity-occlusion\\2026-11-02\\branch-async.png",
+    "directory": false,
+    "files": 1,
+    "bytes": 407563.0,
+    "scope": "project"
+  },
+  {
+    "path": "C:\\Users\\1\\Documents\\Codex\\2026-11-23\\referenced-chatgpt-conversation-this-is-an\\outputs\\horizon\\benchmarks\\entity-occlusion\\2026-11-02\\branch-off.png",
+    "directory": false,
+    "files": 1,
+    "bytes": 407741.0,
+    "scope": "project"
+  },
+  {
+    "path": "C:\\Users\\1\\Documents\\Codex\\2026-11-23\\referenced-chatgpt-conversation-this-is-an\\outputs\\horizon\\benchmarks\\entity-occlusion\\2026-11-02\\branch-sync.png",
+    "directory": false,
+    "files": 1,
+    "bytes": 408210.0,
+    "scope": "project"
+  },
+  {
+    "path": "C:\\Users\\1\\Documents\\Codex\\2026-11-23\\referenced-chatgpt-conversation-this-is-an\\outputs\\horizon\\benchmarks\\entity-occlusion\\2026-11-02\\main-off.png",
+    "directory": false,
+    "files": 1,
+    "bytes": 407228.0,
+    "scope": "project"
+  },
+  {
+    "path": "C:\\Users\\1\\Documents\\Codex\\2026-11-23\\referenced-chatgpt-conversation-this-is-an\\outputs\\horizon\\benchmarks\\entity-occlusion\\2026-11-05-release-opengl\\screenshots\\async-entity_stress.png",
+    "directory": false,
+    "files": 1,
+    "bytes": 207564.0,
+    "scope": "project"
+  },
+  {
+    "path": "C:\\Users\\1\\Documents\\Codex\\2026-11-23\\referenced-chatgpt-conversation-this-is-an\\outputs\\horizon\\benchmarks\\entity-occlusion\\2026-11-05-release-opengl\\screenshots\\async-entity_stress_slit.png",
+    "directory": false,
+    "files": 1,
+    "bytes": 210556.0,
+    "scope": "project"
+  },
+  {
+    "path": "C:\\Users\\1\\Documents\\Codex\\2026-11-23\\referenced-chatgpt-conversation-this-is-an\\outputs\\horizon\\benchmarks\\entity-occlusion\\2026-11-05-release-opengl\\screenshots\\off-entity_stress.png",
+    "directory": false,
+    "files": 1,
+    "bytes": 207172.0,
+    "scope": "project"
+  },
+  {
+    "path": "C:\\Users\\1\\Documents\\Codex\\2026-11-23\\referenced-chatgpt-conversation-this-is-an\\outputs\\horizon\\benchmarks\\entity-occlusion\\2026-11-05-release-opengl\\screenshots\\off-entity_stress_slit.png",
+    "directory": false,
+    "files": 1,
+    "bytes": 210174.0,
+    "scope": "project"
+  },
+  {
+    "path": "C:\\Users\\1\\Documents\\Codex\\2026-11-23\\referenced-chatgpt-conversation-this-is-an\\outputs\\horizon\\benchmarks\\entity-occlusion\\2026-11-05-release-opengl\\screenshots\\sync-entity_stress.png",
+    "directory": false,
+    "files": 1,
+    "bytes": 207739.0,
+    "scope": "project"
+  },
+  {
+    "path": "C:\\Users\\1\\Documents\\Codex\\2026-11-23\\referenced-chatgpt-conversation-this-is-an\\outputs\\horizon\\benchmarks\\entity-occlusion\\2026-11-05-release-opengl\\screenshots\\sync-entity_stress_slit.png",
+    "directory": false,
+    "files": 1,
+    "bytes": 210768.0,
+    "scope": "project"
+  },
+  {
+    "path": "C:\\Users\\1\\Documents\\Codex\\2026-11-23\\referenced-chatgpt-conversation-this-is-an\\outputs\\horizon\\benchmarks\\entity-occlusion\\2026-11-04-release-opengl\\screenshots\\async-entity_normal.png",
+    "directory": false,
+    "files": 1,
+    "bytes": 297371.0,
+    "scope": "project"
+  },
+  {
+    "path": "C:\\Users\\1\\Documents\\Codex\\2026-11-23\\referenced-chatgpt-conversation-this-is-an\\outputs\\horizon\\benchmarks\\entity-occlusion\\2026-11-04-release-opengl\\screenshots\\async-entity_stress.png",
+    "directory": false,
+    "files": 1,
+    "bytes": 207855.0,
+    "scope": "project"
+  },
+  {
+    "path": "C:\\Users\\1\\Documents\\Codex\\2026-11-23\\referenced-chatgpt-conversation-this-is-an\\outputs\\horizon\\benchmarks\\entity-occlusion\\2026-11-04-release-opengl\\screenshots\\async-entity_stress_slit.png",
+    "directory": false,
+    "files": 1,
+    "bytes": 210883.0,
+    "scope": "project"
+  },
+  {
+    "path": "C:\\Users\\1\\Documents\\Codex\\2026-11-23\\referenced-chatgpt-conversation-this-is-an\\outputs\\horizon\\benchmarks\\entity-occlusion\\2026-11-04-release-opengl\\screenshots\\async-entity_wall.png",
+    "directory": false,
+    "files": 1,
+    "bytes": 207839.0,
+    "scope": "project"
+  },
+  {
+    "path": "C:\\Users\\1\\Documents\\Codex\\2026-11-23\\referenced-chatgpt-conversation-this-is-an\\outputs\\horizon\\benchmarks\\entity-occlusion\\2026-11-04-release-opengl\\screenshots\\async-entity_wall_slit.png",
+    "directory": false,
+    "files": 1,
+    "bytes": 210968.0,
+    "scope": "project"
+  },
+  {
+    "path": "C:\\Users\\1\\Documents\\Codex\\2026-11-23\\referenced-chatgpt-conversation-this-is-an\\outputs\\horizon\\benchmarks\\entity-occlusion\\2026-11-04-release-opengl\\screenshots\\off-entity_normal.png",
+    "directory": false,
+    "files": 1,
+    "bytes": 299185.0,
+    "scope": "project"
+  },
+  {
+    "path": "C:\\Users\\1\\Documents\\Codex\\2026-11-23\\referenced-chatgpt-conversation-this-is-an\\outputs\\horizon\\benchmarks\\entity-occlusion\\2026-11-04-release-opengl\\screenshots\\off-entity_stress.png",
+    "directory": false,
+    "files": 1,
+    "bytes": 207944.0,
+    "scope": "project"
+  },
+  {
+    "path": "C:\\Users\\1\\Documents\\Codex\\2026-11-23\\referenced-chatgpt-conversation-this-is-an\\outputs\\horizon\\benchmarks\\entity-occlusion\\2026-11-04-release-opengl\\screenshots\\off-entity_stress_slit.png",
+    "directory": false,
+    "files": 1,
+    "bytes": 210954.0,
+    "scope": "project"
+  },
+  {
+    "path": "C:\\Users\\1\\Documents\\Codex\\2026-11-23\\referenced-chatgpt-conversation-this-is-an\\outputs\\horizon\\benchmarks\\entity-occlusion\\2026-11-04-release-opengl\\screenshots\\off-entity_wall.png",
+    "directory": false,
+    "files": 1,
+    "bytes": 207940.0,
+    "scope": "project"
+  },
+  {
+    "path": "C:\\Users\\1\\Documents\\Codex\\2026-11-23\\referenced-chatgpt-conversation-this-is-an\\outputs\\horizon\\benchmarks\\entity-occlusion\\2026-11-04-release-opengl\\screenshots\\off-entity_wall_slit.png",
+    "directory": false,
+    "files": 1,
+    "bytes": 211071.0,
+    "scope": "project"
+  },
+  {
+    "path": "C:\\Users\\1\\Documents\\Codex\\2026-11-23\\referenced-chatgpt-conversation-this-is-an\\outputs\\horizon\\benchmarks\\entity-occlusion\\2026-11-04-release-opengl\\screenshots\\sync-entity_normal.png",
+    "directory": false,
+    "files": 1,
+    "bytes": 295383.0,
+    "scope": "project"
+  },
+  {
+    "path": "C:\\Users\\1\\Documents\\Codex\\2026-11-23\\referenced-chatgpt-conversation-this-is-an\\outputs\\horizon\\benchmarks\\entity-occlusion\\2026-11-04-release-opengl\\screenshots\\sync-entity_stress.png",
+    "directory": false,
+    "files": 1,
+    "bytes": 207833.0,
+    "scope": "project"
+  },
+  {
+    "path": "C:\\Users\\1\\Documents\\Codex\\2026-11-23\\referenced-chatgpt-conversation-this-is-an\\outputs\\horizon\\benchmarks\\entity-occlusion\\2026-11-04-release-opengl\\screenshots\\sync-entity_stress_slit.png",
+    "directory": false,
+    "files": 1,
+    "bytes": 210842.0,
+    "scope": "project"
+  },
+  {
+    "path": "C:\\Users\\1\\Documents\\Codex\\2026-11-23\\referenced-chatgpt-conversation-this-is-an\\outputs\\horizon\\benchmarks\\entity-occlusion\\2026-11-04-release-opengl\\screenshots\\sync-entity_wall.png",
+    "directory": false,
+    "files": 1,
+    "bytes": 207832.0,
+    "scope": "project"
+  },
+  {
+    "path": "C:\\Users\\1\\Documents\\Codex\\2026-11-23\\referenced-chatgpt-conversation-this-is-an\\outputs\\horizon\\benchmarks\\entity-occlusion\\2026-11-04-release-opengl\\screenshots\\sync-entity_wall_slit.png",
+    "directory": false,
+    "files": 1,
+    "bytes": 210934.0,
+    "scope": "project"
+  },
+  {
+    "path": "C:\\Users\\1\\Documents\\Codex\\2026-11-23\\referenced-chatgpt-conversation-this-is-an\\work\\.cargo",
+    "directory": true,
+    "files": 1,
+    "bytes": 1044.0,
+    "scope": "duplicate-checkout"
+  },
+  {
+    "path": "C:\\Users\\1\\Documents\\Codex\\2026-11-23\\referenced-chatgpt-conversation-this-is-an\\work\\.claude",
+    "directory": true,
+    "files": 1,
+    "bytes": 4082.0,
+    "scope": "duplicate-checkout"
+  },
+  {
+    "path": "C:\\Users\\1\\Documents\\Codex\\2026-11-23\\referenced-chatgpt-conversation-this-is-an\\work\\.coderabbit.yaml",
+    "directory": false,
+    "files": 1,
+    "bytes": 3391.0,
+    "scope": "duplicate-checkout"
+  },
+  {
+    "path": "C:\\Users\\1\\Documents\\Codex\\2026-11-23\\referenced-chatgpt-conversation-this-is-an\\work\\.dockerignore",
+    "directory": false,
+    "files": 1,
+    "bytes": 151.0,
+    "scope": "duplicate-checkout"
+  },
+  {
+    "path": "C:\\Users\\1\\Documents\\Codex\\2026-11-23\\referenced-chatgpt-conversation-this-is-an\\work\\.git",
+    "directory": true,
+    "files": 33,
+    "bytes": 904005076.0,
+    "scope": "duplicate-checkout"
+  },
+  {
+    "path": "C:\\Users\\1\\Documents\\Codex\\2026-11-23\\referenced-chatgpt-conversation-this-is-an\\work\\.gitattributes",
+    "directory": false,
+    "files": 1,
+    "bytes": 783.0,
+    "scope": "duplicate-checkout"
+  },
+  {
+    "path": "C:\\Users\\1\\Documents\\Codex\\2026-11-23\\referenced-chatgpt-conversation-this-is-an\\work\\.githooks",
+    "directory": true,
+    "files": 2,
+    "bytes": 1271.0,
+    "scope": "duplicate-checkout"
+  },
+  {
+    "path": "C:\\Users\\1\\Documents\\Codex\\2026-11-23\\referenced-chatgpt-conversation-this-is-an\\work\\.github",
+    "directory": true,
+    "files": 39,
+    "bytes": 292693.0,
+    "scope": "duplicate-checkout"
+  },
+  {
+    "path": "C:\\Users\\1\\Documents\\Codex\\2026-11-23\\referenced-chatgpt-conversation-this-is-an\\work\\.gitignore",
+    "directory": false,
+    "files": 1,
+    "bytes": 1069.0,
+    "scope": "duplicate-checkout"
+  },
+  {
+    "path": "C:\\Users\\1\\Documents\\Codex\\2026-11-23\\referenced-chatgpt-conversation-this-is-an\\work\\AGENTS.md",
+    "directory": false,
+    "files": 1,
+    "bytes": 32118.0,
+    "scope": "duplicate-checkout"
+  },
+  {
+    "path": "C:\\Users\\1\\Documents\\Codex\\2026-11-23\\referenced-chatgpt-conversation-this-is-an\\work\\CLAUDE.md",
+    "directory": false,
+    "files": 1,
+    "bytes": 9.0,
+    "scope": "duplicate-checkout"
+  },
+  {
+    "path": "C:\\Users\\1\\Documents\\Codex\\2026-11-23\\referenced-chatgpt-conversation-this-is-an\\work\\CONTRIBUTING.md",
+    "directory": false,
+    "files": 1,
+    "bytes": 17128.0,
+    "scope": "duplicate-checkout"
+  },
+  {
+    "path": "C:\\Users\\1\\Documents\\Codex\\2026-11-23\\referenced-chatgpt-conversation-this-is-an\\work\\Cargo.lock",
+    "directory": false,
+    "files": 1,
+    "bytes": 182662.0,
+    "scope": "duplicate-checkout"
+  },
+  {
+    "path": "C:\\Users\\1\\Documents\\Codex\\2026-11-23\\referenced-chatgpt-conversation-this-is-an\\work\\Cargo.toml",
+    "directory": false,
+    "files": 1,
+    "bytes": 6449.0,
+    "scope": "duplicate-checkout"
+  },
+  {
+    "path": "C:\\Users\\1\\Documents\\Codex\\2026-11-23\\referenced-chatgpt-conversation-this-is-an\\work\\GOVERNANCE.md",
+    "directory": false,
+    "files": 1,
+    "bytes": 44683.0,
+    "scope": "duplicate-checkout"
+  },
+  {
+    "path": "C:\\Users\\1\\Documents\\Codex\\2026-11-23\\referenced-chatgpt-conversation-this-is-an\\work\\LICENSE",
+    "directory": false,
+    "files": 1,
+    "bytes": 7817.0,
+    "scope": "duplicate-checkout"
+  },
+  {
+    "path": "C:\\Users\\1\\Documents\\Codex\\2026-11-23\\referenced-chatgpt-conversation-this-is-an\\work\\LICENSES",
+    "directory": true,
+    "files": 2,
+    "bytes": 37102.0,
+    "scope": "duplicate-checkout"
+  },
+  {
+    "path": "C:\\Users\\1\\Documents\\Codex\\2026-11-23\\referenced-chatgpt-conversation-this-is-an\\work\\README.md",
+    "directory": false,
+    "files": 1,
+    "bytes": 5862.0,
+    "scope": "duplicate-checkout"
+  },
+  {
+    "path": "C:\\Users\\1\\Documents\\Codex\\2026-11-23\\referenced-chatgpt-conversation-this-is-an\\work\\ROADMAP.md",
+    "directory": false,
+    "files": 1,
+    "bytes": 64868.0,
+    "scope": "duplicate-checkout"
+  },
+  {
+    "path": "C:\\Users\\1\\Documents\\Codex\\2026-11-23\\referenced-chatgpt-conversation-this-is-an\\work\\THIRD_PARTY_NOTICES.md",
+    "directory": false,
+    "files": 1,
+    "bytes": 25929.0,
+    "scope": "duplicate-checkout"
+  },
+  {
+    "path": "C:\\Users\\1\\Documents\\Codex\\2026-11-23\\referenced-chatgpt-conversation-this-is-an\\work\\benchmarks",
+    "directory": true,
+    "files": 71,
+    "bytes": 8155445.0,
+    "scope": "duplicate-checkout"
+  },
+  {
+    "path": "C:\\Users\\1\\Documents\\Codex\\2026-11-23\\referenced-chatgpt-conversation-this-is-an\\work\\clippy.toml",
+    "directory": false,
+    "files": 1,
+    "bytes": 2229.0,
+    "scope": "duplicate-checkout"
+  },
+  {
+    "path": "C:\\Users\\1\\Documents\\Codex\\2026-11-23\\referenced-chatgpt-conversation-this-is-an\\work\\crates",
+    "directory": true,
+    "files": 8072,
+    "bytes": 109876882.0,
+    "scope": "duplicate-checkout"
+  },
+  {
+    "path": "C:\\Users\\1\\Documents\\Codex\\2026-11-23\\referenced-chatgpt-conversation-this-is-an\\work\\crowdin.yml",
+    "directory": false,
+    "files": 1,
+    "bytes": 970.0,
+    "scope": "duplicate-checkout"
+  },
+  {
+    "path": "C:\\Users\\1\\Documents\\Codex\\2026-11-23\\referenced-chatgpt-conversation-this-is-an\\work\\docs",
+    "directory": true,
+    "files": 460,
+    "bytes": 13732860.0,
+    "scope": "duplicate-checkout"
+  },
+  {
+    "path": "C:\\Users\\1\\Documents\\Codex\\2026-11-23\\referenced-chatgpt-conversation-this-is-an\\work\\flake.lock",
+    "directory": false,
+    "files": 1,
+    "bytes": 594.0,
+    "scope": "duplicate-checkout"
+  },
+  {
+    "path": "C:\\Users\\1\\Documents\\Codex\\2026-11-23\\referenced-chatgpt-conversation-this-is-an\\work\\flake.nix",
+    "directory": false,
+    "files": 1,
+    "bytes": 6853.0,
+    "scope": "duplicate-checkout"
+  },
+  {
+    "path": "C:\\Users\\1\\Documents\\Codex\\2026-11-23\\referenced-chatgpt-conversation-this-is-an\\work\\launcher",
+    "directory": true,
+    "files": 443,
+    "bytes": 23055019.0,
+    "scope": "duplicate-checkout"
+  },
+  {
+    "path": "C:\\Users\\1\\Documents\\Codex\\2026-11-23\\referenced-chatgpt-conversation-this-is-an\\work\\mods",
+    "directory": true,
+    "files": 421,
+    "bytes": 3944275.0,
+    "scope": "duplicate-checkout"
+  },
+  {
+    "path": "C:\\Users\\1\\Documents\\Codex\\2026-11-23\\referenced-chatgpt-conversation-this-is-an\\work\\nix",
+    "directory": true,
+    "files": 8,
+    "bytes": 24898.0,
+    "scope": "duplicate-checkout"
+  },
+  {
+    "path": "C:\\Users\\1\\Documents\\Codex\\2026-11-23\\referenced-chatgpt-conversation-this-is-an\\work\\packaging",
+    "directory": true,
+    "files": 36,
+    "bytes": 164632.0,
+    "scope": "duplicate-checkout"
+  },
+  {
+    "path": "C:\\Users\\1\\Documents\\Codex\\2026-11-23\\referenced-chatgpt-conversation-this-is-an\\work\\research-lock.json",
+    "directory": false,
+    "files": 1,
+    "bytes": 3721.0,
+    "scope": "duplicate-checkout"
+  },
+  {
+    "path": "C:\\Users\\1\\Documents\\Codex\\2026-11-23\\referenced-chatgpt-conversation-this-is-an\\work\\roadmap",
+    "directory": true,
+    "files": 4,
+    "bytes": 143427.0,
+    "scope": "duplicate-checkout"
+  },
+  {
+    "path": "C:\\Users\\1\\Documents\\Codex\\2026-11-23\\referenced-chatgpt-conversation-this-is-an\\work\\tests",
+    "directory": true,
+    "files": 351,
+    "bytes": 2684028.0,
+    "scope": "duplicate-checkout"
+  },
+  {
+    "path": "C:\\Users\\1\\Documents\\Codex\\2026-11-23\\referenced-chatgpt-conversation-this-is-an\\work\\third_party",
+    "directory": true,
+    "files": 284,
+    "bytes": 8098573.0,
+    "scope": "duplicate-checkout"
+  },
+  {
+    "path": "C:\\Users\\1\\Documents\\Codex\\2026-11-23\\referenced-chatgpt-conversation-this-is-an\\work\\tools",
+    "directory": true,
+    "files": 1748,
+    "bytes": 16010585.0,
+    "scope": "duplicate-checkout"
+  },
+  {
+    "path": "C:\\Users\\1\\Documents\\Codex\\2026-11-23\\referenced-chatgpt-conversation-this-is-an\\work\\xtask",
+    "directory": true,
+    "files": 5,
+    "bytes": 36361.0,
+    "scope": "duplicate-checkout"
+  }
+]
